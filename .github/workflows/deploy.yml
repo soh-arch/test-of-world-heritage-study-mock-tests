@@ -1,0 +1,48 @@
+name: Deploy
+
+on:
+  push:
+    branches: [claude/world-heritage-exam-tool-t87m2s]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Validate the research datasets
+        run: python3 docs/research/facts/validate_datasets.py
+      - name: Rebuild app data and fail if it drifted from the research data
+        run: |
+          npm run build:data
+          git diff --exit-code src/data
+      - run: npx tsc --noEmit
+      - run: npm test
+      - run: npx vite build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: check
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

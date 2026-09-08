@@ -1,0 +1,35 @@
+{
+  "grade": "3",
+  "sourceVerifiedAt": "2026-09-09",
+  "totalQuestions": 60,
+  "timeLimitMinutes": 50,
+  "totalPoints": 100,
+  "passScore": 60,
+  "categories": [
+    {
+      "key": "basic",
+      "label": "基礎知識",
+      "ratio": 0.25
+    },
+    {
+      "key": "japan",
+      "label": "日本の遺産",
+      "ratio": 0.3
+    },
+    {
+      "key": "world_natural",
+      "label": "世界の自然遺産",
+      "ratio": 0.1
+    },
+    {
+      "key": "world_cultural",
+      "label": "世界の文化遺産",
+      "ratio": 0.3
+    },
+    {
+      "key": "other",
+      "label": "その他",
+      "ratio": 0.05
+    }
+  ]
+}
