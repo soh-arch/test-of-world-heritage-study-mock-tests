@@ -23,9 +23,14 @@
 
 いずれの場合も、`facts/` に置く記述には**根拠と検証方法**を併記する。
 
-## 背景：なぜ一次情報が取れていないか
+## 経緯
 
-調査を実行したリモート環境はネットワークegressが制限されており、
-`sekaken.jp` / `whc.unesco.org` / `wikidata.org` などへ到達できなかった（詳細は `facts/01-environment.md`）。
-そのため試験仕様・出題比率・データライセンスに関する記述は、すべてWeb検索スニペット由来の間接情報である。
-一次確認は別環境の調査エージェントに委任する（`prompts/local-research-agent.md`）。
+初回の調査は、リモート環境のネットワークegress制限により一次情報へ到達できなかった
+（詳細は `facts/01-environment.md`）。その成果は `llm-extracted/` にある。
+
+その後、ネットワーク制限のない環境の調査エージェントに
+`prompts/local-research-agent.md` を渡して再調査し、**2026-09-09 に一次情報での確定を得た**。
+その成果が `facts/exam-spec.md` と `facts/data/` である。
+
+主要な数値（60問50分／分野比率／日本27件／受検料／商標）は確定した。
+残る未確定項目は `open-questions.md` を参照。

@@ -1,0 +1,100 @@
+{
+  "grade": "3",
+  "source_verified_at": "2026-09-09",
+  "primary_source": "https://www.sekaken.jp/each_grade/ex_class3/",
+  "total_questions": 60,
+  "time_limit_minutes": 50,
+  "total_points": 100,
+  "pass_score": 60,
+  "pass_score_note": "公式表記は「100点満点中60点以上」。同ページ脚注に「合格基準は調整される場合があります。」との但し書きあり（出典: https://www.sekaken.jp/each_grade/ex_class3/ 閲覧日2026-09-09）",
+  "scoring": "weighted",
+  "scoring_note": "60問で100点満点のため配点は均等ではない（60で100を割り切れない）。公式は問題ごとの配点を公表していない。確度=推定。実装上は『1点問題と2点問題の混在』等の内部配点を仮置きし、UIでは素点ではなく100点換算スコアのみを表示することを推奨。",
+  "answer_format": "選択式（公式表記）。公式例題はすべて4肢択一。記述問題の有無について公式サイトに明記なし＝不明。マークシート方式は公開会場試験の受検方式説明から確認（CBTはPC解答）。",
+  "eligibility": "どなたでも受験可能（受験資格なし）",
+  "fees_jpy": {
+    "public_venue": 5400,
+    "cbt": 6200,
+    "combo_2_and_3_public_venue": 11000,
+    "combo_3_and_4_public_venue": 8800,
+    "source": "https://www.sekaken.jp/outline/schedule/",
+    "note": "既存情報の『4,900円説』は2026年度時点では誤り。現行は公開会場5,400円／CBT6,200円（いずれも税込）。確度=確定"
+  },
+  "exam_modes": {
+    "public_venue": "指定会場でマークシート。3級は年2回（第64回=2026-07-12、第66回=2026-12-13、第67回=2027-03-14）",
+    "cbt": "全国約350カ所のテストセンターでPC受検。試験期間15日または22日。3級は年4回の全検定回で実施",
+    "content_identical": true,
+    "content_identical_source": "https://www.sekaken.jp/outline/schedule/ 「※試験の難易度、認定の扱いなどに違いはありません。」/ https://www.sekaken.jp/cbt/ 「試験内容・難易度などはこれまでの紙で受検する世界遺産検定と同じ」",
+    "confidence": "確定"
+  },
+  "sessions_per_year": 4,
+  "sessions_note": "2026年度は第64〜67回の4回。3級は4回すべてで実施（公開会場は第64・66・67回、第65回はCBTのみ）。出典: https://www.sekaken.jp/outline/schedule/",
+  "certification_rate": {
+    "2025_fy": 0.776,
+    "applicants_2025_fy": 11995,
+    "source": "https://www.sekaken.jp/about/nintei/",
+    "note": "公式が公開しているのは2025年度の各級認定率のみ。過去数年分の推移は公式サイト上では未取得＝不明。確度=確定（2025年度分）"
+  },
+  "categories": [
+    { "key": "basic",          "label": "基礎知識",        "ratio": 0.25, "questions_estimate": 15, "confidence": "確定", "source": "https://www.sekaken.jp/each_grade/ex_class3/" },
+    { "key": "japan",          "label": "日本の遺産",      "ratio": 0.30, "questions_estimate": 18, "confidence": "確定", "source": "https://www.sekaken.jp/each_grade/ex_class3/" },
+    { "key": "world_natural",  "label": "世界の自然遺産",  "ratio": 0.10, "questions_estimate": 6,  "confidence": "確定", "source": "https://www.sekaken.jp/each_grade/ex_class3/" },
+    { "key": "world_cultural", "label": "世界の文化遺産",  "ratio": 0.30, "questions_estimate": 18, "confidence": "確定", "source": "https://www.sekaken.jp/each_grade/ex_class3/" },
+    { "key": "other",          "label": "その他",          "ratio": 0.05, "questions_estimate": 3,  "confidence": "確定", "source": "https://www.sekaken.jp/each_grade/ex_class3/" }
+  ],
+  "categories_note": "公式ページ「問題の比率」表の値をそのまま採用（合計100%）。区分名は公式表記どおり『基礎知識／日本の遺産／世界の自然遺産／世界の文化遺産／その他』。依頼文の想定区分名『世界の遺産(自然)／世界の遺産(文化)』とは表記が異なるが内容は同一。questions_estimate は比率×60問の単純計算であり公式値ではない（確度=推定）。「その他」の内容定義は公式に記載がなく不明（時事・世界遺産委員会の最新動向等と推定）。",
+  "question_types": [
+    { "key": "name_identify_from_text", "label": "説明文・空欄補充から遺産名／語句を特定する", "estimated_ratio": 0.35, "confidence": "推定" },
+    { "key": "basic_knowledge",         "label": "世界遺産条約・ユネスコ・登録基準など基礎知識を問う", "estimated_ratio": 0.25, "confidence": "推定" },
+    { "key": "attribute_country_place", "label": "所在国・所在都道府県・地理的位置を問う",   "estimated_ratio": 0.12, "confidence": "推定" },
+    { "key": "related_association",     "label": "ある遺産と共通点をもつ別の遺産／人物・出来事を結びつける", "estimated_ratio": 0.12, "confidence": "推定" },
+    { "key": "photo",                   "label": "写真・図版を見て答える",                   "estimated_ratio": 0.08, "confidence": "推定" },
+    { "key": "year",                    "label": "登録年・出来事の年代を問う",               "estimated_ratio": 0.05, "confidence": "推定" },
+    { "key": "current_affairs",         "label": "直近の世界遺産委員会・新規登録など時事を問う", "estimated_ratio": 0.03, "confidence": "推定" }
+  ],
+  "question_types_note": "公式が類型別の比率を公表していないため、根拠は公式サイト掲載の3級例題5問・4級例題・2級例題の設問形式のみ。サンプル数が極めて少なく、比率は暫定値（確度=推定・根拠弱）。登録基準(i)〜(x)そのものを直接問う設問は3級公式例題には出現せず、公式の学習ポイントでも登録基準の暗記は2級で求められると記載されているため、3級では低比率と推定。",
+  "scope": {
+    "japan_sites_count": 27,
+    "japan_all_included": true,
+    "japan_all_included_source": "https://www.sekaken.jp/each_grade/ex_class3/ 「日本の全遺産と、主要な世界の遺産100件が範囲となります。」「また日本の遺産は全遺産が出題されます。」",
+    "japan_count_source": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp ; https://www.sekaken.jp/pdf/202607_new.pdf",
+    "japan_count_note": "2026年7月の第48回世界遺産委員会（韓国・釜山）で『飛鳥・藤原の宮都』が登録され27件。公式テキスト第5版（2025年3月刊）は26件時点の記載のため、27件目は公式配布の『2026年新情報』PDFで補完される。",
+    "world_sites_count": 100,
+    "world_sites_list_identified": false,
+    "world_sites_list_note": "公式は『主要な世界の遺産100件』としか記載せず、100件の遺産名リストは非公開（書籍を購入しないと入手できない）。world-sites-candidates.json は、公式配布PDF2種（英訳資料・重要語句リスト）に現れる掲載ページ番号から84件を再構成したもの。うち21件は公式PDFに遺産名が明記され確定、63件はページ番号と語句からの推定。残り約16件は未特定＝不明。",
+    "textbook": {
+      "title": "きほんを学ぶ世界遺産100 ＜第5版＞ 世界遺産検定3級公式テキスト",
+      "published": "2025-03-18",
+      "pages": 188,
+      "price_jpy_tax_excl": 1800,
+      "isbn": "978-4-8399-8885-2",
+      "coverage_note": "「3級試験は、このテキストから9割以上が出題されます。」（公式）",
+      "source": "https://www.sekaken.jp/books/3text/"
+    }
+  },
+  "other_grades_scope": [
+    { "grade": "4", "questions": 50, "time_limit_minutes": 50, "world_sites_count": 35, "source": "https://www.sekaken.jp/each_grade/ex_class4/" },
+    { "grade": "2", "questions": 60, "time_limit_minutes": 60, "world_sites_count": 300, "source": "https://www.sekaken.jp/each_grade/ex_class2/" }
+  ],
+  "phrasing_patterns": [
+    "次の文章を読んで、以下の問いに答えなさい。",
+    "〜の正式名称として、正しいものはどれか。",
+    "文中の空欄にあてはまる世界遺産の名称として、正しいものはどれか。",
+    "この写真の建物の名称として、正しいものはどれか。",
+    "〜として、正しくないものはどれか。",
+    "次の3つの説明文から推察される〜として、正しいものはどれか。",
+    "〜のある〜の名称として、正しいものはどれか。"
+  ],
+  "phrasing_note": "3級の公式例題はすべて『〜として、正しいものはどれか。』で終わる常体。4級のみ『〜でしょうか。』の敬体を用いるため、3級生成では敬体を使わないこと。否定形『正しくないものはどれか』と『3つの説明文から推察される』型は2級・4級の公式例題で確認、3級での出現は推定。選択肢は1.〜4.の4肢、正解は1つ。出典: https://www.sekaken.jp/each_grade/ex_class3/ ほか各級ページ",
+  "trademark": {
+    "registration_number": "登録第5289275号",
+    "application_number": "商願2008-091035",
+    "mark": "ＳＥＫＡＫＥＮ∞世界遺産検定",
+    "classes": ["09", "16", "41"],
+    "owner": "株式会社マイナビ 他（共有）",
+    "filed": "2008-11-10",
+    "registered": "2009-12-18",
+    "status": "存続-登録-継続",
+    "source": "https://www.j-platpat.inpit.go.jp/c1801/TR/JP-2008-091035/40/ja",
+    "confidence": "確定"
+  }
+}

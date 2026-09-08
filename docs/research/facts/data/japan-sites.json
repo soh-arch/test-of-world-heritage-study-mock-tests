@@ -1,0 +1,809 @@
+[
+  {
+    "id": "jp-horyu-ji",
+    "name_ja": "法隆寺地域の仏教建造物群",
+    "name_ja_alt_bunkacho": "法隆寺地域の仏教建造物",
+    "name_en": "Buddhist Monuments in the Horyu-ji Area",
+    "unesco_id": "660",
+    "prefectures": [
+      "奈良県"
+    ],
+    "region_jp": "近畿",
+    "registration_year": 1993,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/horyu-ji/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/horyu-ji/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-himeji-jo",
+    "name_ja": "姫路城",
+    "name_ja_alt_bunkacho": "姫路城",
+    "name_en": "Himeji-jo",
+    "unesco_id": "661",
+    "prefectures": [
+      "兵庫県"
+    ],
+    "region_jp": "近畿",
+    "registration_year": 1993,
+    "type": "cultural",
+    "criteria": [
+      1,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/himeji-jo/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/himeji-jo/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-yakushima",
+    "name_ja": "屋久島",
+    "name_ja_alt_bunkacho": "屋久島",
+    "name_en": "Yakushima",
+    "unesco_id": "662",
+    "prefectures": [
+      "鹿児島県"
+    ],
+    "region_jp": "九州・沖縄",
+    "registration_year": 1993,
+    "type": "natural",
+    "criteria": [
+      7,
+      9
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/yakushima/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/yakushima/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-shirakami-sanchi",
+    "name_ja": "白神山地",
+    "name_ja_alt_bunkacho": "白神山地",
+    "name_en": "Shirakami-Sanchi",
+    "unesco_id": "663",
+    "prefectures": [
+      "青森県",
+      "秋田県"
+    ],
+    "region_jp": "東北",
+    "registration_year": 1993,
+    "type": "natural",
+    "criteria": [
+      9
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/shirakami-sanchi/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/shirakami-sanchi/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-kyoto",
+    "name_ja": "古都京都の文化財",
+    "name_ja_alt_bunkacho": "古都京都の文化財（京都市、宇治市、大津市）",
+    "name_en": "Historic Monuments of Ancient Kyoto (Kyoto, Uji and Otsu Cities)",
+    "unesco_id": "688",
+    "prefectures": [
+      "京都府",
+      "滋賀県"
+    ],
+    "region_jp": "近畿",
+    "registration_year": 1994,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/kyoto/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/kyoto/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-shirakawa-go",
+    "name_ja": "白川郷・五箇山の合掌造り集落",
+    "name_ja_alt_bunkacho": "白川郷・五箇山の合掌造り集落",
+    "name_en": "Historic Villages of Shirakawa-go and Gokayama",
+    "unesco_id": "734",
+    "prefectures": [
+      "岐阜県",
+      "富山県"
+    ],
+    "region_jp": "中部",
+    "registration_year": 1995,
+    "type": "cultural",
+    "criteria": [
+      4,
+      5
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/shirakawa-go/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/shirakawa-go/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-hiroshima-peace-memorial",
+    "name_ja": "広島平和記念碑（原爆ドーム）",
+    "name_ja_alt_bunkacho": "原爆ドーム",
+    "name_en": "Hiroshima Peace Memorial (Genbaku Dome)",
+    "unesco_id": "775",
+    "prefectures": [
+      "広島県"
+    ],
+    "region_jp": "中国",
+    "registration_year": 1996,
+    "type": "cultural",
+    "criteria": [
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/hiroshima-peace-memorial/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/hiroshima-peace-memorial/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-itsukushima",
+    "name_ja": "厳島神社",
+    "name_ja_alt_bunkacho": "厳島神社",
+    "name_en": "Itsukushima Shinto Shrine",
+    "unesco_id": "776",
+    "prefectures": [
+      "広島県"
+    ],
+    "region_jp": "中国",
+    "registration_year": 1996,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/itsukushima/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/itsukushima/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-nara",
+    "name_ja": "古都奈良の文化財",
+    "name_ja_alt_bunkacho": "古都奈良の文化財",
+    "name_en": "Historic Monuments of Ancient Nara",
+    "unesco_id": "870",
+    "prefectures": [
+      "奈良県"
+    ],
+    "region_jp": "近畿",
+    "registration_year": 1998,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/nara/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/nara/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-nikko",
+    "name_ja": "日光の社寺",
+    "name_ja_alt_bunkacho": "日光の社寺",
+    "name_en": "Shrines and Temples of Nikko",
+    "unesco_id": "913",
+    "prefectures": [
+      "栃木県"
+    ],
+    "region_jp": "関東",
+    "registration_year": 1999,
+    "type": "cultural",
+    "criteria": [
+      1,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/nikko/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/nikko/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-ryukyu",
+    "name_ja": "琉球王国のグスク及び関連遺産群",
+    "name_ja_alt_bunkacho": "琉球王国のグスク及び関連遺産群",
+    "name_en": "Gusuku Sites and Related Properties of the Kingdom of Ryukyu",
+    "unesco_id": "972",
+    "prefectures": [
+      "沖縄県"
+    ],
+    "region_jp": "九州・沖縄",
+    "registration_year": 2000,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/ryukyu/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/ryukyu/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-kii-mountain-range",
+    "name_ja": "紀伊山地の霊場と参詣道",
+    "name_ja_alt_bunkacho": "紀伊山地の霊場と参詣道",
+    "name_en": "Sacred Sites and Pilgrimage Routes in the Kii Mountain Range",
+    "unesco_id": "1142",
+    "prefectures": [
+      "三重県",
+      "奈良県",
+      "和歌山県"
+    ],
+    "region_jp": "近畿",
+    "registration_year": 2004,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/kii-mountain-range/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/kii-mountain-range/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-shiretoko",
+    "name_ja": "知床",
+    "name_ja_alt_bunkacho": "知床",
+    "name_en": "Shiretoko",
+    "unesco_id": "1193",
+    "prefectures": [
+      "北海道"
+    ],
+    "region_jp": "北海道",
+    "registration_year": 2005,
+    "type": "natural",
+    "criteria": [
+      9,
+      10
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/shiretoko/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/shiretoko/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-iwami-ginzan",
+    "name_ja": "石見銀山遺跡とその文化的景観",
+    "name_ja_alt_bunkacho": "石見銀山遺跡とその文化的景観",
+    "name_en": "Iwami Ginzan Silver Mine and its Cultural Landscape",
+    "unesco_id": "1246",
+    "prefectures": [
+      "島根県"
+    ],
+    "region_jp": "中国",
+    "registration_year": 2007,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/iwami-ginzan/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/iwami-ginzan/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-ogasawara",
+    "name_ja": "小笠原諸島",
+    "name_ja_alt_bunkacho": "小笠原諸島",
+    "name_en": "Ogasawara Islands",
+    "unesco_id": "1362",
+    "prefectures": [
+      "東京都"
+    ],
+    "region_jp": "関東",
+    "registration_year": 2011,
+    "type": "natural",
+    "criteria": [
+      9
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/ogasawara/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/ogasawara/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-hiraizumi",
+    "name_ja": "平泉－仏国土（浄土）を表す建築・庭園及び考古学的遺跡群－",
+    "name_ja_alt_bunkacho": "平泉‐仏国土（浄土）を表す建築・庭園及び考古学的遺跡群‐",
+    "name_en": "Hiraizumi – Temples, Gardens and Archaeological Sites Representing the Buddhist Pure Land",
+    "unesco_id": "1277",
+    "prefectures": [
+      "岩手県"
+    ],
+    "region_jp": "東北",
+    "registration_year": 2011,
+    "type": "cultural",
+    "criteria": [
+      2,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/hiraizumi/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/hiraizumi/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-fujisan",
+    "name_ja": "富士山─信仰の対象と芸術の源泉",
+    "name_ja_alt_bunkacho": "富士山‐信仰の対象と芸術の源泉‐",
+    "name_en": "Fujisan, sacred place and source of artistic inspiration",
+    "unesco_id": "1418",
+    "prefectures": [
+      "山梨県",
+      "静岡県"
+    ],
+    "region_jp": "中部",
+    "registration_year": 2013,
+    "type": "cultural",
+    "criteria": [
+      3,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/fujisan/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/fujisan/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-tomioka",
+    "name_ja": "富岡製糸場と絹産業遺産群",
+    "name_ja_alt_bunkacho": "富岡製糸場と絹産業遺産群",
+    "name_en": "Tomioka Silk Mill and Related Sites",
+    "unesco_id": "1449",
+    "prefectures": [
+      "群馬県"
+    ],
+    "region_jp": "関東",
+    "registration_year": 2014,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/tomioka/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/tomioka/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-meiji-industrial-revolution",
+    "name_ja": "明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業",
+    "name_ja_alt_bunkacho": "明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業",
+    "name_en": "Sites of Japan's Meiji Industrial Revolution: Iron and Steel, Shipbuilding and Coal Mining",
+    "unesco_id": "1484",
+    "prefectures": [
+      "福岡県",
+      "佐賀県",
+      "長崎県",
+      "熊本県",
+      "鹿児島県",
+      "山口県",
+      "岩手県",
+      "静岡県"
+    ],
+    "region_jp": "九州・沖縄・中国・東北・中部",
+    "registration_year": 2015,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/meiji-industrial-revolution/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/meiji-industrial-revolution/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-le-corbusier",
+    "name_ja": "ル・コルビュジエの建築作品：近代建築運動への顕著な貢献",
+    "name_ja_alt_bunkacho": "ル・コルビュジエの建築作品‐近代建築運動への顕著な貢献‐",
+    "name_en": "The Architectural Work of Le Corbusier, an Outstanding Contribution to the Modern Movement",
+    "unesco_id": "1321",
+    "prefectures": [
+      "東京都"
+    ],
+    "region_jp": "関東",
+    "registration_year": 2016,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      6
+    ],
+    "is_transboundary": true,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/le-corbusier/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/le-corbusier/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-okinoshima",
+    "name_ja": "「神宿る島」宗像・沖ノ島と関連遺産群",
+    "name_ja_alt_bunkacho": "「神宿る島」宗像・沖ノ島と関連遺産群",
+    "name_en": "Sacred Island of Okinoshima and Associated Sites in the Munakata Region",
+    "unesco_id": "1535",
+    "prefectures": [
+      "福岡県"
+    ],
+    "region_jp": "九州・沖縄",
+    "registration_year": 2017,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/okinoshima/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/okinoshima/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-hidden-christian-sites",
+    "name_ja": "長崎と天草地方の潜伏キリシタン関連遺産",
+    "name_ja_alt_bunkacho": "長崎と天草地方の潜伏キリシタン関連遺産",
+    "name_en": "Hidden Christian Sites in the Nagasaki Region",
+    "unesco_id": "1495",
+    "prefectures": [
+      "長崎県",
+      "熊本県"
+    ],
+    "region_jp": "九州・沖縄",
+    "registration_year": 2018,
+    "type": "cultural",
+    "criteria": [
+      3
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/hidden-christian-sites/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/hidden-christian-sites/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-mozu-furuichi",
+    "name_ja": "百舌鳥・古市古墳群",
+    "name_ja_alt_bunkacho": "百舌鳥・古市古墳群‐古代日本の墳墓群‐",
+    "name_en": "Mozu-Furuichi Kofun Group: Mounded Tombs of Ancient Japan",
+    "unesco_id": "1593",
+    "prefectures": [
+      "大阪府"
+    ],
+    "region_jp": "近畿",
+    "registration_year": 2019,
+    "type": "cultural",
+    "criteria": [
+      3,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/mozu-furuichi/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/mozu-furuichi/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-amami",
+    "name_ja": "奄美大島、徳之島、沖縄島北部及び西表島",
+    "name_ja_alt_bunkacho": "奄美大島、徳之島、沖縄島北部及び西表島",
+    "name_en": "Amami-Oshima Island, Tokunoshima Island, Northern part of Okinawa Island, and Iriomote Island",
+    "unesco_id": "1574",
+    "prefectures": [
+      "鹿児島県",
+      "沖縄県"
+    ],
+    "region_jp": "九州・沖縄",
+    "registration_year": 2021,
+    "type": "natural",
+    "criteria": [
+      10
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/amami/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/amami/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-jomon",
+    "name_ja": "北海道・北東北の縄文遺跡群",
+    "name_ja_alt_bunkacho": "北海道・北東北の縄文遺跡群",
+    "name_en": "Jomon Prehistoric Sites in Northern Japan",
+    "unesco_id": "1632",
+    "prefectures": [
+      "北海道",
+      "青森県",
+      "岩手県",
+      "秋田県"
+    ],
+    "region_jp": "北海道・東北",
+    "registration_year": 2021,
+    "type": "cultural",
+    "criteria": [
+      3,
+      5
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/jomon/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/jomon/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-sado-island",
+    "name_ja": "佐渡島の金山",
+    "name_ja_alt_bunkacho": "佐渡島の金山",
+    "name_en": "Sado Island Gold Mines",
+    "unesco_id": "1698",
+    "prefectures": [
+      "新潟県"
+    ],
+    "region_jp": "中部",
+    "registration_year": 2024,
+    "type": "cultural",
+    "criteria": [
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/sado-island/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/sado-island/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "jp-asuka-and-fujiwara",
+    "name_ja": "飛鳥・藤原の宮都",
+    "name_ja_alt_bunkacho": "飛鳥・藤原の宮都",
+    "name_en": "Ancient Capitals of Asuka and Fujiwara",
+    "unesco_id": "1757",
+    "prefectures": [
+      "奈良県"
+    ],
+    "region_jp": "近畿",
+    "registration_year": 2026,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "source": {
+      "name_ja": "https://pamon.sekaken.jp/wh-list/asuka-and-fujiwara/",
+      "name_ja_alt_bunkacho": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "name_en": "https://whc.unesco.org/en/statesparties/jp",
+      "prefectures": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/",
+      "registration_year": "https://www.bunka.go.jp/seisaku/bunkazai/shokai/sekai_isan/ichiran/ ; https://whc.unesco.org/en/statesparties/jp",
+      "criteria": "https://pamon.sekaken.jp/wh-list/asuka-and-fujiwara/"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  }
+]

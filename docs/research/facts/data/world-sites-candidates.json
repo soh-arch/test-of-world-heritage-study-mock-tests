@@ -1,0 +1,2515 @@
+[
+  {
+    "id": "w-serengeti",
+    "name_ja": "セレンゲティ国立公園",
+    "name_en": "Serengeti National Park",
+    "country_ja": [
+      "タンザニア連合共和国"
+    ],
+    "unesco_region": "アフリカ",
+    "registration_year": 1981,
+    "type": "natural",
+    "criteria": [
+      7,
+      10
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 27,
+    "evidence": "kw:「果てしない草原」＝セレンゲティ",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 75,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/serengeti/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-gobekli-tepe",
+    "name_ja": "ギョベクリ・テペ",
+    "name_en": "Göbekli Tepe",
+    "country_ja": [
+      "トルコ共和国"
+    ],
+    "unesco_region": "西・南アジア",
+    "registration_year": 2018,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 29,
+    "evidence": "kw:祭祀・儀礼に使用された（ギョベクリ・テペ明記）",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 78,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/gobekli-tepe/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-sagarmatha",
+    "name_ja": "サガルマータ国立公園",
+    "name_en": "Sagarmatha National Park",
+    "country_ja": [
+      "ネパール"
+    ],
+    "unesco_region": "西・南アジア",
+    "registration_year": 1979,
+    "type": "natural",
+    "criteria": [
+      7
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 31,
+    "evidence": "kw:シェルパ族",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 59,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/sagarmatha/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-lalibela",
+    "name_ja": "ラリベラの岩の聖堂群",
+    "name_en": "Rock-Hewn Churches, Lalibela",
+    "country_ja": [
+      "エチオピア連邦民主共和国"
+    ],
+    "unesco_region": "アフリカ",
+    "registration_year": 1978,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 33,
+    "evidence": "kw:ギョルギス聖堂",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/lalibela/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-the-first-qin-emperor",
+    "name_ja": "始皇帝陵と兵馬俑坑",
+    "name_en": "Mausoleum of the First Qin Emperor",
+    "country_ja": [
+      "中華人民共和国"
+    ],
+    "unesco_region": "東・東南アジア",
+    "registration_year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 37,
+    "evidence": "kw:中国初の統一国家秦",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 37,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/the-first-qin-emperor/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-galapagos",
+    "name_ja": "ガラパゴス諸島",
+    "name_en": "Galápagos Islands",
+    "country_ja": [
+      "エクアドル共和国"
+    ],
+    "unesco_region": "南米",
+    "registration_year": 1978,
+    "type": "natural",
+    "criteria": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 41,
+    "evidence": "kw:チャールズ・ダーウィン（ガラパゴス諸島明記）",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 0,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/galapagos/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-le-corbusier",
+    "name_ja": "ル・コルビュジエの建築作品：近代建築運動への顕著な貢献",
+    "name_en": "The Architectural Work of Le Corbusier, an Outstanding Contribution to the Modern Movement",
+    "country_ja": [
+      "アルゼンチン共和国",
+      "インド",
+      "スイス連邦",
+      "ドイツ連邦共和国",
+      "フランス共和国",
+      "ベルギー王国",
+      "日本国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 2016,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      6
+    ],
+    "is_transboundary": true,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 42,
+    "evidence": "公式英訳PDF p.42",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/le-corbusier/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-sydney-opera-house",
+    "name_ja": "シドニーのオペラハウス",
+    "name_en": "Sydney Opera House",
+    "country_ja": [
+      "オーストラリア連邦"
+    ],
+    "unesco_region": "オセアニア",
+    "registration_year": 2007,
+    "type": "cultural",
+    "criteria": [
+      1
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 43,
+    "evidence": "kw:ヨーン・ウッツォン",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 99,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/sydney-opera-house/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-tongariro",
+    "name_ja": "トンガリロ国立公園",
+    "name_en": "Tongariro National Park",
+    "country_ja": [
+      "ニュージーランド"
+    ],
+    "unesco_region": "オセアニア",
+    "registration_year": 1990,
+    "type": "mixed",
+    "criteria": [
+      6,
+      7,
+      8
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 45,
+    "evidence": "kw:トンガリロ国立公園明記",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 47,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/tongariro/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-alberobello",
+    "name_ja": "アルベロベッロのトゥルッリ",
+    "name_en": "The Trulli of Alberobello",
+    "country_ja": [
+      "イタリア共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1996,
+    "type": "cultural",
+    "criteria": [
+      3,
+      4,
+      5
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 47,
+    "evidence": "kw:トゥルッリ",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 2,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/alberobello/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-samarkand",
+    "name_ja": "文化交差路サマルカンド",
+    "name_en": "Samarkand – Crossroad of Cultures",
+    "country_ja": [
+      "ウズベキスタン共和国"
+    ],
+    "unesco_region": "西・南アジア",
+    "registration_year": 2001,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 53,
+    "evidence": "kw:ティムール朝",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 1,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/samarkand/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-routes-of-santiago-de-compostela-in-france",
+    "name_ja": "フランスのサンティアゴ・デ・コンポステーラの巡礼路",
+    "name_en": "Routes of Santiago de Compostela in France",
+    "country_ja": [
+      "フランス共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1998,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 55,
+    "evidence": "kw:道の遺産",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/routes-of-santiago-de-compostela-in-france/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-carcassonne",
+    "name_ja": "カルカッソンヌの歴史的城塞都市",
+    "name_en": "Historic Fortified City of Carcassonne",
+    "country_ja": [
+      "フランス共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1997,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 59,
+    "evidence": "kw:城壁が城館や街全体を囲む",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/carcassonne/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-potosi",
+    "name_ja": "ポトシの市街",
+    "name_en": "City of Potosí",
+    "country_ja": [
+      "ボリビア多民族国"
+    ],
+    "unesco_region": "南米",
+    "registration_year": 1987,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 61,
+    "evidence": "kw:価格革命",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/potosi/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-auschwitz-birkenau",
+    "name_ja": "アウシュヴィッツ・ビルケナウ：ナチス･ドイツの強制絶滅収容所（1940-1945）",
+    "name_en": "Auschwitz Birkenau German Nazi Concentration and Extermination Camp (1940-1945)",
+    "country_ja": [
+      "ポーランド共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1979,
+    "type": "cultural",
+    "criteria": [
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 63,
+    "evidence": "kw:ホロコースト",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/auschwitz-birkenau/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-ironbridge-gorge",
+    "name_ja": "アイアンブリッジ峡谷",
+    "name_en": "Ironbridge Gorge",
+    "country_ja": [
+      "英国（グレートブリテン及び北アイルランド連合王国）"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1986,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 67,
+    "evidence": "kw:エイブラハム・ダービー1世",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 32,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/ironbridge-gorge/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-delos",
+    "name_ja": "デロス島",
+    "name_en": "Delos",
+    "country_ja": [
+      "ギリシャ共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1990,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 69,
+    "evidence": "kw:アポロン神殿（デロス島明記）",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 80,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/delos/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-grand-canyon",
+    "name_ja": "グランド・キャニオン国立公園",
+    "name_en": "Grand Canyon National Park",
+    "country_ja": [
+      "アメリカ合衆国"
+    ],
+    "unesco_region": "北米",
+    "registration_year": 1979,
+    "type": "natural",
+    "criteria": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 73,
+    "evidence": "kw:コロラド川",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 62,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/grand-canyon/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-tasmanian-wilderness",
+    "name_ja": "タスマニア原生地帯",
+    "name_en": "Tasmanian Wilderness",
+    "country_ja": [
+      "オーストラリア連邦"
+    ],
+    "unesco_region": "オセアニア",
+    "registration_year": 1982,
+    "type": "mixed",
+    "criteria": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 75,
+    "evidence": "kw:タスマニアデビル",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 45,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/tasmanian-wilderness/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-melaka-and-george-town",
+    "name_ja": "メラカとジョージ・タウン：マラッカ海峡の歴史都市",
+    "name_en": "Melaka and George Town, historic cities of the Straits of Malacca",
+    "country_ja": [
+      "マレーシア"
+    ],
+    "unesco_region": "東・東南アジア",
+    "registration_year": 2008,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 77,
+    "evidence": "kw:マラッカ王国",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 9,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/melaka-and-george-town/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-vezere-valley",
+    "name_ja": "ヴェゼール渓谷の装飾洞窟と先史遺跡",
+    "name_en": "Prehistoric Sites and Decorated Caves of the Vézère Valley",
+    "country_ja": [
+      "フランス共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1979,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 82,
+    "evidence": "kw:クロマニョン人",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 25,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/vezere-valley/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-fossil-hominid-sites-of-south-africa",
+    "name_ja": "南アフリカの人類化石遺跡群",
+    "name_en": "Fossil Hominid Sites of South Africa",
+    "country_ja": [
+      "南アフリカ共和国"
+    ],
+    "unesco_region": "アフリカ",
+    "registration_year": 1999,
+    "type": "cultural",
+    "criteria": [
+      3,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 83,
+    "evidence": "kw:アウストラロピテクス・アファレンシス",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/fossil-hominid-sites-of-south-africa/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-stonehenge",
+    "name_ja": "ストーンヘンジ、エイヴベリーの巨石遺跡と関連遺跡群",
+    "name_en": "Stonehenge, Avebury and Associated Sites",
+    "country_ja": [
+      "英国（グレートブリテン及び北アイルランド連合王国）"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1986,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 84,
+    "evidence": "kw:ヒール・ストーン／環状列石",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 17,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/stonehenge/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-gochang-hwasun-and-ganghwa",
+    "name_ja": "高敞、和順、江華の支石墓跡",
+    "name_en": "Gochang, Hwasun and Ganghwa Dolmen Sites",
+    "country_ja": [
+      "大韓民国"
+    ],
+    "unesco_region": "東・東南アジア",
+    "registration_year": 2000,
+    "type": "cultural",
+    "criteria": [
+      3
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 85,
+    "evidence": "kw:ドルメン",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 30,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/gochang-hwasun-and-ganghwa/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-persepolis",
+    "name_ja": "ペルセポリス",
+    "name_en": "Persepolis",
+    "country_ja": [
+      "イラン・イスラム共和国"
+    ],
+    "unesco_region": "西・南アジア",
+    "registration_year": 1979,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 86,
+    "evidence": "公式英訳PDF p.87",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 103,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/persepolis/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-babylon",
+    "name_ja": "バビロン",
+    "name_en": "Babylon",
+    "country_ja": [
+      "イラク共和国"
+    ],
+    "unesco_region": "西・南アジア",
+    "registration_year": 2019,
+    "type": "cultural",
+    "criteria": [
+      3,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 87,
+    "evidence": "kw:ハンムラビ王",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 0,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/babylon/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-nubian-monuments",
+    "name_ja": "ヌビアの遺跡群：アブ・シンベルからフィラエまで",
+    "name_en": "Nubian Monuments from Abu Simbel to Philae",
+    "country_ja": [
+      "エジプト・アラブ共和国"
+    ],
+    "unesco_region": "アフリカ",
+    "registration_year": 1979,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 88,
+    "evidence": "kw:アブ・シンベル神殿",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 11,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/nubian-monuments/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-memphis",
+    "name_ja": "メンフィスのピラミッド地帯",
+    "name_en": "Memphis and its Necropolis – the Pyramid Fields from Giza to Dahshur",
+    "country_ja": [
+      "エジプト・アラブ共和国"
+    ],
+    "unesco_region": "アフリカ",
+    "registration_year": 1979,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 89,
+    "evidence": "kw:クフ王",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 4,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/memphis/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-acropolis",
+    "name_ja": "アテネのアクロポリス",
+    "name_en": "Acropolis, Athens",
+    "country_ja": [
+      "ギリシャ共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 91,
+    "evidence": "公式英訳PDF p.91",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 97,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/acropolis/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-rome",
+    "name_ja": "ローマの歴史地区と教皇領、サン・パオロ・フォーリ・レ・ムーラ聖堂",
+    "name_en": "Historic Centre of Rome, the Properties of the Holy See in that City Enjoying Extraterritorial Rights and San Paolo Fuori le Mura",
+    "country_ja": [
+      "イタリア共和国",
+      "ヴァティカン市国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1980,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "is_transboundary": true,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 94,
+    "evidence": "公式英訳PDF p.94",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 4,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/rome/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-the-great-wall",
+    "name_ja": "万里の長城",
+    "name_en": "The Great Wall",
+    "country_ja": [
+      "中華人民共和国"
+    ],
+    "unesco_region": "東・東南アジア",
+    "registration_year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 96,
+    "evidence": "公式英訳PDF p.97",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 0,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/the-great-wall/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-qufu",
+    "name_ja": "曲阜の孔廟、孔林、孔府",
+    "name_en": "Temple and Cemetery of Confucius and the Kong Family Mansion in Qufu",
+    "country_ja": [
+      "中華人民共和国"
+    ],
+    "unesco_region": "東・東南アジア",
+    "registration_year": 1994,
+    "type": "cultural",
+    "criteria": [
+      1,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 97,
+    "evidence": "kw:儒学",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 16,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/qufu/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-angkor",
+    "name_ja": "アンコールの遺跡群",
+    "name_en": "Angkor",
+    "country_ja": [
+      "カンボジア王国"
+    ],
+    "unesco_region": "東・東南アジア",
+    "registration_year": 1992,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 98,
+    "evidence": "公式英訳PDF p.99",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 3,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/angkor/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-lhasa",
+    "name_ja": "ラサのポタラ宮歴史地区",
+    "name_en": "Historic Ensemble of the Potala Palace, Lhasa",
+    "country_ja": [
+      "中華人民共和国"
+    ],
+    "unesco_region": "東・東南アジア",
+    "registration_year": 1994,
+    "type": "cultural",
+    "criteria": [
+      1,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 100,
+    "evidence": "kw:ダライ・ラマ",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/lhasa/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-silk-roads-changan-tianshan-corridor",
+    "name_ja": "シルク・ロード：長安から天山回廊の交易網",
+    "name_en": "Silk Roads: the Routes Network of Chang'an-Tianshan Corridor",
+    "country_ja": [
+      "カザフスタン共和国",
+      "キルギス共和国",
+      "中華人民共和国"
+    ],
+    "unesco_region": "西・南アジア",
+    "registration_year": 2014,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      5,
+      6
+    ],
+    "is_transboundary": true,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 102,
+    "evidence": "公式英訳PDF p.103",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 27,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/silk-roads-changan-tianshan-corridor/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-mogao-caves",
+    "name_ja": "敦煌の莫高窟",
+    "name_en": "Mogao Caves",
+    "country_ja": [
+      "中華人民共和国"
+    ],
+    "unesco_region": "東・東南アジア",
+    "registration_year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 104,
+    "evidence": "kw:九層楼／敦煌文書",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 65,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/mogao-caves/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-ajanta-caves",
+    "name_ja": "アジャンターの石窟寺院群",
+    "name_en": "Ajanta Caves",
+    "country_ja": [
+      "インド"
+    ],
+    "unesco_region": "西・南アジア",
+    "registration_year": 1983,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 105,
+    "evidence": "kw:蓮華手菩薩",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 83,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/ajanta-caves/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-sukhothai",
+    "name_ja": "スコータイと周辺の歴史地区",
+    "name_en": "Historic Town of Sukhothai and Associated Historic Towns",
+    "country_ja": [
+      "タイ王国"
+    ],
+    "unesco_region": "東・東南アジア",
+    "registration_year": 1991,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 106,
+    "evidence": "kw:ワット・マハータート",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 16,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/sukhothai/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-istanbul",
+    "name_ja": "イスタンブルの歴史地区",
+    "name_en": "Historic Areas of Istanbul",
+    "country_ja": [
+      "トルコ共和国"
+    ],
+    "unesco_region": "西・南アジア",
+    "registration_year": 1985,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 108,
+    "evidence": "公式英訳PDF p.109",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 23,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/istanbul/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-meidan-emam-esfahan",
+    "name_ja": "イスファハーンのイマーム広場",
+    "name_en": "Meidan Emam, Esfahan",
+    "country_ja": [
+      "イラン・イスラム共和国"
+    ],
+    "unesco_region": "西・南アジア",
+    "registration_year": 1979,
+    "type": "cultural",
+    "criteria": [
+      1,
+      5,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 110,
+    "evidence": "kw:アリー・カプー宮殿",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/meidan-emam-esfahan/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-taj-mahal",
+    "name_ja": "タージ・マハル",
+    "name_en": "Taj Mahal",
+    "country_ja": [
+      "インド"
+    ],
+    "unesco_region": "西・南アジア",
+    "registration_year": 1983,
+    "type": "cultural",
+    "criteria": [
+      1
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 111,
+    "evidence": "公式英訳PDF p.111",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 184,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/taj-mahal/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-paris-seine",
+    "name_ja": "パリのセーヌ河岸",
+    "name_en": "Paris, Banks of the Seine",
+    "country_ja": [
+      "フランス共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1991,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 114,
+    "evidence": "公式英訳PDF p.115",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/paris-seine/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-venice",
+    "name_ja": "ヴェネツィアとその潟",
+    "name_en": "Venice and its Lagoon",
+    "country_ja": [
+      "イタリア共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 116,
+    "evidence": "kw:サン・マルコ大聖堂／ドゥカーレ宮殿",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 4,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/venice/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-lubeck",
+    "name_ja": "ハンザ都市リューベック",
+    "name_en": "Hanseatic City of Lübeck",
+    "country_ja": [
+      "ドイツ連邦共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1987,
+    "type": "cultural",
+    "criteria": [
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 117,
+    "evidence": "kw:ホルステン門",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 0,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/lubeck/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-alhambra",
+    "name_ja": "グラナダのアルハンブラ宮殿、ヘネラリーフェ離宮、アルバイシン地区",
+    "name_en": "Alhambra, Generalife and Albayzín, Granada",
+    "country_ja": [
+      "スペイン"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1984,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 118,
+    "evidence": "公式英訳PDF p.119",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 2,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/alhambra/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-castel-del-monte",
+    "name_ja": "カステル・デル・モンテ",
+    "name_en": "Castel del Monte",
+    "country_ja": [
+      "イタリア共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1996,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 119,
+    "evidence": "kw:フリードリヒ2世",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 58,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/castel-del-monte/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-avignon",
+    "name_ja": "アヴィニョンの歴史地区：教皇庁宮殿、司教の建造物群、アヴィニョンの橋",
+    "name_en": "Historic Centre of Avignon: Papal Palace, Episcopal Ensemble and Avignon Bridge",
+    "country_ja": [
+      "フランス共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1995,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 120,
+    "evidence": "kw:教皇庁宮殿",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/avignon/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-luther-memorials",
+    "name_ja": "アイスレーベンとヴィッテンベルクのルター記念建造物群",
+    "name_en": "Luther Memorials in Eisleben and Wittenberg",
+    "country_ja": [
+      "ドイツ連邦共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1996,
+    "type": "cultural",
+    "criteria": [
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 121,
+    "evidence": "kw:95ヵ条の論題",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 12,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/luther-memorials/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-florence",
+    "name_ja": "フィレンツェの歴史地区",
+    "name_en": "Historic Centre of Florence",
+    "country_ja": [
+      "イタリア共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1982,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 122,
+    "evidence": "公式英訳PDF p.123",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 22,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/florence/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-pisa",
+    "name_ja": "ピサのドゥオーモ広場",
+    "name_en": "Piazza del Duomo, Pisa",
+    "country_ja": [
+      "イタリア共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 124,
+    "evidence": "kw:ピサの斜塔",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 50,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/pisa/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-mexico-city-and-xochimilco",
+    "name_ja": "メキシコ・シティの歴史地区とソチミルコ",
+    "name_en": "Historic Centre of Mexico City and Xochimilco",
+    "country_ja": [
+      "メキシコ合衆国"
+    ],
+    "unesco_region": "北米",
+    "registration_year": 1987,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 125,
+    "evidence": "kw:テノチティトラン",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 0,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/mexico-city-and-xochimilco/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-moscow",
+    "name_ja": "モスクワのクレムリンと赤の広場",
+    "name_en": "Kremlin and Red Square, Moscow",
+    "country_ja": [
+      "ロシア連邦"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1990,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 126,
+    "evidence": "kw:聖ワシリイ大聖堂",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/moscow/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-chichen-itza",
+    "name_ja": "チチェン・イツァの古代都市",
+    "name_en": "Pre-Hispanic City of Chichen-Itza",
+    "country_ja": [
+      "メキシコ合衆国"
+    ],
+    "unesco_region": "北米",
+    "registration_year": 1988,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 129,
+    "evidence": "kw:エル・カスティーリョ",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/chichen-itza/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-machu-picchu",
+    "name_ja": "マチュ・ピチュ",
+    "name_en": "Historic Sanctuary of Machu Picchu",
+    "country_ja": [
+      "ペルー共和国"
+    ],
+    "unesco_region": "南米",
+    "registration_year": 1983,
+    "type": "mixed",
+    "criteria": [
+      1,
+      3,
+      7,
+      9
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 129,
+    "evidence": "公式英訳PDF p.129",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 8,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/machu-picchu/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-rapa-nui",
+    "name_ja": "ラパ・ニュイ国立公園",
+    "name_en": "Rapa Nui National Park",
+    "country_ja": [
+      "チリ共和国"
+    ],
+    "unesco_region": "南米",
+    "registration_year": 1995,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3,
+      5
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 130,
+    "evidence": "kw:長耳族（モアイ像）",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 39,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/rapa-nui/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-copan",
+    "name_ja": "コパンのマヤ遺跡",
+    "name_en": "Maya Site of Copan",
+    "country_ja": [
+      "ホンジュラス共和国"
+    ],
+    "unesco_region": "中米・カリブ海",
+    "registration_year": 1980,
+    "type": "cultural",
+    "criteria": [
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 131,
+    "evidence": "kw:18ウサギ王／神聖文字の階段",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/copan/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-ming-and-qing-dynasties",
+    "name_ja": "北京と瀋陽の故宮",
+    "name_en": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+    "country_ja": [
+      "中華人民共和国"
+    ],
+    "unesco_region": "東・東南アジア",
+    "registration_year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 132,
+    "evidence": "公式英訳PDF p.133",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 10,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/ming-and-qing-dynasties/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-hue",
+    "name_ja": "フエの歴史的建造物群",
+    "name_en": "Complex of Hué Monuments",
+    "country_ja": [
+      "ベトナム社会主義共和国"
+    ],
+    "unesco_region": "東・東南アジア",
+    "registration_year": 1993,
+    "type": "cultural",
+    "criteria": [
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 133,
+    "evidence": "kw:カイディン帝陵",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/hue/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-timbuktu",
+    "name_ja": "伝説の都市トンブクトゥ",
+    "name_en": "Timbuktu",
+    "country_ja": [
+      "マリ共和国"
+    ],
+    "unesco_region": "アフリカ",
+    "registration_year": 1988,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4,
+      5
+    ],
+    "is_transboundary": false,
+    "in_danger": true,
+    "delisted": false,
+    "textbook_page": 134,
+    "evidence": "kw:サンコーレ・モスク",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 129,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/timbuktu/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-uluru-kata-tjuta",
+    "name_ja": "ウルル、カタ・ジュタ国立公園",
+    "name_en": "Uluru-Kata Tjuta National Park",
+    "country_ja": [
+      "オーストラリア連邦"
+    ],
+    "unesco_region": "オセアニア",
+    "registration_year": 1987,
+    "type": "mixed",
+    "criteria": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 136,
+    "evidence": "kw:ウルル",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 47,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/uluru-kata-tjuta/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-versailles",
+    "name_ja": "ヴェルサイユ宮殿と庭園",
+    "name_en": "Palace and Park of Versailles",
+    "country_ja": [
+      "フランス共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1979,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 139,
+    "evidence": "公式英訳PDF p.139",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 2,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/versailles/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-schonbrunn",
+    "name_ja": "シェーンブルン宮殿と庭園",
+    "name_en": "Palace and Gardens of Schönbrunn",
+    "country_ja": [
+      "オーストリア共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1996,
+    "type": "cultural",
+    "criteria": [
+      1,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 140,
+    "evidence": "kw:マリア・テレジア／ロココ様式",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 0,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/schonbrunn/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-potsdam-and-berlin",
+    "name_ja": "ポツダムとベルリンの宮殿と庭園",
+    "name_en": "Palaces and Parks of Potsdam and Berlin",
+    "country_ja": [
+      "ドイツ連邦共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1990,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 141,
+    "evidence": "kw:サンスーシ宮殿",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 34,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/potsdam-and-berlin/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-westminster",
+    "name_ja": "ウェストミンスター宮殿、ウェストミンスター・アビーとセント・マーガレット教会",
+    "name_en": "Palace of Westminster and Westminster Abbey including Saint Margaret’s Church",
+    "country_ja": [
+      "英国（グレートブリテン及び北アイルランド連合王国）"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 143,
+    "evidence": "公式英訳PDF p.143",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 1,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/westminster/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-saint-petersburg",
+    "name_ja": "サンクト・ペテルブルクの歴史地区と関連建造物群",
+    "name_en": "Historic Centre of Saint Petersburg and Related Groups of Monuments",
+    "country_ja": [
+      "ロシア連邦"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1990,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 143,
+    "evidence": "kw:ピョートル大帝",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 30,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/saint-petersburg/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-vienna",
+    "name_ja": "ウィーンの歴史地区",
+    "name_en": "Historic Centre of Vienna",
+    "country_ja": [
+      "オーストリア共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 2001,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 144,
+    "evidence": "kw:ベルヴェデーレ宮殿／リンクシュトラーセ",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 4,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/vienna/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-new-lanark",
+    "name_ja": "ニュー・ラナーク",
+    "name_en": "New Lanark",
+    "country_ja": [
+      "英国（グレートブリテン及び北アイルランド連合王国）"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 2001,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 145,
+    "evidence": "kw:ロバート・オーウェン",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 42,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/new-lanark/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-statue-of-liberty",
+    "name_ja": "自由の女神像",
+    "name_en": "Statue of Liberty",
+    "country_ja": [
+      "アメリカ合衆国"
+    ],
+    "unesco_region": "北米",
+    "registration_year": 1984,
+    "type": "cultural",
+    "criteria": [
+      1,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 146,
+    "evidence": "公式英訳PDF p.146",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/statue-of-liberty/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-brasilia",
+    "name_ja": "ブラジリア",
+    "name_en": "Brasilia",
+    "country_ja": [
+      "ブラジル連邦共和国"
+    ],
+    "unesco_region": "南米",
+    "registration_year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 147,
+    "evidence": "kw:三権広場",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 226,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/brasilia/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-cordilleras",
+    "name_ja": "フィリピンのコルディリェーラの棚田群",
+    "name_en": "Rice Terraces of the Philippine Cordilleras",
+    "country_ja": [
+      "フィリピン共和国"
+    ],
+    "unesco_region": "東・東南アジア",
+    "registration_year": 1995,
+    "type": "cultural",
+    "criteria": [
+      3,
+      4,
+      5
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 150,
+    "evidence": "kw:イフガオ族",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 28,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/cordilleras/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-warsaw",
+    "name_ja": "ワルシャワの歴史地区",
+    "name_en": "Historic Centre of Warsaw",
+    "country_ja": [
+      "ポーランド共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1980,
+    "type": "cultural",
+    "criteria": [
+      2,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 152,
+    "evidence": "公式英訳PDF p.152",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 5,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/warsaw/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "wd-delisted-",
+    "name_ja": "アラビアオリックスの保護地区",
+    "name_en": null,
+    "country_ja": [],
+    "unesco_region": null,
+    "registration_year": null,
+    "type": null,
+    "criteria": [],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": true,
+    "textbook_page": 156,
+    "evidence": "kw:登録抹消の事例",
+    "in_textbook_confidence": "推定",
+    "note": "世界遺産リストから登録抹消済みのため、世界遺産検定公式DB(pamon)の現行1,273件には存在しない。第5版テキストp.156の『登録抹消』の事例として扱われていると推定。",
+    "source": {
+      "attributes": "（現行リスト外・未取得）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "wd-delisted-",
+    "name_ja": "ドレスデンのエルベ渓谷",
+    "name_en": null,
+    "country_ja": [],
+    "unesco_region": null,
+    "registration_year": null,
+    "type": null,
+    "criteria": [],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": true,
+    "textbook_page": 156,
+    "evidence": "kw:登録抹消の事例",
+    "in_textbook_confidence": "推定",
+    "note": "世界遺産リストから登録抹消済みのため、世界遺産検定公式DB(pamon)の現行1,273件には存在しない。第5版テキストp.156の『登録抹消』の事例として扱われていると推定。",
+    "source": {
+      "attributes": "（現行リスト外・未取得）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "wd-delisted-",
+    "name_ja": "リヴァプール海商都市",
+    "name_en": null,
+    "country_ja": [],
+    "unesco_region": null,
+    "registration_year": null,
+    "type": null,
+    "criteria": [],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": true,
+    "textbook_page": 156,
+    "evidence": "kw:登録抹消の事例",
+    "in_textbook_confidence": "推定",
+    "note": "世界遺産リストから登録抹消済みのため、世界遺産検定公式DB(pamon)の現行1,273件には存在しない。第5版テキストp.156の『登録抹消』の事例として扱われていると推定。",
+    "source": {
+      "attributes": "（現行リスト外・未取得）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-jerusalem",
+    "name_ja": "エルサレムの旧市街とその城壁群",
+    "name_en": "Old City of Jerusalem and its Walls",
+    "country_ja": [
+      "エルサレム（ヨルダン・ハシェミット王国による申請遺産）"
+    ],
+    "unesco_region": "西・南アジア",
+    "registration_year": 1981,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": true,
+    "delisted": false,
+    "textbook_page": 161,
+    "evidence": "公式英訳PDF p.161",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 2,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/jerusalem/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-robben-island",
+    "name_ja": "ロベン島",
+    "name_en": "Robben Island",
+    "country_ja": [
+      "南アフリカ共和国"
+    ],
+    "unesco_region": "アフリカ",
+    "registration_year": 1999,
+    "type": "cultural",
+    "criteria": [
+      3,
+      6
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 164,
+    "evidence": "kw:ネルソン・マンデラ／アパルトヘイト",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 72,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/robben-island/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-jungfrau-aletsch",
+    "name_ja": "ユングフラウ－アレッチュのスイス・アルプス",
+    "name_en": "Swiss Alps Jungfrau-Aletsch",
+    "country_ja": [
+      "スイス連邦"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 2001,
+    "type": "natural",
+    "criteria": [
+      7,
+      8,
+      9
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 167,
+    "evidence": "kw:アレッチュ氷河",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/jungfrau-aletsch/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-hawaii-volcanoes",
+    "name_ja": "ハワイ火山国立公園",
+    "name_en": "Hawaii Volcanoes National Park",
+    "country_ja": [
+      "アメリカ合衆国"
+    ],
+    "unesco_region": "北米",
+    "registration_year": 1987,
+    "type": "natural",
+    "criteria": [
+      8
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 169,
+    "evidence": "公式英訳PDF p.169",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 55,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/hawaii-volcanoes/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-los-glaciares",
+    "name_ja": "ロス・グラシアレス国立公園",
+    "name_en": "Los Glaciares National Park",
+    "country_ja": [
+      "アルゼンチン共和国"
+    ],
+    "unesco_region": "南米",
+    "registration_year": 1981,
+    "type": "natural",
+    "criteria": [
+      7,
+      8
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 170,
+    "evidence": "公式英訳PDF p.170",
+    "in_textbook_confidence": "確定",
+    "wikidata_sitelinks": 61,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/los-glaciares/",
+      "textbook_inclusion": "https://www.sekaken.jp/pdf/text_class3_en2025.pdf"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "確定"
+  },
+  {
+    "id": "w-iguacu-brazil",
+    "name_ja": "イグアス国立公園（ブラジル）",
+    "name_en": "Iguaçu National Park",
+    "country_ja": [
+      "ブラジル連邦共和国"
+    ],
+    "unesco_region": "南米",
+    "registration_year": 1986,
+    "type": "natural",
+    "criteria": [
+      7,
+      10
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 172,
+    "evidence": "kw:ガルガンタ・デル・ディアブロ",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 42,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/iguacu-brazil/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-mosi-oa-tunya",
+    "name_ja": "ヴィクトリアの滝（モシ・オ・トゥニャ）",
+    "name_en": "Mosi-oa-Tunya / Victoria Falls",
+    "country_ja": [
+      "ザンビア共和国",
+      "ジンバブエ共和国"
+    ],
+    "unesco_region": "アフリカ",
+    "registration_year": 1989,
+    "type": "natural",
+    "criteria": [
+      7,
+      8
+    ],
+    "is_transboundary": true,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 173,
+    "evidence": "kw:モシ・オ・トゥニャ",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 1,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/mosi-oa-tunya/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-lake-baikal",
+    "name_ja": "バイカル湖",
+    "name_en": "Lake Baikal",
+    "country_ja": [
+      "ロシア連邦"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1996,
+    "type": "natural",
+    "criteria": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 175,
+    "evidence": "kw:世界最古かつ最深の湖",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 182,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/lake-baikal/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-ngorongoro",
+    "name_ja": "ンゴロンゴロ自然保護区",
+    "name_en": "Ngorongoro Conservation Area",
+    "country_ja": [
+      "タンザニア連合共和国"
+    ],
+    "unesco_region": "アフリカ",
+    "registration_year": 1979,
+    "type": "mixed",
+    "criteria": [
+      4,
+      7,
+      8,
+      9,
+      10
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 176,
+    "evidence": "kw:ンゴロンゴロ・クレーター",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 68,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/ngorongoro/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-central-amazon",
+    "name_ja": "中央アマゾン自然保護区群",
+    "name_en": "Central Amazon Conservation Complex",
+    "country_ja": [
+      "ブラジル連邦共和国"
+    ],
+    "unesco_region": "南米",
+    "registration_year": 2000,
+    "type": "natural",
+    "criteria": [
+      9,
+      10
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 177,
+    "evidence": "kw:バルゼア",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 8,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/central-amazon/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-sichuan-giant-panda",
+    "name_ja": "四川省のジャイアントパンダ保護区群",
+    "name_en": "Sichuan Giant Panda Sanctuaries - Wolong, Mt Siguniang and Jiajin Mountains",
+    "country_ja": [
+      "中華人民共和国"
+    ],
+    "unesco_region": "東・東南アジア",
+    "registration_year": 2006,
+    "type": "natural",
+    "criteria": [
+      10
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 178,
+    "evidence": "kw:レッサーパンダ",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": null,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/sichuan-giant-panda/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-virunga",
+    "name_ja": "ヴィルンガ国立公園",
+    "name_en": "Virunga National Park",
+    "country_ja": [
+      "コンゴ民主共和国"
+    ],
+    "unesco_region": "アフリカ",
+    "registration_year": 1979,
+    "type": "natural",
+    "criteria": [
+      7,
+      8,
+      10
+    ],
+    "is_transboundary": false,
+    "in_danger": true,
+    "delisted": false,
+    "textbook_page": 179,
+    "evidence": "kw:マウンテンゴリラ",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 78,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/virunga/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  },
+  {
+    "id": "w-henderson-island",
+    "name_ja": "ヘンダーソン島",
+    "name_en": "Henderson Island",
+    "country_ja": [
+      "英国（グレートブリテン及び北アイルランド連合王国）"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1988,
+    "type": "natural",
+    "criteria": [
+      7,
+      10
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": 180,
+    "evidence": "kw:世界で最もプラスチックごみが高密度に集積",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 52,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/henderson-island/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉の掲載ページから推定）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
+  }
+]
