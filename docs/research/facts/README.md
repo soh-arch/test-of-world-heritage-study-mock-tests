@@ -14,6 +14,8 @@
 | `02-color-contrast.md` | 配色のWCAGコントラスト比 | `contrast.py` による実測 |
 | `03-unesco-mirror-dataset.md` | UNESCO公式データのGitHubミラーの構造 | 実際にcloneして確認 |
 | `04-dataset-validation.md` | `data/` の検証結果と実装前に直すべき点 | `validate_datasets.py` による検査 |
+| `05-question-type-gap.md` | 公式の出題類型と実装の突合表 | 設定とコードから再現 |
+| `06-official-worksheets.md` | 公式学習プリント9枚・51問の測定結果 | PDFを読んで集計（PDFは非同梱） |
 | `exam-spec.md` | **3級の試験仕様レポート**（一次情報確認済み） | 公式サイト等へ直接アクセス（2026-09-09） |
 | `data/exam-config.json` | 出題アルゴリズムの設定値 | 同上 |
 | `data/japan-sites.json` | **日本の世界遺産27件**（全件確度「確定」） | 同上＋スキーマ検査 |
