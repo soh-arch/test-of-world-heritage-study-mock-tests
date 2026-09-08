@@ -1,8 +1,8 @@
 import "./styles.css";
-import sitesJson from "./data/japan-sites.json";
+import sitesJson from "./data/sites.json";
 import configJson from "./data/exam-config.json";
 import type { Exam, Question, Site } from "./types";
-import { buildExam, grade, randomSeed } from "./exam";
+import { allocateCategories, buildExam, CATEGORY_LABEL, grade, randomSeed } from "./exam";
 
 const sites = sitesJson as Site[];
 const config = configJson as {
@@ -10,7 +10,8 @@ const config = configJson as {
   sourceVerifiedAt: string;
 };
 
-/** The first version draws only on the Japanese sites, so it is a short set. */
+/** Shorter than the real 60-question paper: basic knowledge and "その他" need
+ *  hand-written questions, so only three of the five categories are covered. */
 const QUESTION_COUNT = 20;
 
 const app = document.querySelector<HTMLDivElement>("#app")!;
@@ -38,13 +39,21 @@ function startScreen(): DocumentFragment {
 
   fragment.append(
     element("h1", { text: "世界遺産検定3級 模擬試験" }),
-    element("p", { class: "lede", text: "日本の世界遺産27件から、毎回異なる問題を組み立てます。" }),
+    element("p", {
+      class: "lede",
+      text: `日本の世界遺産27件と世界の主要遺産83件から、毎回異なる問題を組み立てます。`,
+    }),
   );
 
   const meta = element("dl", { class: "meta" });
+  const split = allocateCategories(QUESTION_COUNT)
+    .map(([category, count]) => `${CATEGORY_LABEL[category]} ${count}問`)
+    .join(" / ");
+
   for (const [term, value] of [
     ["出題数", `${QUESTION_COUNT}問`],
-    ["出題範囲", "日本の世界遺産 全27件"],
+    ["分野の配分", split],
+    ["出題範囲", "日本 全27件＋世界 83件"],
     ["合格ライン", `${config.passScore}点（100点換算）`],
     ["採点", "全問に解答してから一括採点"],
   ]) {
@@ -72,7 +81,9 @@ function startScreen(): DocumentFragment {
     }),
     element("p", {
       class: "faint",
-      text: `試験仕様は公式サイトで${config.sourceVerifiedAt}に確認した内容に基づきます。問題文は本ツールが独自に生成したものです。`,
+      text:
+        `試験仕様は公式サイトで${config.sourceVerifiedAt}に確認した内容に基づきます。` +
+        "問題文は本ツールが独自に生成したものです。世界の遺産は3級の出題範囲100件のうち、公式資料から再構成できた83件を用いています。",
     }),
   );
 
@@ -166,6 +177,15 @@ function resultScreen(): DocumentFragment {
       ],
     }),
   );
+
+  const breakdown = element("dl", { class: "breakdown" });
+  for (const { category, correct, total } of result.byCategory) {
+    breakdown.append(
+      element("dt", { text: CATEGORY_LABEL[category] }),
+      element("dd", { text: `${total}問中 ${correct}問正解` }),
+    );
+  }
+  fragment.append(element("h2", { text: "分野別" }), breakdown);
 
   if (result.wrong.length > 0) {
     fragment.append(element("h2", { text: `間違えた問題（${result.wrong.length}問）` }));

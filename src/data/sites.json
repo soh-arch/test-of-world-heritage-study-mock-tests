@@ -1,0 +1,2181 @@
+[
+  {
+    "id": "jp-horyu-ji",
+    "scope": "japan",
+    "nameJa": "法隆寺地域の仏教建造物群",
+    "places": [
+      "奈良県"
+    ],
+    "regions": [
+      "近畿"
+    ],
+    "year": 1993,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-himeji-jo",
+    "scope": "japan",
+    "nameJa": "姫路城",
+    "places": [
+      "兵庫県"
+    ],
+    "regions": [
+      "近畿"
+    ],
+    "year": 1993,
+    "type": "cultural",
+    "criteria": [
+      1,
+      4
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-yakushima",
+    "scope": "japan",
+    "nameJa": "屋久島",
+    "places": [
+      "鹿児島県"
+    ],
+    "regions": [
+      "九州・沖縄"
+    ],
+    "year": 1993,
+    "type": "natural",
+    "criteria": [
+      7,
+      9
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-shirakami-sanchi",
+    "scope": "japan",
+    "nameJa": "白神山地",
+    "places": [
+      "青森県",
+      "秋田県"
+    ],
+    "regions": [
+      "東北"
+    ],
+    "year": 1993,
+    "type": "natural",
+    "criteria": [
+      9
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-kyoto",
+    "scope": "japan",
+    "nameJa": "古都京都の文化財",
+    "places": [
+      "京都府",
+      "滋賀県"
+    ],
+    "regions": [
+      "近畿"
+    ],
+    "year": 1994,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-shirakawa-go",
+    "scope": "japan",
+    "nameJa": "白川郷・五箇山の合掌造り集落",
+    "places": [
+      "岐阜県",
+      "富山県"
+    ],
+    "regions": [
+      "中部"
+    ],
+    "year": 1995,
+    "type": "cultural",
+    "criteria": [
+      4,
+      5
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-hiroshima-peace-memorial",
+    "scope": "japan",
+    "nameJa": "広島平和記念碑（原爆ドーム）",
+    "places": [
+      "広島県"
+    ],
+    "regions": [
+      "中国"
+    ],
+    "year": 1996,
+    "type": "cultural",
+    "criteria": [
+      6
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-itsukushima",
+    "scope": "japan",
+    "nameJa": "厳島神社",
+    "places": [
+      "広島県"
+    ],
+    "regions": [
+      "中国"
+    ],
+    "year": 1996,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-nara",
+    "scope": "japan",
+    "nameJa": "古都奈良の文化財",
+    "places": [
+      "奈良県"
+    ],
+    "regions": [
+      "近畿"
+    ],
+    "year": 1998,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-nikko",
+    "scope": "japan",
+    "nameJa": "日光の社寺",
+    "places": [
+      "栃木県"
+    ],
+    "regions": [
+      "関東"
+    ],
+    "year": 1999,
+    "type": "cultural",
+    "criteria": [
+      1,
+      4,
+      6
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-ryukyu",
+    "scope": "japan",
+    "nameJa": "琉球王国のグスク及び関連遺産群",
+    "places": [
+      "沖縄県"
+    ],
+    "regions": [
+      "九州・沖縄"
+    ],
+    "year": 2000,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      6
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-kii-mountain-range",
+    "scope": "japan",
+    "nameJa": "紀伊山地の霊場と参詣道",
+    "places": [
+      "三重県",
+      "奈良県",
+      "和歌山県"
+    ],
+    "regions": [
+      "近畿"
+    ],
+    "year": 2004,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-shiretoko",
+    "scope": "japan",
+    "nameJa": "知床",
+    "places": [
+      "北海道"
+    ],
+    "regions": [
+      "北海道"
+    ],
+    "year": 2005,
+    "type": "natural",
+    "criteria": [
+      9,
+      10
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-iwami-ginzan",
+    "scope": "japan",
+    "nameJa": "石見銀山遺跡とその文化的景観",
+    "places": [
+      "島根県"
+    ],
+    "regions": [
+      "中国"
+    ],
+    "year": 2007,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      5
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-ogasawara",
+    "scope": "japan",
+    "nameJa": "小笠原諸島",
+    "places": [
+      "東京都"
+    ],
+    "regions": [
+      "関東"
+    ],
+    "year": 2011,
+    "type": "natural",
+    "criteria": [
+      9
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-hiraizumi",
+    "scope": "japan",
+    "nameJa": "平泉－仏国土（浄土）を表す建築・庭園及び考古学的遺跡群－",
+    "places": [
+      "岩手県"
+    ],
+    "regions": [
+      "東北"
+    ],
+    "year": 2011,
+    "type": "cultural",
+    "criteria": [
+      2,
+      6
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-fujisan",
+    "scope": "japan",
+    "nameJa": "富士山─信仰の対象と芸術の源泉",
+    "places": [
+      "山梨県",
+      "静岡県"
+    ],
+    "regions": [
+      "中部"
+    ],
+    "year": 2013,
+    "type": "cultural",
+    "criteria": [
+      3,
+      6
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-tomioka",
+    "scope": "japan",
+    "nameJa": "富岡製糸場と絹産業遺産群",
+    "places": [
+      "群馬県"
+    ],
+    "regions": [
+      "関東"
+    ],
+    "year": 2014,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-meiji-industrial-revolution",
+    "scope": "japan",
+    "nameJa": "明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業",
+    "places": [
+      "福岡県",
+      "佐賀県",
+      "長崎県",
+      "熊本県",
+      "鹿児島県",
+      "山口県",
+      "岩手県",
+      "静岡県"
+    ],
+    "regions": [
+      "九州・沖縄",
+      "中国",
+      "東北",
+      "中部"
+    ],
+    "year": 2015,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-le-corbusier",
+    "scope": "japan",
+    "nameJa": "ル・コルビュジエの建築作品：近代建築運動への顕著な貢献",
+    "places": [
+      "東京都"
+    ],
+    "regions": [
+      "関東"
+    ],
+    "year": 2016,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      6
+    ],
+    "transboundary": true
+  },
+  {
+    "id": "jp-okinoshima",
+    "scope": "japan",
+    "nameJa": "「神宿る島」宗像・沖ノ島と関連遺産群",
+    "places": [
+      "福岡県"
+    ],
+    "regions": [
+      "九州・沖縄"
+    ],
+    "year": 2017,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-hidden-christian-sites",
+    "scope": "japan",
+    "nameJa": "長崎と天草地方の潜伏キリシタン関連遺産",
+    "places": [
+      "長崎県",
+      "熊本県"
+    ],
+    "regions": [
+      "九州・沖縄"
+    ],
+    "year": 2018,
+    "type": "cultural",
+    "criteria": [
+      3
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-mozu-furuichi",
+    "scope": "japan",
+    "nameJa": "百舌鳥・古市古墳群",
+    "places": [
+      "大阪府"
+    ],
+    "regions": [
+      "近畿"
+    ],
+    "year": 2019,
+    "type": "cultural",
+    "criteria": [
+      3,
+      4
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-amami",
+    "scope": "japan",
+    "nameJa": "奄美大島、徳之島、沖縄島北部及び西表島",
+    "places": [
+      "鹿児島県",
+      "沖縄県"
+    ],
+    "regions": [
+      "九州・沖縄"
+    ],
+    "year": 2021,
+    "type": "natural",
+    "criteria": [
+      10
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-jomon",
+    "scope": "japan",
+    "nameJa": "北海道・北東北の縄文遺跡群",
+    "places": [
+      "北海道",
+      "青森県",
+      "岩手県",
+      "秋田県"
+    ],
+    "regions": [
+      "北海道",
+      "東北"
+    ],
+    "year": 2021,
+    "type": "cultural",
+    "criteria": [
+      3,
+      5
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-sado-island",
+    "scope": "japan",
+    "nameJa": "佐渡島の金山",
+    "places": [
+      "新潟県"
+    ],
+    "regions": [
+      "中部"
+    ],
+    "year": 2024,
+    "type": "cultural",
+    "criteria": [
+      4
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "jp-asuka-and-fujiwara",
+    "scope": "japan",
+    "nameJa": "飛鳥・藤原の宮都",
+    "places": [
+      "奈良県"
+    ],
+    "regions": [
+      "近畿"
+    ],
+    "year": 2026,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3
+    ],
+    "transboundary": false
+  },
+  {
+    "id": "w-serengeti",
+    "scope": "world",
+    "nameJa": "セレンゲティ国立公園",
+    "places": [
+      "タンザニア"
+    ],
+    "regions": [
+      "アフリカ"
+    ],
+    "year": 1981,
+    "type": "natural",
+    "criteria": [
+      7,
+      10
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-gobekli-tepe",
+    "scope": "world",
+    "nameJa": "ギョベクリ・テペ",
+    "places": [
+      "トルコ"
+    ],
+    "regions": [
+      "西・南アジア"
+    ],
+    "year": 2018,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-sagarmatha",
+    "scope": "world",
+    "nameJa": "サガルマータ国立公園",
+    "places": [
+      "ネパール"
+    ],
+    "regions": [
+      "西・南アジア"
+    ],
+    "year": 1979,
+    "type": "natural",
+    "criteria": [
+      7
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-lalibela",
+    "scope": "world",
+    "nameJa": "ラリベラの岩の聖堂群",
+    "places": [
+      "エチオピア"
+    ],
+    "regions": [
+      "アフリカ"
+    ],
+    "year": 1978,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-the-first-qin-emperor",
+    "scope": "world",
+    "nameJa": "始皇帝陵と兵馬俑坑",
+    "places": [
+      "中国"
+    ],
+    "regions": [
+      "東・東南アジア"
+    ],
+    "year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-galapagos",
+    "scope": "world",
+    "nameJa": "ガラパゴス諸島",
+    "places": [
+      "エクアドル"
+    ],
+    "regions": [
+      "南米"
+    ],
+    "year": 1978,
+    "type": "natural",
+    "criteria": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-sydney-opera-house",
+    "scope": "world",
+    "nameJa": "シドニーのオペラハウス",
+    "places": [
+      "オーストラリア"
+    ],
+    "regions": [
+      "オセアニア"
+    ],
+    "year": 2007,
+    "type": "cultural",
+    "criteria": [
+      1
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-tongariro",
+    "scope": "world",
+    "nameJa": "トンガリロ国立公園",
+    "places": [
+      "ニュージーランド"
+    ],
+    "regions": [
+      "オセアニア"
+    ],
+    "year": 1990,
+    "type": "mixed",
+    "criteria": [
+      6,
+      7,
+      8
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-alberobello",
+    "scope": "world",
+    "nameJa": "アルベロベッロのトゥルッリ",
+    "places": [
+      "イタリア"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1996,
+    "type": "cultural",
+    "criteria": [
+      3,
+      4,
+      5
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-samarkand",
+    "scope": "world",
+    "nameJa": "文化交差路サマルカンド",
+    "places": [
+      "ウズベキスタン"
+    ],
+    "regions": [
+      "西・南アジア"
+    ],
+    "year": 2001,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-routes-of-santiago-de-compostela-in-france",
+    "scope": "world",
+    "nameJa": "フランスのサンティアゴ・デ・コンポステーラの巡礼路",
+    "places": [
+      "フランス"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1998,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-carcassonne",
+    "scope": "world",
+    "nameJa": "カルカッソンヌの歴史的城塞都市",
+    "places": [
+      "フランス"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1997,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-potosi",
+    "scope": "world",
+    "nameJa": "ポトシの市街",
+    "places": [
+      "ボリビア"
+    ],
+    "regions": [
+      "南米"
+    ],
+    "year": 1987,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-auschwitz-birkenau",
+    "scope": "world",
+    "nameJa": "アウシュヴィッツ・ビルケナウ：ナチス･ドイツの強制絶滅収容所（1940-1945）",
+    "places": [
+      "ポーランド"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1979,
+    "type": "cultural",
+    "criteria": [
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-ironbridge-gorge",
+    "scope": "world",
+    "nameJa": "アイアンブリッジ峡谷",
+    "places": [
+      "イギリス"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1986,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-delos",
+    "scope": "world",
+    "nameJa": "デロス島",
+    "places": [
+      "ギリシャ"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1990,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-grand-canyon",
+    "scope": "world",
+    "nameJa": "グランド・キャニオン国立公園",
+    "places": [
+      "アメリカ"
+    ],
+    "regions": [
+      "北米"
+    ],
+    "year": 1979,
+    "type": "natural",
+    "criteria": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-tasmanian-wilderness",
+    "scope": "world",
+    "nameJa": "タスマニア原生地帯",
+    "places": [
+      "オーストラリア"
+    ],
+    "regions": [
+      "オセアニア"
+    ],
+    "year": 1982,
+    "type": "mixed",
+    "criteria": [
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-melaka-and-george-town",
+    "scope": "world",
+    "nameJa": "メラカとジョージ・タウン：マラッカ海峡の歴史都市",
+    "places": [
+      "マレーシア"
+    ],
+    "regions": [
+      "東・東南アジア"
+    ],
+    "year": 2008,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      4
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-vezere-valley",
+    "scope": "world",
+    "nameJa": "ヴェゼール渓谷の装飾洞窟と先史遺跡",
+    "places": [
+      "フランス"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1979,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-fossil-hominid-sites-of-south-africa",
+    "scope": "world",
+    "nameJa": "南アフリカの人類化石遺跡群",
+    "places": [
+      "南アフリカ"
+    ],
+    "regions": [
+      "アフリカ"
+    ],
+    "year": 1999,
+    "type": "cultural",
+    "criteria": [
+      3,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-stonehenge",
+    "scope": "world",
+    "nameJa": "ストーンヘンジ、エイヴベリーの巨石遺跡と関連遺跡群",
+    "places": [
+      "イギリス"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1986,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-gochang-hwasun-and-ganghwa",
+    "scope": "world",
+    "nameJa": "高敞、和順、江華の支石墓跡",
+    "places": [
+      "韓国"
+    ],
+    "regions": [
+      "東・東南アジア"
+    ],
+    "year": 2000,
+    "type": "cultural",
+    "criteria": [
+      3
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-persepolis",
+    "scope": "world",
+    "nameJa": "ペルセポリス",
+    "places": [
+      "イラン"
+    ],
+    "regions": [
+      "西・南アジア"
+    ],
+    "year": 1979,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3,
+      6
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-babylon",
+    "scope": "world",
+    "nameJa": "バビロン",
+    "places": [
+      "イラク"
+    ],
+    "regions": [
+      "西・南アジア"
+    ],
+    "year": 2019,
+    "type": "cultural",
+    "criteria": [
+      3,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-nubian-monuments",
+    "scope": "world",
+    "nameJa": "ヌビアの遺跡群：アブ・シンベルからフィラエまで",
+    "places": [
+      "エジプト"
+    ],
+    "regions": [
+      "アフリカ"
+    ],
+    "year": 1979,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-memphis",
+    "scope": "world",
+    "nameJa": "メンフィスのピラミッド地帯",
+    "places": [
+      "エジプト"
+    ],
+    "regions": [
+      "アフリカ"
+    ],
+    "year": 1979,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-acropolis",
+    "scope": "world",
+    "nameJa": "アテネのアクロポリス",
+    "places": [
+      "ギリシャ"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-rome",
+    "scope": "world",
+    "nameJa": "ローマの歴史地区と教皇領、サン・パオロ・フォーリ・レ・ムーラ聖堂",
+    "places": [
+      "イタリア",
+      "ヴァティカン市国"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1980,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "transboundary": true,
+    "estimated": false
+  },
+  {
+    "id": "w-the-great-wall",
+    "scope": "world",
+    "nameJa": "万里の長城",
+    "places": [
+      "中国"
+    ],
+    "regions": [
+      "東・東南アジア"
+    ],
+    "year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-qufu",
+    "scope": "world",
+    "nameJa": "曲阜の孔廟、孔林、孔府",
+    "places": [
+      "中国"
+    ],
+    "regions": [
+      "東・東南アジア"
+    ],
+    "year": 1994,
+    "type": "cultural",
+    "criteria": [
+      1,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-angkor",
+    "scope": "world",
+    "nameJa": "アンコールの遺跡群",
+    "places": [
+      "カンボジア"
+    ],
+    "regions": [
+      "東・東南アジア"
+    ],
+    "year": 1992,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-lhasa",
+    "scope": "world",
+    "nameJa": "ラサのポタラ宮歴史地区",
+    "places": [
+      "中国"
+    ],
+    "regions": [
+      "東・東南アジア"
+    ],
+    "year": 1994,
+    "type": "cultural",
+    "criteria": [
+      1,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-silk-roads-changan-tianshan-corridor",
+    "scope": "world",
+    "nameJa": "シルク・ロード：長安から天山回廊の交易網",
+    "places": [
+      "カザフスタン",
+      "キルギス",
+      "中国"
+    ],
+    "regions": [
+      "西・南アジア"
+    ],
+    "year": 2014,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      5,
+      6
+    ],
+    "transboundary": true,
+    "estimated": false
+  },
+  {
+    "id": "w-mogao-caves",
+    "scope": "world",
+    "nameJa": "敦煌の莫高窟",
+    "places": [
+      "中国"
+    ],
+    "regions": [
+      "東・東南アジア"
+    ],
+    "year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-ajanta-caves",
+    "scope": "world",
+    "nameJa": "アジャンターの石窟寺院群",
+    "places": [
+      "インド"
+    ],
+    "regions": [
+      "西・南アジア"
+    ],
+    "year": 1983,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-sukhothai",
+    "scope": "world",
+    "nameJa": "スコータイと周辺の歴史地区",
+    "places": [
+      "タイ"
+    ],
+    "regions": [
+      "東・東南アジア"
+    ],
+    "year": 1991,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-istanbul",
+    "scope": "world",
+    "nameJa": "イスタンブルの歴史地区",
+    "places": [
+      "トルコ"
+    ],
+    "regions": [
+      "西・南アジア"
+    ],
+    "year": 1985,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-meidan-emam-esfahan",
+    "scope": "world",
+    "nameJa": "イスファハーンのイマーム広場",
+    "places": [
+      "イラン"
+    ],
+    "regions": [
+      "西・南アジア"
+    ],
+    "year": 1979,
+    "type": "cultural",
+    "criteria": [
+      1,
+      5,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-taj-mahal",
+    "scope": "world",
+    "nameJa": "タージ・マハル",
+    "places": [
+      "インド"
+    ],
+    "regions": [
+      "西・南アジア"
+    ],
+    "year": 1983,
+    "type": "cultural",
+    "criteria": [
+      1
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-paris-seine",
+    "scope": "world",
+    "nameJa": "パリのセーヌ河岸",
+    "places": [
+      "フランス"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1991,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-venice",
+    "scope": "world",
+    "nameJa": "ヴェネツィアとその潟",
+    "places": [
+      "イタリア"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-lubeck",
+    "scope": "world",
+    "nameJa": "ハンザ都市リューベック",
+    "places": [
+      "ドイツ"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1987,
+    "type": "cultural",
+    "criteria": [
+      4
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-alhambra",
+    "scope": "world",
+    "nameJa": "グラナダのアルハンブラ宮殿、ヘネラリーフェ離宮、アルバイシン地区",
+    "places": [
+      "スペイン"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1984,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3,
+      4
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-castel-del-monte",
+    "scope": "world",
+    "nameJa": "カステル・デル・モンテ",
+    "places": [
+      "イタリア"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1996,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-avignon",
+    "scope": "world",
+    "nameJa": "アヴィニョンの歴史地区：教皇庁宮殿、司教の建造物群、アヴィニョンの橋",
+    "places": [
+      "フランス"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1995,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-luther-memorials",
+    "scope": "world",
+    "nameJa": "アイスレーベンとヴィッテンベルクのルター記念建造物群",
+    "places": [
+      "ドイツ"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1996,
+    "type": "cultural",
+    "criteria": [
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-florence",
+    "scope": "world",
+    "nameJa": "フィレンツェの歴史地区",
+    "places": [
+      "イタリア"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1982,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-pisa",
+    "scope": "world",
+    "nameJa": "ピサのドゥオーモ広場",
+    "places": [
+      "イタリア"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-mexico-city-and-xochimilco",
+    "scope": "world",
+    "nameJa": "メキシコ・シティの歴史地区とソチミルコ",
+    "places": [
+      "メキシコ"
+    ],
+    "regions": [
+      "北米"
+    ],
+    "year": 1987,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-moscow",
+    "scope": "world",
+    "nameJa": "モスクワのクレムリンと赤の広場",
+    "places": [
+      "ロシア"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1990,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-chichen-itza",
+    "scope": "world",
+    "nameJa": "チチェン・イツァの古代都市",
+    "places": [
+      "メキシコ"
+    ],
+    "regions": [
+      "北米"
+    ],
+    "year": 1988,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-machu-picchu",
+    "scope": "world",
+    "nameJa": "マチュ・ピチュ",
+    "places": [
+      "ペルー"
+    ],
+    "regions": [
+      "南米"
+    ],
+    "year": 1983,
+    "type": "mixed",
+    "criteria": [
+      1,
+      3,
+      7,
+      9
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-rapa-nui",
+    "scope": "world",
+    "nameJa": "ラパ・ニュイ国立公園",
+    "places": [
+      "チリ"
+    ],
+    "regions": [
+      "南米"
+    ],
+    "year": 1995,
+    "type": "cultural",
+    "criteria": [
+      1,
+      3,
+      5
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-copan",
+    "scope": "world",
+    "nameJa": "コパンのマヤ遺跡",
+    "places": [
+      "ホンジュラス"
+    ],
+    "regions": [
+      "中米・カリブ海"
+    ],
+    "year": 1980,
+    "type": "cultural",
+    "criteria": [
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-ming-and-qing-dynasties",
+    "scope": "world",
+    "nameJa": "北京と瀋陽の故宮",
+    "places": [
+      "中国"
+    ],
+    "regions": [
+      "東・東南アジア"
+    ],
+    "year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-hue",
+    "scope": "world",
+    "nameJa": "フエの歴史的建造物群",
+    "places": [
+      "ベトナム"
+    ],
+    "regions": [
+      "東・東南アジア"
+    ],
+    "year": 1993,
+    "type": "cultural",
+    "criteria": [
+      4
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-timbuktu",
+    "scope": "world",
+    "nameJa": "伝説の都市トンブクトゥ",
+    "places": [
+      "マリ"
+    ],
+    "regions": [
+      "アフリカ"
+    ],
+    "year": 1988,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4,
+      5
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-uluru-kata-tjuta",
+    "scope": "world",
+    "nameJa": "ウルル、カタ・ジュタ国立公園",
+    "places": [
+      "オーストラリア"
+    ],
+    "regions": [
+      "オセアニア"
+    ],
+    "year": 1987,
+    "type": "mixed",
+    "criteria": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-versailles",
+    "scope": "world",
+    "nameJa": "ヴェルサイユ宮殿と庭園",
+    "places": [
+      "フランス"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1979,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      6
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-schonbrunn",
+    "scope": "world",
+    "nameJa": "シェーンブルン宮殿と庭園",
+    "places": [
+      "オーストリア"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1996,
+    "type": "cultural",
+    "criteria": [
+      1,
+      4
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-potsdam-and-berlin",
+    "scope": "world",
+    "nameJa": "ポツダムとベルリンの宮殿と庭園",
+    "places": [
+      "ドイツ"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1990,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-westminster",
+    "scope": "world",
+    "nameJa": "ウェストミンスター宮殿、ウェストミンスター・アビーとセント・マーガレット教会",
+    "places": [
+      "イギリス"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-saint-petersburg",
+    "scope": "world",
+    "nameJa": "サンクト・ペテルブルクの歴史地区と関連建造物群",
+    "places": [
+      "ロシア"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1990,
+    "type": "cultural",
+    "criteria": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-vienna",
+    "scope": "world",
+    "nameJa": "ウィーンの歴史地区",
+    "places": [
+      "オーストリア"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 2001,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-new-lanark",
+    "scope": "world",
+    "nameJa": "ニュー・ラナーク",
+    "places": [
+      "イギリス"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 2001,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-statue-of-liberty",
+    "scope": "world",
+    "nameJa": "自由の女神像",
+    "places": [
+      "アメリカ"
+    ],
+    "regions": [
+      "北米"
+    ],
+    "year": 1984,
+    "type": "cultural",
+    "criteria": [
+      1,
+      6
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-brasilia",
+    "scope": "world",
+    "nameJa": "ブラジリア",
+    "places": [
+      "ブラジル"
+    ],
+    "regions": [
+      "南米"
+    ],
+    "year": 1987,
+    "type": "cultural",
+    "criteria": [
+      1,
+      4
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-cordilleras",
+    "scope": "world",
+    "nameJa": "フィリピンのコルディリェーラの棚田群",
+    "places": [
+      "フィリピン"
+    ],
+    "regions": [
+      "東・東南アジア"
+    ],
+    "year": 1995,
+    "type": "cultural",
+    "criteria": [
+      3,
+      4,
+      5
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-warsaw",
+    "scope": "world",
+    "nameJa": "ワルシャワの歴史地区",
+    "places": [
+      "ポーランド"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1980,
+    "type": "cultural",
+    "criteria": [
+      2,
+      6
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-jerusalem",
+    "scope": "world",
+    "nameJa": "エルサレムの旧市街とその城壁群",
+    "places": [
+      "エルサレム"
+    ],
+    "regions": [
+      "西・南アジア"
+    ],
+    "year": 1981,
+    "type": "cultural",
+    "criteria": [
+      2,
+      3,
+      6
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-robben-island",
+    "scope": "world",
+    "nameJa": "ロベン島",
+    "places": [
+      "南アフリカ"
+    ],
+    "regions": [
+      "アフリカ"
+    ],
+    "year": 1999,
+    "type": "cultural",
+    "criteria": [
+      3,
+      6
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-jungfrau-aletsch",
+    "scope": "world",
+    "nameJa": "ユングフラウ－アレッチュのスイス・アルプス",
+    "places": [
+      "スイス"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 2001,
+    "type": "natural",
+    "criteria": [
+      7,
+      8,
+      9
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-hawaii-volcanoes",
+    "scope": "world",
+    "nameJa": "ハワイ火山国立公園",
+    "places": [
+      "アメリカ"
+    ],
+    "regions": [
+      "北米"
+    ],
+    "year": 1987,
+    "type": "natural",
+    "criteria": [
+      8
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-los-glaciares",
+    "scope": "world",
+    "nameJa": "ロス・グラシアレス国立公園",
+    "places": [
+      "アルゼンチン"
+    ],
+    "regions": [
+      "南米"
+    ],
+    "year": 1981,
+    "type": "natural",
+    "criteria": [
+      7,
+      8
+    ],
+    "transboundary": false,
+    "estimated": false
+  },
+  {
+    "id": "w-iguacu-brazil",
+    "scope": "world",
+    "nameJa": "イグアス国立公園（ブラジル）",
+    "places": [
+      "ブラジル"
+    ],
+    "regions": [
+      "南米"
+    ],
+    "year": 1986,
+    "type": "natural",
+    "criteria": [
+      7,
+      10
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-mosi-oa-tunya",
+    "scope": "world",
+    "nameJa": "ヴィクトリアの滝（モシ・オ・トゥニャ）",
+    "places": [
+      "ザンビア",
+      "ジンバブエ"
+    ],
+    "regions": [
+      "アフリカ"
+    ],
+    "year": 1989,
+    "type": "natural",
+    "criteria": [
+      7,
+      8
+    ],
+    "transboundary": true,
+    "estimated": true
+  },
+  {
+    "id": "w-lake-baikal",
+    "scope": "world",
+    "nameJa": "バイカル湖",
+    "places": [
+      "ロシア"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1996,
+    "type": "natural",
+    "criteria": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-ngorongoro",
+    "scope": "world",
+    "nameJa": "ンゴロンゴロ自然保護区",
+    "places": [
+      "タンザニア"
+    ],
+    "regions": [
+      "アフリカ"
+    ],
+    "year": 1979,
+    "type": "mixed",
+    "criteria": [
+      4,
+      7,
+      8,
+      9,
+      10
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-central-amazon",
+    "scope": "world",
+    "nameJa": "中央アマゾン自然保護区群",
+    "places": [
+      "ブラジル"
+    ],
+    "regions": [
+      "南米"
+    ],
+    "year": 2000,
+    "type": "natural",
+    "criteria": [
+      9,
+      10
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-sichuan-giant-panda",
+    "scope": "world",
+    "nameJa": "四川省のジャイアントパンダ保護区群",
+    "places": [
+      "中国"
+    ],
+    "regions": [
+      "東・東南アジア"
+    ],
+    "year": 2006,
+    "type": "natural",
+    "criteria": [
+      10
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-virunga",
+    "scope": "world",
+    "nameJa": "ヴィルンガ国立公園",
+    "places": [
+      "コンゴ民主共和国"
+    ],
+    "regions": [
+      "アフリカ"
+    ],
+    "year": 1979,
+    "type": "natural",
+    "criteria": [
+      7,
+      8,
+      10
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-henderson-island",
+    "scope": "world",
+    "nameJa": "ヘンダーソン島",
+    "places": [
+      "イギリス"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1988,
+    "type": "natural",
+    "criteria": [
+      7,
+      10
+    ],
+    "transboundary": false,
+    "estimated": true
+  }
+]

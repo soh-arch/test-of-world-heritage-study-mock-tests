@@ -182,3 +182,13 @@ button {
   #app { padding: 1.75rem 1rem 3rem; }
   .verdict .score { font-size: 2rem; }
 }
+
+.breakdown {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.3rem 1.5rem;
+  margin: 0 0 2rem;
+  font-size: 0.9rem;
+}
+.breakdown dt { color: var(--text-faint); }
+.breakdown dd { margin: 0; font-variant-numeric: tabular-nums; }

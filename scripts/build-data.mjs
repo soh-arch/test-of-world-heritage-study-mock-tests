@@ -24,14 +24,67 @@ const PREFECTURE_REGION = {
   大分県: "九州・沖縄", 宮崎県: "九州・沖縄", 鹿児島県: "九州・沖縄", 沖縄県: "九州・沖縄",
 };
 
-// The research data stores region_jp as one string, joining several regions with
-// the same separator that "九州・沖縄" contains. Longest match first avoids
-// splitting that region in two.
+// The research data carries formal state names. Choices read better, and match
+// how the exam phrases them, with the everyday short form.
+const COUNTRY_SHORT = {
+  アメリカ合衆国: "アメリカ",
+  アルゼンチン共和国: "アルゼンチン",
+  イタリア共和国: "イタリア",
+  イラク共和国: "イラク",
+  "イラン・イスラム共和国": "イラン",
+  インド: "インド",
+  ウズベキスタン共和国: "ウズベキスタン",
+  エクアドル共和国: "エクアドル",
+  "エジプト・アラブ共和国": "エジプト",
+  エチオピア連邦民主共和国: "エチオピア",
+  "エルサレム（ヨルダン・ハシェミット王国による申請遺産）": "エルサレム",
+  オーストラリア連邦: "オーストラリア",
+  オーストリア共和国: "オーストリア",
+  カザフスタン共和国: "カザフスタン",
+  カンボジア王国: "カンボジア",
+  キルギス共和国: "キルギス",
+  ギリシャ共和国: "ギリシャ",
+  コンゴ民主共和国: "コンゴ民主共和国",
+  ザンビア共和国: "ザンビア",
+  ジンバブエ共和国: "ジンバブエ",
+  スイス連邦: "スイス",
+  スペイン: "スペイン",
+  タイ王国: "タイ",
+  タンザニア連合共和国: "タンザニア",
+  チリ共和国: "チリ",
+  トルコ共和国: "トルコ",
+  ドイツ連邦共和国: "ドイツ",
+  ニュージーランド: "ニュージーランド",
+  ネパール: "ネパール",
+  フィリピン共和国: "フィリピン",
+  フランス共和国: "フランス",
+  ブラジル連邦共和国: "ブラジル",
+  ベトナム社会主義共和国: "ベトナム",
+  ベルギー王国: "ベルギー",
+  ペルー共和国: "ペルー",
+  ホンジュラス共和国: "ホンジュラス",
+  ボリビア多民族国: "ボリビア",
+  ポーランド共和国: "ポーランド",
+  マリ共和国: "マリ",
+  マレーシア: "マレーシア",
+  メキシコ合衆国: "メキシコ",
+  ロシア連邦: "ロシア",
+  "ヴァティカン市国": "ヴァティカン市国",
+  中華人民共和国: "中国",
+  南アフリカ共和国: "南アフリカ",
+  大韓民国: "韓国",
+  日本国: "日本",
+  "英国（グレートブリテン及び北アイルランド連合王国）": "イギリス",
+};
+
+// The region_jp string joins several regions with the same separator that
+// "九州・沖縄" contains, so match the longest region name first.
 function parseRegions(composite) {
+  const ordered = [...REGIONS].sort((a, b) => b.length - a.length);
   const found = [];
   let rest = composite;
   while (rest.length > 0) {
-    const match = [...REGIONS].sort((a, b) => b.length - a.length).find((r) => rest.startsWith(r));
+    const match = ordered.find((r) => rest.startsWith(r));
     if (!match) {
       rest = rest.slice(1);
       continue;
@@ -42,20 +95,25 @@ function parseRegions(composite) {
   return found;
 }
 
-const japan = JSON.parse(readFileSync(resolve(source, "japan-sites.json"), "utf8"));
+function normalizeEnglish(name) {
+  return [...(name ?? "")].filter((c) => /[a-z0-9]/i.test(c)).join("").toLowerCase();
+}
+
+const japanRaw = JSON.parse(readFileSync(resolve(source, "japan-sites.json"), "utf8"));
+const worldRaw = JSON.parse(readFileSync(resolve(source, "world-sites-candidates.json"), "utf8"));
 const config = JSON.parse(readFileSync(resolve(source, "exam-config.json"), "utf8"));
 
 const problems = [];
 
-const sites = japan.map((site) => {
+const japan = japanRaw.map((site) => {
   const derived = [...new Set(site.prefectures.map((p) => PREFECTURE_REGION[p]))];
   if (derived.some((r) => r === undefined)) {
     problems.push(`${site.id}: unknown prefecture in ${JSON.stringify(site.prefectures)}`);
   }
 
   const declared = parseRegions(site.region_jp);
-  const sameSet = derived.length === declared.length && derived.every((r) => declared.includes(r));
-  if (!sameSet) {
+  const agrees = derived.length === declared.length && derived.every((r) => declared.includes(r));
+  if (!agrees) {
     problems.push(
       `${site.id}: regions derived from prefectures ${JSON.stringify(derived)} ` +
         `disagree with region_jp ${JSON.stringify(declared)}`,
@@ -64,15 +122,61 @@ const sites = japan.map((site) => {
 
   return {
     id: site.id,
+    scope: "japan",
     nameJa: site.name_ja,
-    nameAlt: site.name_ja_alt_bunkacho,
-    prefectures: site.prefectures,
+    places: site.prefectures,
     regions: derived,
     year: site.registration_year,
     type: site.type,
     criteria: site.criteria,
+    // A site shared with other countries is not "located in" one Japanese
+    // region, even though the data only lists its Japanese component.
+    transboundary: site.is_transboundary,
   };
 });
+
+// Le Corbusier's work spans seven countries including Japan, so it appears in
+// both datasets. Keep the Japanese record: grade 3 covers every Japanese site.
+const japaneseEnglishNames = new Set(japanRaw.map((s) => normalizeEnglish(s.name_en)));
+const duplicates = [];
+
+const world = worldRaw
+  .filter((site) => !site.delisted)
+  .filter((site) => {
+    const duplicate = japaneseEnglishNames.has(normalizeEnglish(site.name_en));
+    if (duplicate) duplicates.push(site.id);
+    return !duplicate;
+  })
+  .map((site) => {
+    const places = site.country_ja.map((country) => {
+      const short = COUNTRY_SHORT[country];
+      if (!short) problems.push(`${site.id}: no short name for ${country}`);
+      return short ?? country;
+    });
+
+    return {
+      id: site.id,
+      scope: "world",
+      nameJa: site.name_ja,
+      places,
+      regions: [site.unesco_region],
+      year: site.registration_year,
+      type: site.type,
+      criteria: site.criteria,
+      transboundary: site.is_transboundary,
+      // Whether the site is really in the grade 3 textbook is inferred for most
+      // of these; see docs/research/open-questions.md, D1.
+      estimated: site.in_textbook_confidence !== "確定",
+    };
+  });
+
+const sites = [...japan, ...world];
+
+const ids = new Set();
+for (const site of sites) {
+  if (ids.has(site.id)) problems.push(`duplicate id ${site.id}`);
+  ids.add(site.id);
+}
 
 if (problems.length > 0) {
   for (const problem of problems) console.error(`ERROR ${problem}`);
@@ -84,13 +188,15 @@ const examConfig = {
   sourceVerifiedAt: config.source_verified_at,
   totalQuestions: config.total_questions,
   timeLimitMinutes: config.time_limit_minutes,
-  totalPoints: config.total_points,
   passScore: config.pass_score,
   categories: config.categories.map((c) => ({ key: c.key, label: c.label, ratio: c.ratio })),
 };
 
 mkdirSync(target, { recursive: true });
-writeFileSync(resolve(target, "japan-sites.json"), JSON.stringify(sites, null, 2) + "\n");
+writeFileSync(resolve(target, "sites.json"), JSON.stringify(sites, null, 2) + "\n");
 writeFileSync(resolve(target, "exam-config.json"), JSON.stringify(examConfig, null, 2) + "\n");
 
-console.log(`built ${sites.length} sites, ${new Set(sites.flatMap((s) => s.regions)).size} regions`);
+console.log(
+  `built ${sites.length} sites (japan ${japan.length}, world ${world.length}); ` +
+    `dropped duplicates: ${duplicates.join(", ") || "none"}`,
+);

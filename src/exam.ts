@@ -1,6 +1,19 @@
-import type { Exam, Question, Site, TemplateKey } from "./types";
-import { applicableSites, generateWith } from "./generator";
+import configJson from "./data/exam-config.json";
+import type { CategoryKey, Exam, Question, Site, TemplateKey } from "./types";
+import { applicableSites, categoriesOf, generateWith } from "./generator";
 import { createRng, shuffle } from "./rng";
+
+const config = configJson as { categories: Array<{ key: string; label: string; ratio: number }> };
+
+/** The categories the current data can answer. Basic knowledge and "その他" need
+ *  hand-written questions, so they are left out and the rest are renormalised. */
+export const COVERED: CategoryKey[] = ["japan", "world_natural", "world_cultural"];
+
+export const CATEGORY_LABEL: Record<CategoryKey, string> = {
+  japan: "日本の遺産",
+  world_natural: "世界の自然遺産",
+  world_cultural: "世界の文化遺産",
+};
 
 /**
  * Share of an exam each template takes. Provisional: the official split by
@@ -8,23 +21,39 @@ import { createRng, shuffle } from "./rng";
  */
 export const TEMPLATE_WEIGHTS: Record<TemplateKey, number> = {
   year: 0.3,
-  prefecture: 0.3,
+  place: 0.3,
   region: 0.2,
   pickByType: 0.2,
 };
 
-/** Splits `total` into per-template counts, giving remainders to the heaviest. */
-export function allocate(total: number): Array<[TemplateKey, number]> {
-  const entries = Object.entries(TEMPLATE_WEIGHTS) as Array<[TemplateKey, number]>;
-  const counts = entries.map(([key, weight]) => [key, Math.floor(total * weight)] as [TemplateKey, number]);
-  let remaining = total - counts.reduce((sum, [, n]) => sum + n, 0);
-  const byWeight = [...counts].sort((a, b) => TEMPLATE_WEIGHTS[b[0]] - TEMPLATE_WEIGHTS[a[0]]);
-  for (const entry of byWeight) {
+/** Largest remainder, so the counts always add up to `total`. */
+function split<K extends string>(total: number, weights: Array<[K, number]>): Array<[K, number]> {
+  const sum = weights.reduce((acc, [, w]) => acc + w, 0);
+  const exact = weights.map(([key, w]) => [key, (total * w) / sum] as const);
+  const counts = exact.map(([key, value]) => [key, Math.floor(value)] as [K, number]);
+
+  let remaining = total - counts.reduce((acc, [, n]) => acc + n, 0);
+  const byRemainder = exact
+    .map(([, value], i) => ({ i, fraction: value - Math.floor(value) }))
+    .sort((a, b) => b.fraction - a.fraction || a.i - b.i);
+
+  for (const { i } of byRemainder) {
     if (remaining <= 0) break;
-    entry[1] += 1;
+    counts[i]![1] += 1;
     remaining -= 1;
   }
   return counts;
+}
+
+export function allocateCategories(total: number): Array<[CategoryKey, number]> {
+  const ratios = COVERED.map(
+    (key) => [key, config.categories.find((c) => c.key === key)?.ratio ?? 0] as [CategoryKey, number],
+  );
+  return split(total, ratios);
+}
+
+export function allocateTemplates(total: number): Array<[TemplateKey, number]> {
+  return split(total, Object.entries(TEMPLATE_WEIGHTS) as Array<[TemplateKey, number]>);
 }
 
 export function randomSeed(): number {
@@ -32,55 +61,12 @@ export function randomSeed(): number {
 }
 
 /**
- * Builds an exam of `total` questions. Each site appears at most once, so no
- * question can hint at the answer to another.
- */
-export function buildExam(sites: readonly Site[], total: number, seed: number): Exam {
-  const rng = createRng(seed);
-  const used = new Set<string>();
-  const questions: Question[] = [];
-
-  for (const [template, wanted] of allocate(total)) {
-    const candidates = orderCandidates(rng, sites, template);
-    let taken = 0;
-    for (const site of candidates) {
-      if (taken >= wanted) break;
-      if (used.has(site.id)) continue;
-      const question = generateWith(rng, site, sites, template);
-      if (!question) continue;
-      used.add(site.id);
-      questions.push(question);
-      taken += 1;
-    }
-  }
-
-  // A template can run out of unused sites; fill the gap with any template that
-  // still works, so an exam is never short of questions.
-  if (questions.length < total) {
-    for (const site of shuffle(rng, [...sites])) {
-      if (questions.length >= total) break;
-      if (used.has(site.id)) continue;
-      for (const template of shuffle(rng, Object.keys(TEMPLATE_WEIGHTS) as TemplateKey[])) {
-        const question = generateWith(rng, site, sites, template);
-        if (!question) continue;
-        used.add(site.id);
-        questions.push(question);
-        break;
-      }
-    }
-  }
-
-  // Templates are allocated in order, so shuffle to avoid a predictable run.
-  return { seed, questions: shuffle(rng, questions) };
-}
-
-/**
  * Most Japanese sites are cultural, so drawing uniformly would make nearly every
- * "which of these is a cultural site" question look the same and burn the five
+ * "which of these is a cultural site" question look the same and burn the few
  * natural sites as distractors. Interleaving by type keeps both kinds asked.
  */
-function orderCandidates(rng: () => number, sites: readonly Site[], template: TemplateKey): Site[] {
-  const applicable = applicableSites(sites, template);
+function orderCandidates(rng: () => number, pool: readonly Site[], template: TemplateKey): Site[] {
+  const applicable = applicableSites(pool, template);
   if (template !== "pickByType") return shuffle(rng, applicable);
 
   const byType = new Map<string, Site[]>();
@@ -99,25 +85,109 @@ function orderCandidates(rng: () => number, sites: readonly Site[], template: Te
   return ordered;
 }
 
+interface Taken {
+  /** Sites already asked about; a second question could hint at the answer. */
+  sites: Set<string>;
+  /** Question stems already used. "次のうち、文化遺産は…" has only three
+   *  possible forms, so without this it fills half the paper. */
+  stems: Set<string>;
+}
+
+function take(
+  rng: () => number,
+  want: number,
+  pool: readonly Site[],
+  all: readonly Site[],
+  taken: Taken,
+  category: CategoryKey,
+): Question[] {
+  const questions: Question[] = [];
+
+  const fill = (template: TemplateKey, limit: number) => {
+    let count = 0;
+    for (const site of orderCandidates(rng, pool, template)) {
+      if (count >= limit) break;
+      if (taken.sites.has(site.id)) continue;
+      const question = generateWith(rng, site, all, template);
+      if (!question || taken.stems.has(question.text)) continue;
+      taken.sites.add(site.id);
+      taken.stems.add(question.text);
+      questions.push({ ...question, category });
+      count += 1;
+    }
+  };
+
+  for (const [template, count] of allocateTemplates(want)) fill(template, count);
+
+  // A template can run out of unused sites; make up the shortfall with any
+  // other template so the category still gets its share.
+  for (const template of shuffle(rng, Object.keys(TEMPLATE_WEIGHTS) as TemplateKey[])) {
+    if (questions.length >= want) break;
+    fill(template, want - questions.length);
+  }
+
+  return questions;
+}
+
+/**
+ * Builds an exam of `total` questions, holding the official category split.
+ * Each site appears at most once, so no question can hint at another's answer.
+ */
+export function buildExam(sites: readonly Site[], total: number, seed: number): Exam {
+  const rng = createRng(seed);
+  const taken: Taken = { sites: new Set(), stems: new Set() };
+  const questions: Question[] = [];
+
+  for (const [category, want] of allocateCategories(total)) {
+    const pool = sites.filter((site) => categoriesOf(site).includes(category));
+    questions.push(...take(rng, want, pool, sites, taken, category));
+  }
+
+  // If a category could not be filled, top up from everything that is left.
+  if (questions.length < total) {
+    questions.push(...take(rng, total - questions.length, sites, sites, taken, "japan"));
+  }
+
+  // Categories are filled in order, so shuffle to avoid a predictable run.
+  return { seed, questions: shuffle(rng, questions) };
+}
+
 export interface Grade {
   correct: number;
   total: number;
   score: number;
   passed: boolean;
+  byCategory: Array<{ category: CategoryKey; correct: number; total: number }>;
   wrong: Array<{ question: Question; chosen: string | null }>;
 }
 
 export function grade(exam: Exam, answers: ReadonlyMap<string, string>, passScore: number): Grade {
   const wrong: Grade["wrong"] = [];
+  const tally = new Map<CategoryKey, { correct: number; total: number }>();
   let correct = 0;
 
   for (const question of exam.questions) {
-    const chosen = answers.get(question.id) ?? null;
-    if (chosen === question.answerKey) correct += 1;
-    else wrong.push({ question, chosen });
+    const bucket = tally.get(question.category) ?? { correct: 0, total: 0 };
+    bucket.total += 1;
+
+    if (answers.get(question.id) === question.answerKey) {
+      correct += 1;
+      bucket.correct += 1;
+    } else {
+      wrong.push({ question, chosen: answers.get(question.id) ?? null });
+    }
+    tally.set(question.category, bucket);
   }
 
   const total = exam.questions.length;
   const score = total === 0 ? 0 : Math.round((correct / total) * 100);
-  return { correct, total, score, passed: score >= passScore, wrong };
+
+  return {
+    correct,
+    total,
+    score,
+    passed: score >= passScore,
+    byCategory: COVERED.filter((c) => tally.has(c)).map((category) => ({ category, ...tally.get(category)! })),
+    wrong,
+  };
 }
