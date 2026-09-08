@@ -28,15 +28,16 @@ export function categoriesOf(site: Site): CategoryKey[] {
 }
 
 // A template only applies where the site's data yields exactly one answer.
-const APPLICABLE: Record<TemplateKey, (site: Site) => boolean> = {
+const APPLICABLE: Record<TemplateKey, (site: Site, all: readonly Site[]) => boolean> = {
   year: () => true,
   place: (site) => site.places.length === 1 && !site.transboundary,
   region: (site) => site.regions.length === 1 && !site.transboundary,
+  related: (site, all) => relatedVariants(site, all).length > 0,
   pickByType: () => true,
 };
 
 export function applicableSites(sites: readonly Site[], template: TemplateKey): Site[] {
-  return sites.filter(APPLICABLE[template]);
+  return sites.filter((site) => APPLICABLE[template](site, sites));
 }
 
 function yearQuestion(rng: () => number, site: Site, all: readonly Site[]): Question {
@@ -114,10 +115,88 @@ function pickByTypeQuestion(rng: () => number, site: Site, all: readonly Site[])
   );
 }
 
+/**
+ * Approximates the exam's "relate one site to another" type. The official
+ * examples relate sites thematically (Rome to ancient Nara); this data only
+ * supports relating them by inscription year or by where they are, so it is a
+ * stand-in until hand-written questions exist. See
+ * docs/research/facts/05-question-type-gap.md.
+ */
+type RelatedVariant = "year" | "place";
+
+function traitOf(site: Site): string[] {
+  return site.scope === "japan" ? site.regions : site.places;
+}
+
+/**
+ * Saying a site is "in" one place only holds where it has a single one and is
+ * not shared with other countries. Le Corbusier's work is recorded under Tokyo
+ * but spans seven countries, and the Meiji industrial sites span five regions.
+ */
+function locatable(site: Site): boolean {
+  return !site.transboundary && traitOf(site).length === 1;
+}
+
+function relatedMatches(site: Site, other: Site, variant: RelatedVariant): boolean {
+  if (other.id === site.id) return false;
+  if (variant === "year") return other.year === site.year;
+  return traitOf(site).some((value) => traitOf(other).includes(value));
+}
+
+/**
+ * Candidates for one variant. A shared site is dropped from the place variant
+ * altogether rather than merely counted as no match: Rome is shared with the
+ * Holy See, so treating it as "not in Italy" would let it become a distractor
+ * to an Italy question it actually answers.
+ */
+function relatedPool(site: Site, all: readonly Site[], variant: RelatedVariant): Site[] {
+  if (variant === "year") return [...all];
+  return all.filter((s) => s.scope === site.scope && !s.transboundary);
+}
+
+export function relatedVariants(site: Site, all: readonly Site[]): RelatedVariant[] {
+  return (["year", "place"] as RelatedVariant[]).filter((variant) => {
+    if (variant === "place" && !locatable(site)) return false;
+    const scoped = relatedPool(site, all, variant);
+    const matching = scoped.filter((s) => relatedMatches(site, s, variant));
+    const rest = scoped.filter((s) => s.id !== site.id && !relatedMatches(site, s, variant));
+    return matching.length >= 1 && rest.length >= 3;
+  });
+}
+
+function relatedQuestion(rng: () => number, site: Site, all: readonly Site[]): Question {
+  const variant = pick(rng, relatedVariants(site, all));
+  const scoped = relatedPool(site, all, variant);
+  const answer = pick(rng, scoped.filter((s) => relatedMatches(site, s, variant)));
+  const distractors = drawFrom(
+    rng,
+    3,
+    scoped.filter((s) => s.id !== site.id && s.id !== answer.id && !relatedMatches(site, s, variant)),
+  );
+
+  const shared =
+    variant === "year"
+      ? `${site.year}年に登録された`
+      : `${traitOf(site)[0]}${site.scope === "japan" ? "地方" : ""}にある`;
+
+  return finish(
+    rng,
+    site,
+    "related",
+    `${site.nameJa}と同じく${shared}世界遺産として、正しいものはどれか。`,
+    [
+      { key: answer.id, label: answer.nameJa },
+      ...distractors.map((s) => ({ key: s.id, label: s.nameJa })),
+    ],
+    `${answer.nameJa}も${shared}。`,
+  );
+}
+
 const BUILDERS: Record<TemplateKey, (rng: () => number, site: Site, all: readonly Site[]) => Question> = {
   year: yearQuestion,
   place: placeQuestion,
   region: regionQuestion,
+  related: relatedQuestion,
   pickByType: pickByTypeQuestion,
 };
 
@@ -142,7 +221,7 @@ function finish(
 }
 
 export function generate(rng: () => number, site: Site, all: readonly Site[]): Question | null {
-  const templates = (Object.keys(BUILDERS) as TemplateKey[]).filter((t) => APPLICABLE[t](site));
+  const templates = (Object.keys(BUILDERS) as TemplateKey[]).filter((t) => APPLICABLE[t](site, all));
   if (templates.length === 0) return null;
   return generateWith(rng, site, all, pick(rng, templates));
 }
@@ -153,7 +232,7 @@ export function generateWith(
   all: readonly Site[],
   template: TemplateKey,
 ): Question | null {
-  if (!APPLICABLE[template](site)) return null;
+  if (!APPLICABLE[template](site, all)) return null;
   const question = BUILDERS[template](rng, site, all);
   return validate(question).length === 0 ? question : null;
 }

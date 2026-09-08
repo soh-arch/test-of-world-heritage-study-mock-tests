@@ -20,7 +20,7 @@ export interface Site {
   estimated?: boolean;
 }
 
-export type TemplateKey = "year" | "place" | "region" | "pickByType";
+export type TemplateKey = "year" | "place" | "region" | "related" | "pickByType";
 
 /** The categories the exam is built from that this data can answer. */
 export type CategoryKey = "japan" | "world_natural" | "world_cultural";

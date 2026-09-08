@@ -190,6 +190,13 @@ const examConfig = {
   timeLimitMinutes: config.time_limit_minutes,
   passScore: config.pass_score,
   categories: config.categories.map((c) => ({ key: c.key, label: c.label, ratio: c.ratio })),
+  // Estimated from the five official sample questions, so weak evidence. The
+  // exam allocates templates from these rather than from hard-coded weights.
+  questionTypes: config.question_types.map((t) => ({
+    key: t.key,
+    label: t.label,
+    ratio: t.estimated_ratio,
+  })),
 };
 
 mkdirSync(target, { recursive: true });

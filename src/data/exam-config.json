@@ -30,5 +30,42 @@
       "label": "その他",
       "ratio": 0.05
     }
+  ],
+  "questionTypes": [
+    {
+      "key": "name_identify_from_text",
+      "label": "説明文・空欄補充から遺産名／語句を特定する",
+      "ratio": 0.35
+    },
+    {
+      "key": "basic_knowledge",
+      "label": "世界遺産条約・ユネスコ・登録基準など基礎知識を問う",
+      "ratio": 0.25
+    },
+    {
+      "key": "attribute_country_place",
+      "label": "所在国・所在都道府県・地理的位置を問う",
+      "ratio": 0.12
+    },
+    {
+      "key": "related_association",
+      "label": "ある遺産と共通点をもつ別の遺産／人物・出来事を結びつける",
+      "ratio": 0.12
+    },
+    {
+      "key": "photo",
+      "label": "写真・図版を見て答える",
+      "ratio": 0.08
+    },
+    {
+      "key": "year",
+      "label": "登録年・出来事の年代を問う",
+      "ratio": 0.05
+    },
+    {
+      "key": "current_affairs",
+      "label": "直近の世界遺産委員会・新規登録など時事を問う",
+      "ratio": 0.03
+    }
   ]
 }

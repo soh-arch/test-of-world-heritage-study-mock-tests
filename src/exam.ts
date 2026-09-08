@@ -3,7 +3,10 @@ import type { CategoryKey, Exam, Question, Site, TemplateKey } from "./types";
 import { applicableSites, categoriesOf, generateWith } from "./generator";
 import { createRng, shuffle } from "./rng";
 
-const config = configJson as { categories: Array<{ key: string; label: string; ratio: number }> };
+const config = configJson as {
+  categories: Array<{ key: string; label: string; ratio: number }>;
+  questionTypes: Array<{ key: string; label: string; ratio: number }>;
+};
 
 /** The categories the current data can answer. Basic knowledge and "その他" need
  *  hand-written questions, so they are left out and the rest are renormalised. */
@@ -16,15 +19,29 @@ export const CATEGORY_LABEL: Record<CategoryKey, string> = {
 };
 
 /**
- * Share of an exam each template takes. Provisional: the official split by
- * question type is not published (see docs/research/open-questions.md, S4).
+ * Which of the exam's own question types each template stands in for, and how
+ * much of that type it covers. Deriving the weights from the config instead of
+ * hard-coding them keeps the mix tied to the researched ratios: an earlier
+ * hand-picked set asked for the inscription year six times as often as the exam
+ * appears to. See docs/research/facts/05-question-type-gap.md.
  */
-export const TEMPLATE_WEIGHTS: Record<TemplateKey, number> = {
-  year: 0.3,
-  place: 0.3,
-  region: 0.2,
-  pickByType: 0.2,
+const TEMPLATE_SOURCE: Record<TemplateKey, { type: string; share: number }> = {
+  year: { type: "year", share: 1 },
+  // One official type covers both prefectures/countries and regions.
+  place: { type: "attribute_country_place", share: 0.5 },
+  region: { type: "attribute_country_place", share: 0.5 },
+  related: { type: "related_association", share: 1 },
+  // No official type matches "which of these is a cultural site". Filed under
+  // basic knowledge at a guessed share; the rest of that type needs
+  // hand-written questions.
+  pickByType: { type: "basic_knowledge", share: 0.2 },
 };
+
+export const TEMPLATE_WEIGHTS: Record<TemplateKey, number> = Object.fromEntries(
+  (Object.entries(TEMPLATE_SOURCE) as Array<[TemplateKey, { type: string; share: number }]>).map(
+    ([key, { type, share }]) => [key, (config.questionTypes.find((t) => t.key === type)?.ratio ?? 0) * share],
+  ),
+) as Record<TemplateKey, number>;
 
 /** Largest remainder, so the counts always add up to `total`. */
 function split<K extends string>(total: number, weights: Array<[K, number]>): Array<[K, number]> {

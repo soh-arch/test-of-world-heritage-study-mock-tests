@@ -1,12 +1,20 @@
 import { describe, expect, it } from "vitest";
 import sitesJson from "../src/data/sites.json";
 import type { CategoryKey, Question, Site, TemplateKey } from "../src/types";
-import { applicableSites, categoriesOf, generateWith, normalizeName, validate } from "../src/generator";
-import { allocateCategories, allocateTemplates, buildExam, grade } from "../src/exam";
+import configJson from "../src/data/exam-config.json";
+import {
+  applicableSites,
+  categoriesOf,
+  generateWith,
+  normalizeName,
+  relatedVariants,
+  validate,
+} from "../src/generator";
+import { allocateCategories, allocateTemplates, buildExam, grade, TEMPLATE_WEIGHTS } from "../src/exam";
 import { createRng } from "../src/rng";
 
 const sites = sitesJson as Site[];
-const TEMPLATES: TemplateKey[] = ["year", "place", "region", "pickByType"];
+const TEMPLATES: TemplateKey[] = ["year", "place", "region", "related", "pickByType"];
 
 const japan = sites.filter((s) => s.scope === "japan");
 const world = sites.filter((s) => s.scope === "world");
@@ -120,6 +128,56 @@ describe("generated questions", () => {
         }
       }
     }
+  });
+});
+
+describe("the related-association template", () => {
+  it("offers exactly one choice that shares the stated trait", () => {
+    for (const site of applicableSites(sites, "related")) {
+      for (let seed = 0; seed < 8; seed++) {
+        const result = generateWith(createRng(seed), site, sites, "related")!;
+        const chosen = result.choices.map((c) => sites.find((s) => s.id === c.key)!);
+        const answer = chosen.find((s) => s.id === result.answerKey)!;
+
+        const byYear = result.text.includes("年に登録された");
+        const shares = (other: Site) =>
+          byYear
+            ? other.year === site.year
+            : site.scope === "japan"
+              ? other.regions.some((r) => site.regions.includes(r))
+              : other.places.some((p) => site.places.includes(p));
+
+        expect(shares(answer), `${site.id}/${seed} answer`).toBe(true);
+        expect(chosen.filter(shares), `${site.id}/${seed}`).toHaveLength(1);
+        expect(chosen.some((s) => s.id === site.id)).toBe(false);
+      }
+    }
+  });
+
+  it("only applies where a partner and three non-partners exist", () => {
+    const accepted = applicableSites(sites, "related");
+    expect(accepted.length).toBeGreaterThan(50);
+    for (const site of accepted) {
+      expect(relatedVariants(site, sites).length).toBeGreaterThan(0);
+    }
+  });
+});
+
+describe("template weights", () => {
+  it("come from the researched question types, not from hand-picked numbers", () => {
+    const config = configJson as { questionTypes: Array<{ key: string; ratio: number }> };
+    const ratio = (key: string) => config.questionTypes.find((t) => t.key === key)!.ratio;
+
+    expect(TEMPLATE_WEIGHTS.year).toBe(ratio("year"));
+    expect(TEMPLATE_WEIGHTS.related).toBe(ratio("related_association"));
+    expect(TEMPLATE_WEIGHTS.place + TEMPLATE_WEIGHTS.region).toBeCloseTo(ratio("attribute_country_place"));
+  });
+
+  it("no longer asks for the inscription year more than any other kind", () => {
+    // The hand-picked weights had year at 30%, against an estimated 5% in the
+    // real exam. It must not be the heaviest template any more.
+    const heaviest = Object.entries(TEMPLATE_WEIGHTS).sort((a, b) => b[1] - a[1])[0]!;
+    expect(heaviest[0]).not.toBe("year");
   });
 });
 
@@ -327,5 +385,46 @@ describe("transboundary sites", () => {
     const site = sites.find((s) => s.id === "jp-le-corbusier")!;
     expect(site.transboundary).toBe(true);
     expect(site.places).toEqual(["東京都"]);
+  });
+});
+
+describe("related questions about where a site is", () => {
+  const placeVariant = (site: Site) => relatedVariants(site, sites).includes("place");
+
+  it("skips sites that are shared with other countries", () => {
+    for (const site of sites.filter((s) => s.transboundary)) {
+      expect(placeVariant(site), site.id).toBe(false);
+    }
+  });
+
+  it("skips sites that span several regions or countries", () => {
+    const spread = sites.filter((s) => (s.scope === "japan" ? s.regions : s.places).length > 1);
+    expect(spread.length).toBeGreaterThan(0);
+    for (const site of spread) {
+      expect(placeVariant(site), site.id).toBe(false);
+    }
+  });
+
+  it("names the site's single place, never a list of them", () => {
+    for (const site of applicableSites(sites, "related")) {
+      for (let seed = 0; seed < 5; seed++) {
+        const text = generateWith(createRng(seed), site, sites, "related")!.text;
+        if (text.includes("年に登録された")) continue;
+        const trait = site.scope === "japan" ? site.regions : site.places;
+        expect(trait, site.id).toHaveLength(1);
+        expect(text, `${site.id}/${seed}`).toContain(`同じく${trait[0]}`);
+      }
+    }
+  });
+
+  it("never offers a shared site as the answer to a single-place question", () => {
+    for (const site of applicableSites(sites, "related")) {
+      for (let seed = 0; seed < 5; seed++) {
+        const result = generateWith(createRng(seed), site, sites, "related")!;
+        if (result.text.includes("年に登録された")) continue;
+        const answer = sites.find((s) => s.id === result.answerKey)!;
+        expect(answer.transboundary, `${site.id}/${seed}`).toBe(false);
+      }
+    }
   });
 });
