@@ -3138,5 +3138,152 @@
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
     "verificationLevel": "primary"
+  },
+  {
+    "id": "other-47th-host",
+    "category": "other",
+    "topic": "世界遺産委員会",
+    "text": "2025年に第47回世界遺産委員会が開催された都市として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "パリ"
+      },
+      {
+        "key": "b",
+        "label": "ニューデリー"
+      },
+      {
+        "key": "c",
+        "label": "釜山"
+      },
+      {
+        "key": "d",
+        "label": "イスタンブル"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "第47回世界遺産委員会は2025年7月、フランスのパリにあるユネスコ本部で開催された。",
+    "source": "https://www.sekaken.jp/pdf/202507_new.pdf（世界遺産検定公式「2025年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
+  },
+  {
+    "id": "other-46th-host",
+    "category": "other",
+    "topic": "世界遺産委員会",
+    "text": "2024年に第46回世界遺産委員会が開催された国として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "インド"
+      },
+      {
+        "key": "b",
+        "label": "フランス"
+      },
+      {
+        "key": "c",
+        "label": "韓国"
+      },
+      {
+        "key": "d",
+        "label": "中国"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "第46回世界遺産委員会は2024年7月、インドのニューデリーで開催された。",
+    "source": "https://www.sekaken.jp/pdf/202407_new.pdf（世界遺産検定公式「2024年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
+  },
+  {
+    "id": "other-49th-host",
+    "category": "other",
+    "topic": "世界遺産委員会",
+    "text": "2027年に第49回世界遺産委員会が開催される予定の国として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "トルコ"
+      },
+      {
+        "key": "b",
+        "label": "韓国"
+      },
+      {
+        "key": "c",
+        "label": "フランス"
+      },
+      {
+        "key": "d",
+        "label": "インド"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "第49回世界遺産委員会はトルコのイスタンブルで開催が予定されている。",
+    "source": "https://www.sekaken.jp/pdf/202607_new.pdf（世界遺産検定公式「2026年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
+  },
+  {
+    "id": "other-top-country",
+    "category": "other",
+    "topic": "世界の現況",
+    "text": "2026年7月時点で、世界遺産を最も多くもつ国として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "イタリア"
+      },
+      {
+        "key": "b",
+        "label": "中国"
+      },
+      {
+        "key": "c",
+        "label": "フランス"
+      },
+      {
+        "key": "d",
+        "label": "スペイン"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "イタリアが62件で最多。次いで中国61件、フランス56件と続く。",
+    "source": "https://www.sekaken.jp/pdf/202607_new.pdf（世界遺産検定公式「2026年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary",
+    "volatile": true
+  },
+  {
+    "id": "other-states-parties",
+    "category": "other",
+    "topic": "世界遺産条約",
+    "text": "2026年7月時点における世界遺産条約の締約国数として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "196"
+      },
+      {
+        "key": "b",
+        "label": "150"
+      },
+      {
+        "key": "c",
+        "label": "173"
+      },
+      {
+        "key": "d",
+        "label": "210"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "196の締約国のうち、173の国と地域に世界遺産が存在する。",
+    "source": "https://www.sekaken.jp/pdf/202607_new.pdf（世界遺産検定公式「2026年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary",
+    "volatile": true
   }
 ]
