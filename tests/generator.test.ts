@@ -508,3 +508,10 @@ describe("the current-affairs category", () => {
     }
   });
 });
+
+describe("the verification gate", () => {
+  it("keeps unverified questions out of the app", () => {
+    // The build withholds them, so nothing the exam can reach is unverified.
+    expect(MANUAL.every((q) => q.verified && q.source.length > 0)).toBe(true);
+  });
+});
