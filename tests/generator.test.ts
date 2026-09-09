@@ -10,8 +10,15 @@ import {
   relatedVariants,
   validate,
 } from "../src/generator";
-import { allocateCategories, allocateTemplates, buildExam, grade, TEMPLATE_WEIGHTS } from "../src/exam";
-import { createRng } from "../src/rng";
+import {
+  allocateCategories,
+  allocateTemplates,
+  buildExam,
+  grade,
+  MANUAL,
+  TEMPLATE_WEIGHTS,
+} from "../src/exam";
+import { createRng, shuffle } from "../src/rng";
 
 const sites = sitesJson as Site[];
 const TEMPLATES: TemplateKey[] = ["year", "place", "region", "related", "pickByType"];
@@ -256,12 +263,13 @@ describe("exam assembly", () => {
   });
 
   it("holds the official category split, renormalised over what it can answer", () => {
-    // Official ratios are 日本 30 / 世界の自然 10 / 世界の文化 30, so of the 70
-    // points this data can answer, 20 questions land as 9 / 3 / 8.
+    // Official ratios are 基礎知識 25 / 日本 30 / 自然 10 / 文化 30. Only "その他"
+    // is unreachable, so 20 questions land as 5 / 7 / 2 / 6.
     expect(allocateCategories(20)).toEqual([
-      ["japan", 9],
-      ["world_natural", 3],
-      ["world_cultural", 8],
+      ["basic", 5],
+      ["japan", 7],
+      ["world_natural", 2],
+      ["world_cultural", 6],
     ]);
   });
 
@@ -272,16 +280,18 @@ describe("exam assembly", () => {
         counts.set(q.category, (counts.get(q.category) ?? 0) + 1);
       }
       expect([...counts.entries()].sort()).toEqual([
-        ["japan", 9],
-        ["world_cultural", 8],
-        ["world_natural", 3],
+        ["basic", 5],
+        ["japan", 7],
+        ["world_cultural", 6],
+        ["world_natural", 2],
       ]);
     }
   });
 
-  it("puts each question in a category its site can answer", () => {
+  it("puts each generated question in a category its site can answer", () => {
     for (let seed = 0; seed < 20; seed++) {
       for (const q of buildExam(sites, 20, seed).questions) {
+        if (q.template === "manual") continue;
         const site = sites.find((s) => s.id === q.siteId)!;
         expect(categoriesOf(site), `${site.id}`).toContain(q.category);
       }
@@ -290,7 +300,9 @@ describe("exam assembly", () => {
 
   it("uses each site at most once", () => {
     for (let seed = 0; seed < 50; seed++) {
-      const ids = buildExam(sites, 20, seed).questions.map((q) => q.siteId);
+      const ids = buildExam(sites, 20, seed).questions
+        .map((q) => q.siteId)
+        .filter((id): id is string => id !== undefined);
       expect(new Set(ids).size).toBe(ids.length);
     }
   });
@@ -426,5 +438,55 @@ describe("related questions about where a site is", () => {
         expect(answer.transboundary, `${site.id}/${seed}`).toBe(false);
       }
     }
+  });
+});
+
+describe("the hand-written pool", () => {
+  it("is the only source of basic-knowledge questions", () => {
+    for (let seed = 0; seed < 30; seed++) {
+      const basic = buildExam(sites, 20, seed).questions.filter((q) => q.category === "basic");
+      expect(basic).toHaveLength(5);
+      expect(basic.every((q) => q.template === "manual"), `seed ${seed}`).toBe(true);
+    }
+  });
+
+  it("passes the same checks as a generated question", () => {
+    for (const source of MANUAL) {
+      for (let seed = 0; seed < 5; seed++) {
+        const question = {
+          id: source.id,
+          template: "manual" as const,
+          category: source.category,
+          siteId: source.siteId,
+          text: source.text,
+          choices: shuffle(createRng(seed), source.choices),
+          answerKey: source.answerKey,
+          explanation: source.explanation,
+        };
+        expect(validate(question), source.id).toEqual([]);
+      }
+    }
+  });
+
+  it("cites a source for every question", () => {
+    expect(MANUAL.length).toBeGreaterThan(40);
+    expect(MANUAL.every((q) => q.source.length > 0)).toBe(true);
+    expect(MANUAL.every((q) => q.verified)).toBe(true);
+  });
+
+  it("only points at sites that exist", () => {
+    const ids = new Set(sites.map((s) => s.id));
+    for (const q of MANUAL) {
+      if (q.siteId) expect(ids, q.id).toContain(q.siteId);
+    }
+  });
+
+  it("reaches the paper alongside generated questions", () => {
+    const seen = new Set<string>();
+    for (let seed = 0; seed < 30; seed++) {
+      for (const q of buildExam(sites, 20, seed).questions) seen.add(q.template);
+    }
+    expect(seen.has("manual")).toBe(true);
+    expect(seen.size).toBeGreaterThan(1);
   });
 });

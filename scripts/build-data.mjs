@@ -99,6 +99,7 @@ function normalizeEnglish(name) {
   return [...(name ?? "")].filter((c) => /[a-z0-9]/i.test(c)).join("").toLowerCase();
 }
 
+const manualRaw = JSON.parse(readFileSync(resolve(root, "data/manual-questions.json"), "utf8"));
 const japanRaw = JSON.parse(readFileSync(resolve(source, "japan-sites.json"), "utf8"));
 const worldRaw = JSON.parse(readFileSync(resolve(source, "world-sites-candidates.json"), "utf8"));
 const config = JSON.parse(readFileSync(resolve(source, "exam-config.json"), "utf8"));
@@ -183,6 +184,36 @@ if (problems.length > 0) {
   process.exit(1);
 }
 
+// Hand-written questions carry the burden of being right on their own, so they
+// are checked harder than generated ones: a source is required, and only the
+// questions marked verified reach the app.
+const CATEGORIES = new Set(["basic", "japan", "world_natural", "world_cultural"]);
+const siteIds = new Set(sites.map((s) => s.id));
+const manualIds = new Set();
+
+for (const question of manualRaw) {
+  const where = `manual ${question.id}`;
+  if (manualIds.has(question.id)) problems.push(`${where}: duplicate id`);
+  manualIds.add(question.id);
+
+  if (!CATEGORIES.has(question.category)) problems.push(`${where}: unknown category ${question.category}`);
+  if (question.siteId && !siteIds.has(question.siteId)) problems.push(`${where}: unknown site ${question.siteId}`);
+  if (!question.source) problems.push(`${where}: no source`);
+  if (!question.topic) problems.push(`${where}: no topic`);
+  if (!question.text?.endsWith("。")) problems.push(`${where}: question does not end in a full stop`);
+
+  const keys = question.choices?.map((c) => c.key) ?? [];
+  if (keys.length !== 4) problems.push(`${where}: ${keys.length} choices`);
+  if (new Set(keys).size !== keys.length) problems.push(`${where}: duplicate choice key`);
+  if (!keys.includes(question.answerKey)) problems.push(`${where}: answer is not among the choices`);
+
+  const labels = question.choices?.map((c) => c.label) ?? [];
+  if (new Set(labels).size !== labels.length) problems.push(`${where}: two choices read the same`);
+  if (!question.explanation) problems.push(`${where}: no explanation`);
+}
+
+const manual = manualRaw.filter((q) => q.verified);
+
 const examConfig = {
   grade: config.grade,
   sourceVerifiedAt: config.source_verified_at,
@@ -201,9 +232,15 @@ const examConfig = {
 
 mkdirSync(target, { recursive: true });
 writeFileSync(resolve(target, "sites.json"), JSON.stringify(sites, null, 2) + "\n");
+writeFileSync(resolve(target, "manual-questions.json"), JSON.stringify(manual, null, 2) + "\n");
 writeFileSync(resolve(target, "exam-config.json"), JSON.stringify(examConfig, null, 2) + "\n");
 
+const unverified = manualRaw.length - manual.length;
 console.log(
   `built ${sites.length} sites (japan ${japan.length}, world ${world.length}); ` +
     `dropped duplicates: ${duplicates.join(", ") || "none"}`,
+);
+console.log(
+  `built ${manual.length} hand-written questions` +
+    (unverified > 0 ? `; withheld ${unverified} not marked verified` : ""),
 );

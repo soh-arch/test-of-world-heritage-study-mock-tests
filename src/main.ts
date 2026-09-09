@@ -2,7 +2,7 @@ import "./styles.css";
 import sitesJson from "./data/sites.json";
 import configJson from "./data/exam-config.json";
 import type { Exam, Question, Site } from "./types";
-import { allocateCategories, buildExam, CATEGORY_LABEL, grade, randomSeed } from "./exam";
+import { allocateCategories, buildExam, CATEGORY_LABEL, grade, MANUAL, randomSeed } from "./exam";
 
 const sites = sitesJson as Site[];
 const config = configJson as {
@@ -41,7 +41,7 @@ function startScreen(): DocumentFragment {
     element("h1", { text: "世界遺産検定3級 模擬試験" }),
     element("p", {
       class: "lede",
-      text: `日本の世界遺産27件と世界の主要遺産83件から、毎回異なる問題を組み立てます。`,
+      text: "手書きの問題と、遺産データから組み立てた問題を混ぜて、毎回異なる模擬試験をつくります。",
     }),
   );
 
@@ -54,6 +54,7 @@ function startScreen(): DocumentFragment {
     ["出題数", `${QUESTION_COUNT}問`],
     ["分野の配分", split],
     ["出題範囲", "日本 全27件＋世界 83件"],
+    ["問題", `手書き${MANUAL.length}問＋自動生成`],
     ["合格ライン", `${config.passScore}点（100点換算）`],
     ["採点", "全問に解答してから一括採点"],
   ]) {
@@ -83,7 +84,8 @@ function startScreen(): DocumentFragment {
       class: "faint",
       text:
         `試験仕様は公式サイトで${config.sourceVerifiedAt}に確認した内容に基づきます。` +
-        "問題文は本ツールが独自に生成したものです。世界の遺産は3級の出題範囲100件のうち、公式資料から再構成できた83件を用いています。",
+        "問題文はすべて本ツールが独自に作成したものです。世界の遺産は3級の出題範囲100件のうち、" +
+        "公式資料から再構成できた83件を用いています。",
     }),
   );
 

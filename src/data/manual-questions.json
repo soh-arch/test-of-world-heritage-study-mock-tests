@@ -1,0 +1,1483 @@
+[
+  {
+    "id": "basic-ouv",
+    "category": "basic",
+    "topic": "顕著な普遍的価値",
+    "text": "世界遺産がもつとされる、人類全体にとって現在だけでなく将来世代にも共通した重要性をもつ価値の名称として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "顕著な普遍的価値"
+      },
+      {
+        "key": "b",
+        "label": "顕著な歴史的価値"
+      },
+      {
+        "key": "c",
+        "label": "普遍的文化価値"
+      },
+      {
+        "key": "d",
+        "label": "世界的保護価値"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "顕著な普遍的価値（OUV）という。世界遺産に登録されるには、この価値をもつと認められる必要がある。",
+    "source": "3級学習ツール① 解答（2019.11）",
+    "verified": true
+  },
+  {
+    "id": "basic-list",
+    "category": "basic",
+    "topic": "世界遺産リスト",
+    "text": "世界遺産に登録された遺産が掲載されている一覧表の名称として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "世界遺産リスト"
+      },
+      {
+        "key": "b",
+        "label": "世界遺産目録"
+      },
+      {
+        "key": "c",
+        "label": "世界遺産台帳"
+      },
+      {
+        "key": "d",
+        "label": "世界遺産名簿"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "世界遺産リストという。登録された遺産はこの一覧表に記載される。",
+    "source": "3級学習ツール① 解答（2019.11）",
+    "verified": true
+  },
+  {
+    "id": "basic-three-types",
+    "category": "basic",
+    "topic": "遺産の分類",
+    "text": "世界遺産の3つの分類の組み合わせとして、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "文化遺産・自然遺産・複合遺産"
+      },
+      {
+        "key": "b",
+        "label": "文化遺産・自然遺産・混合遺産"
+      },
+      {
+        "key": "c",
+        "label": "文化遺産・自然遺産・無形遺産"
+      },
+      {
+        "key": "d",
+        "label": "有形遺産・自然遺産・複合遺産"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "文化遺産・自然遺産・複合遺産の3つに分類される。",
+    "source": "3級学習ツール① 解答（2019.11）",
+    "verified": true
+  },
+  {
+    "id": "basic-committee-role",
+    "category": "basic",
+    "topic": "世界遺産委員会",
+    "text": "推薦された遺産の審議や、世界遺産基金の使い道などを話し合う組織として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "世界遺産委員会"
+      },
+      {
+        "key": "b",
+        "label": "ユネスコ総会"
+      },
+      {
+        "key": "c",
+        "label": "世界遺産センター"
+      },
+      {
+        "key": "d",
+        "label": "世界遺産条約締約国会議"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "世界遺産委員会が、登録の可否、危機遺産リストへの記載の可否、世界遺産基金の使い道などを話し合う。",
+    "source": "3級学習ツール① 解答（2019.11）",
+    "verified": true
+  },
+  {
+    "id": "basic-committee-frequency",
+    "category": "basic",
+    "topic": "世界遺産委員会",
+    "text": "世界遺産委員会が開催される頻度として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "1年に1度"
+      },
+      {
+        "key": "b",
+        "label": "半年に1度"
+      },
+      {
+        "key": "c",
+        "label": "2年に1度"
+      },
+      {
+        "key": "d",
+        "label": "4年に1度"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "世界遺産委員会は1年に1度開催される。",
+    "source": "3級学習ツール① 解答（2019.11）",
+    "verified": true
+  },
+  {
+    "id": "basic-committee-members",
+    "category": "basic",
+    "topic": "世界遺産委員会",
+    "text": "世界遺産委員会の委員国の数として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "21ヵ国"
+      },
+      {
+        "key": "b",
+        "label": "15ヵ国"
+      },
+      {
+        "key": "c",
+        "label": "27ヵ国"
+      },
+      {
+        "key": "d",
+        "label": "31ヵ国"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "世界遺産条約を締結した国の中から選ばれた21ヵ国が委員を務める。",
+    "source": "3級学習ツール③ 解答（2020.01）",
+    "verified": true
+  },
+  {
+    "id": "basic-committee-term",
+    "category": "basic",
+    "topic": "世界遺産委員会",
+    "text": "世界遺産委員会の委員国の任期として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "6年"
+      },
+      {
+        "key": "b",
+        "label": "2年"
+      },
+      {
+        "key": "c",
+        "label": "4年"
+      },
+      {
+        "key": "d",
+        "label": "8年"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "任期は6年だが、4年で交代することが望ましいとされている。委員国は世界遺産条約締約国会議で改選される。",
+    "source": "3級学習ツール③ 解答（2020.01）",
+    "verified": true
+  },
+  {
+    "id": "basic-convention-scope",
+    "category": "basic",
+    "topic": "世界遺産条約",
+    "text": "世界遺産条約が、初めて1つの条約の中で併せて保護の対象としたものの組み合わせとして、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "文化と自然"
+      },
+      {
+        "key": "b",
+        "label": "有形と無形"
+      },
+      {
+        "key": "c",
+        "label": "建造物と美術品"
+      },
+      {
+        "key": "d",
+        "label": "陸域と海域"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "以前は文化と自然をそれぞれ別に守っていたが、世界遺産条約では分けることができないものとして両方を守る。",
+    "source": "3級学習ツール② 解答（2019.12）",
+    "verified": true
+  },
+  {
+    "id": "basic-responsibility",
+    "category": "basic",
+    "topic": "世界遺産条約",
+    "text": "世界遺産の保護・保全について、第一の責任を負う者として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "遺産を保有する国"
+      },
+      {
+        "key": "b",
+        "label": "ユネスコ"
+      },
+      {
+        "key": "c",
+        "label": "世界遺産委員会"
+      },
+      {
+        "key": "d",
+        "label": "国際連合"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "遺産を保有する国自身が第一の責任を負う。",
+    "source": "3級学習ツール② 解答（2019.12）",
+    "verified": true
+  },
+  {
+    "id": "basic-nubia-trigger",
+    "category": "basic",
+    "topic": "条約成立の経緯",
+    "text": "世界遺産条約の理念のきっかけとなった、遺産救済キャンペーンの原因となった建設事業として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "アスワン・ハイ・ダムの建設"
+      },
+      {
+        "key": "b",
+        "label": "スエズ運河の建設"
+      },
+      {
+        "key": "c",
+        "label": "パナマ運河の建設"
+      },
+      {
+        "key": "d",
+        "label": "カイロ新市街の建設"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "アスワン・ハイ・ダムの建設によりヌビア地方の遺跡が水没する危機に直面し、各国が協力した救済キャンペーンが世界遺産条約の理念につながった。",
+    "source": "3級学習ツール② 解答（2019.12）",
+    "verified": true
+  },
+  {
+    "id": "basic-nubia-temple",
+    "category": "basic",
+    "topic": "条約成立の経緯",
+    "text": "アスワン・ハイ・ダムの建設により水没の危機にさらされ、救済キャンペーンの対象となった神殿として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "アブ・シンベル神殿"
+      },
+      {
+        "key": "b",
+        "label": "パルテノン神殿"
+      },
+      {
+        "key": "c",
+        "label": "カルナック神殿"
+      },
+      {
+        "key": "d",
+        "label": "ルクソール神殿"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "ヌビア地方のアブ・シンベル神殿とフィラエのイシス神殿が水没の危機にさらされた。",
+    "source": "3級学習ツール② 解答（2019.12）",
+    "verified": true
+  },
+  {
+    "id": "basic-application-not",
+    "category": "basic",
+    "topic": "登録の条件",
+    "text": "世界遺産の申請の条件として、正しくないものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "遺産が観光客を多く集める名所であること"
+      },
+      {
+        "key": "b",
+        "label": "遺産をもつ国が世界遺産条約の締約国であること"
+      },
+      {
+        "key": "c",
+        "label": "あらかじめ各国の暫定リストに記載されていること"
+      },
+      {
+        "key": "d",
+        "label": "遺産が不動産であること"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "申請の条件に観光的な価値は含まれない。締約国であること、暫定リストへの記載、保有国自身からの申請、不動産であることなどが条件となる。",
+    "source": "3級学習ツール② 解答（2019.12）",
+    "verified": true
+  },
+  {
+    "id": "basic-icomos",
+    "category": "basic",
+    "topic": "諮問機関",
+    "text": "推薦された文化遺産の専門調査を行い、世界遺産センターに勧告を提出する機関として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ICOMOS（国際記念物遺跡会議）"
+      },
+      {
+        "key": "b",
+        "label": "IUCN（国際自然保護連合）"
+      },
+      {
+        "key": "c",
+        "label": "ICCROM（文化財保存修復研究国際センター）"
+      },
+      {
+        "key": "d",
+        "label": "ICOM（国際博物館会議）"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "文化遺産の専門調査はICOMOSが行い、4段階の勧告を世界遺産センターに提出する。",
+    "source": "3級学習ツール③ 解答（2020.01）",
+    "verified": true
+  },
+  {
+    "id": "basic-iucn",
+    "category": "basic",
+    "topic": "諮問機関",
+    "text": "推薦された自然遺産の専門調査を行い、世界遺産センターに勧告を提出する機関として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "IUCN（国際自然保護連合）"
+      },
+      {
+        "key": "b",
+        "label": "ICOMOS（国際記念物遺跡会議）"
+      },
+      {
+        "key": "c",
+        "label": "UNEP（国連環境計画）"
+      },
+      {
+        "key": "d",
+        "label": "WWF（世界自然保護基金）"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "自然遺産の専門調査はIUCNが行い、4段階の勧告を世界遺産センターに提出する。",
+    "source": "3級学習ツール③ 解答（2020.01）",
+    "verified": true
+  },
+  {
+    "id": "basic-japan-nomination",
+    "category": "basic",
+    "topic": "登録の手続き",
+    "text": "日本の世界遺産推薦候補を最終的に選ぶ会議として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "世界遺産条約関係省庁連絡会議"
+      },
+      {
+        "key": "b",
+        "label": "文化審議会世界文化遺産部会"
+      },
+      {
+        "key": "c",
+        "label": "日本ユネスコ国内委員会"
+      },
+      {
+        "key": "d",
+        "label": "中央環境審議会"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "世界遺産条約関係省庁連絡会議で決まった推薦候補を、内閣が閣議了解して決定する。",
+    "source": "3級学習ツール③ 解答（2020.01）",
+    "verified": true
+  },
+  {
+    "id": "basic-authenticity",
+    "category": "basic",
+    "topic": "真正性",
+    "text": "建物や景観などが、その文化がもつ独自性や伝統、技術を継承していることを示す概念として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "真正性"
+      },
+      {
+        "key": "b",
+        "label": "原初性"
+      },
+      {
+        "key": "c",
+        "label": "伝統性"
+      },
+      {
+        "key": "d",
+        "label": "持続性"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "真正性という。特に修復を行う際には、伝統的な技術や部材の使用などが厳密に求められる。",
+    "source": "3級学習ツール④ 解答（2020.02）",
+    "verified": true
+  },
+  {
+    "id": "basic-integrity",
+    "category": "basic",
+    "topic": "完全性",
+    "text": "世界遺産の顕著な普遍的価値を保護・保全するための必要条件がすべてそろっていることを示す概念として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "完全性"
+      },
+      {
+        "key": "b",
+        "label": "包括性"
+      },
+      {
+        "key": "c",
+        "label": "十全性"
+      },
+      {
+        "key": "d",
+        "label": "全体性"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "完全性という。十分な広さ、保護のための費用や人員、保全計画などが含まれている必要がある。",
+    "source": "3級学習ツール④ 解答（2020.02）",
+    "verified": true
+  },
+  {
+    "id": "basic-cultural-landscape",
+    "category": "basic",
+    "topic": "文化的景観",
+    "text": "人類が長い時間をかけて自然と共につくり上げた景観などを保護する概念として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "文化的景観"
+      },
+      {
+        "key": "b",
+        "label": "複合景観"
+      },
+      {
+        "key": "c",
+        "label": "自然文化圏"
+      },
+      {
+        "key": "d",
+        "label": "伝統的景観"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "文化的景観という。日本では2004年に『紀伊山地の霊場と参詣道』で最初に認められた。",
+    "source": "3級学習ツール④ 解答（2020.02）",
+    "verified": true
+  },
+  {
+    "id": "basic-cultural-landscape-jp",
+    "category": "basic",
+    "topic": "文化的景観",
+    "text": "日本で最初に文化的景観が認められた世界遺産として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "紀伊山地の霊場と参詣道"
+      },
+      {
+        "key": "b",
+        "label": "富士山－信仰の対象と芸術の源泉"
+      },
+      {
+        "key": "c",
+        "label": "石見銀山遺跡とその文化的景観"
+      },
+      {
+        "key": "d",
+        "label": "白川郷・五箇山の合掌造り集落"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "2004年に『紀伊山地の霊場と参詣道』で日本初の文化的景観が認められた。",
+    "source": "3級学習ツール④ 解答（2020.02）",
+    "verified": true
+  },
+  {
+    "id": "basic-serial",
+    "category": "basic",
+    "topic": "登録の概念",
+    "text": "文化や歴史的背景、自然環境などが共通する複数の遺産を「1つの遺産」として登録する概念として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "シリアル・ノミネーション・サイト"
+      },
+      {
+        "key": "b",
+        "label": "トランスバウンダリー・サイト"
+      },
+      {
+        "key": "c",
+        "label": "コンポジット・サイト"
+      },
+      {
+        "key": "d",
+        "label": "クラスター・サイト"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "シリアル・ノミネーション・サイトという。『明治日本の産業革命遺産』『古都京都の文化財』などがこれにあたる。",
+    "source": "3級学習ツール④ 解答（2020.02）",
+    "verified": true
+  },
+  {
+    "id": "basic-transboundary",
+    "category": "basic",
+    "topic": "登録の概念",
+    "text": "国境をまたいで存在する自然や、複数の国にまたがる遺産を登録する概念として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "トランスバウンダリー・サイト"
+      },
+      {
+        "key": "b",
+        "label": "シリアル・ノミネーション・サイト"
+      },
+      {
+        "key": "c",
+        "label": "インターナショナル・サイト"
+      },
+      {
+        "key": "d",
+        "label": "クロスボーダー・サイト"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "トランスバウンダリー・サイトという。日本では『ル・コルビュジエの建築作品』がこれにあたる。",
+    "source": "3級学習ツール④ 解答（2020.02）",
+    "verified": true
+  },
+  {
+    "id": "basic-unesco-preamble",
+    "category": "basic",
+    "topic": "ユネスコ",
+    "text": "ユネスコ憲章の前文にある「戦争は人の心の中に生まれるものだから、人の心の中にこそ○○を築かなければならない」の空欄にあてはまる語として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "平和のとりで"
+      },
+      {
+        "key": "b",
+        "label": "平和の礎"
+      },
+      {
+        "key": "c",
+        "label": "友愛の絆"
+      },
+      {
+        "key": "d",
+        "label": "和解の道"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "「平和のとりで」を築く、と述べられている。世界遺産の保護もユネスコの平和活動の一環である。",
+    "source": "3級学習ツール⑤ 解答（2020.03）",
+    "verified": true
+  },
+  {
+    "id": "basic-ich",
+    "category": "basic",
+    "topic": "ユネスコの他の事業",
+    "text": "世界の伝統儀礼や風俗習慣、音楽や舞踏などを登録する条約として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "無形文化遺産保護条約"
+      },
+      {
+        "key": "b",
+        "label": "世界遺産条約"
+      },
+      {
+        "key": "c",
+        "label": "文化多様性条約"
+      },
+      {
+        "key": "d",
+        "label": "ハーグ条約"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "無形文化遺産保護条約による。日本からは「能楽」「歌舞伎」「和食」などが登録されている。",
+    "source": "3級学習ツール⑤ 解答（2020.03）",
+    "verified": true
+  },
+  {
+    "id": "basic-memory",
+    "category": "basic",
+    "topic": "ユネスコの他の事業",
+    "text": "書物や文書、絵画などの記録を守るユネスコのプログラムとして、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "世界の記憶"
+      },
+      {
+        "key": "b",
+        "label": "世界記録遺産条約"
+      },
+      {
+        "key": "c",
+        "label": "国際文書保護計画"
+      },
+      {
+        "key": "d",
+        "label": "世界文書リスト"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "「世界の記憶」という。日本からは「山本作兵衛炭坑記録画・記録文書」「東寺百合文書」などが登録されている。",
+    "source": "3級学習ツール⑤ 解答（2020.03）",
+    "verified": true
+  },
+  {
+    "id": "basic-japan-first-not",
+    "category": "basic",
+    "topic": "日本の登録史",
+    "text": "1993年に日本で最初に世界遺産に登録された4件に含まれないものとして、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "古都京都の文化財"
+      },
+      {
+        "key": "b",
+        "label": "法隆寺地域の仏教建造物群"
+      },
+      {
+        "key": "c",
+        "label": "姫路城"
+      },
+      {
+        "key": "d",
+        "label": "屋久島"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "最初の4件は『法隆寺地域の仏教建造物群』『姫路城』『白神山地』『屋久島』で、文化遺産2件・自然遺産2件だった。『古都京都の文化財』の登録は1994年。",
+    "source": "3級学習ツール⑤ 解答（2020.03）",
+    "verified": true
+  },
+  {
+    "id": "basic-first-1978",
+    "category": "basic",
+    "topic": "世界の登録史",
+    "text": "1978年に世界で最初に世界遺産に登録された遺産に含まれるものとして、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ガラパゴス諸島"
+      },
+      {
+        "key": "b",
+        "label": "セレンゲティ国立公園"
+      },
+      {
+        "key": "c",
+        "label": "モスクワのクレムリンと赤の広場"
+      },
+      {
+        "key": "d",
+        "label": "アテネのアクロポリス"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "1978年に12件が最初の世界遺産として登録され、『ガラパゴス諸島』『イエローストーン国立公園』『ゴレ島』などが含まれる。",
+    "source": "3級学習ツール① 解答（2019.11）",
+    "verified": true
+  },
+  {
+    "id": "jp-shiretoko-seaice",
+    "category": "japan",
+    "topic": "自然環境",
+    "siteId": "jp-shiretoko",
+    "text": "『知床』のように、特定の季節のみ海氷に覆われる地域の呼び名として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "季節海氷域"
+      },
+      {
+        "key": "b",
+        "label": "周期流氷帯"
+      },
+      {
+        "key": "c",
+        "label": "寒冷海域"
+      },
+      {
+        "key": "d",
+        "label": "氷結沿岸域"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "季節海氷域という。知床は地球上で最も低緯度で海水が凍る季節海氷域である。",
+    "source": "3級学習ツール⑥ 解答（2020.04）",
+    "verified": true
+  },
+  {
+    "id": "jp-shiretoko-trust",
+    "category": "japan",
+    "topic": "保護運動",
+    "siteId": "jp-shiretoko",
+    "text": "『知床』で行われた「しれとこ100平方メートル運動」の手本となった運動として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ナショナル・トラスト運動"
+      },
+      {
+        "key": "b",
+        "label": "グリーンベルト運動"
+      },
+      {
+        "key": "c",
+        "label": "エコツーリズム運動"
+      },
+      {
+        "key": "d",
+        "label": "里山保全運動"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "19世紀末の英国で始まったナショナル・トラスト運動が手本となった。寄付をもとに土地を取得して保護する運動である。",
+    "source": "3級学習ツール⑥ 解答（2020.04）",
+    "verified": true
+  },
+  {
+    "id": "jp-shirakami-beech",
+    "category": "japan",
+    "topic": "自然環境",
+    "siteId": "jp-shirakami-sanchi",
+    "text": "『白神山地』に広がる原生林を構成する、落葉樹の中心となる樹種として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ブナ"
+      },
+      {
+        "key": "b",
+        "label": "スギ"
+      },
+      {
+        "key": "c",
+        "label": "ヒノキ"
+      },
+      {
+        "key": "d",
+        "label": "カシ"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "ブナを中心とする落葉樹の原生林が広がる。日本のブナの分布地域は氷河に覆われなかったため原生林が残った。",
+    "source": "3級学習ツール⑥ 解答（2020.04）",
+    "verified": true
+  },
+  {
+    "id": "jp-shirakami-kamoshika",
+    "category": "japan",
+    "topic": "生態系",
+    "siteId": "jp-shirakami-sanchi",
+    "text": "『白神山地』に生息する特別天然記念物として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ニホンカモシカ"
+      },
+      {
+        "key": "b",
+        "label": "ニホンザル"
+      },
+      {
+        "key": "c",
+        "label": "イリオモテヤマネコ"
+      },
+      {
+        "key": "d",
+        "label": "トキ"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "特別天然記念物のニホンカモシカが生息する。ほかにも14種の哺乳類が生息している。",
+    "source": "3級学習ツール⑥ 解答（2020.04）",
+    "verified": true
+  },
+  {
+    "id": "jp-hiraizumi-jodo",
+    "category": "japan",
+    "topic": "信仰・思想",
+    "siteId": "jp-hiraizumi",
+    "text": "『平泉－仏国土（浄土）を表す建築・庭園及び考古学的遺跡群－』の背景にある、平安時代末期に流行した思想として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "浄土思想"
+      },
+      {
+        "key": "b",
+        "label": "本地垂迹説"
+      },
+      {
+        "key": "c",
+        "label": "神仏習合"
+      },
+      {
+        "key": "d",
+        "label": "密教思想"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "仏の正しい教えがすたれ世が乱れるという末法思想が広まり、その救済として浄土思想が流行した。",
+    "source": "3級学習ツール⑦ 解答（2022.05）",
+    "verified": true
+  },
+  {
+    "id": "jp-hiraizumi-motsuji",
+    "category": "japan",
+    "topic": "構成資産",
+    "siteId": "jp-hiraizumi",
+    "text": "『平泉』の構成資産である毛越寺に、当時のまま唯一残るものとして、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "浄土庭園"
+      },
+      {
+        "key": "b",
+        "label": "金色堂"
+      },
+      {
+        "key": "c",
+        "label": "五重塔"
+      },
+      {
+        "key": "d",
+        "label": "山門"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "毛越寺は奥州藤原氏2代基衡が再興したが、建築物は度重なる戦火ですべて焼失し、唯一残るのが浄土庭園である。",
+    "source": "3級学習ツール⑦ 解答（2022.05）",
+    "verified": true
+  },
+  {
+    "id": "jp-nikko-shinbutsu",
+    "category": "japan",
+    "topic": "信仰・思想",
+    "siteId": "jp-nikko",
+    "text": "『日光の社寺』の「日光山」が聖地とされた、日本古来の神道と大陸伝来の仏教が融合した思想として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "神仏習合"
+      },
+      {
+        "key": "b",
+        "label": "浄土思想"
+      },
+      {
+        "key": "c",
+        "label": "修験道"
+      },
+      {
+        "key": "d",
+        "label": "陰陽道"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "神仏習合という。日光山は8世紀末に修験僧の勝道上人が開いた。",
+    "source": "3級学習ツール⑦ 解答（2022.05）",
+    "verified": true
+  },
+  {
+    "id": "jp-nikko-gongen",
+    "category": "japan",
+    "topic": "建築様式",
+    "siteId": "jp-nikko",
+    "text": "『日光の社寺』の「東照宮」本社の建築様式として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "権現造り"
+      },
+      {
+        "key": "b",
+        "label": "神明造り"
+      },
+      {
+        "key": "c",
+        "label": "大社造り"
+      },
+      {
+        "key": "d",
+        "label": "春日造り"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "権現造りという。徳川家光による「寛永の大造替」と呼ばれる大改修を経て、豪華絢爛な社殿に建て替えられた。",
+    "source": "3級学習ツール⑦ 解答（2022.05）",
+    "verified": true
+  },
+  {
+    "id": "jp-tomioka-brunat",
+    "category": "japan",
+    "topic": "人物",
+    "siteId": "jp-tomioka",
+    "text": "『富岡製糸場と絹産業遺産群』で、明治政府が雇い入れて器械製糸技術の導入を図ったフランス人技師として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ポール・ブリュナ"
+      },
+      {
+        "key": "b",
+        "label": "トーマス・グラバー"
+      },
+      {
+        "key": "c",
+        "label": "エドモン・モレル"
+      },
+      {
+        "key": "d",
+        "label": "ギュスターヴ・エッフェル"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "フランスのリヨンで製糸技術を学んだポール・ブリュナが1872年に招聘され、養蚕が盛んで水が豊かな富岡を工場建設の地に選んだ。",
+    "source": "3級学習ツール⑧ 解答（2022.08）",
+    "verified": true
+  },
+  {
+    "id": "jp-tomioka-structure",
+    "category": "japan",
+    "topic": "建築様式",
+    "siteId": "jp-tomioka",
+    "text": "「富岡製糸場」に見られる、日本古来の木造の柱と西欧伝来のレンガを組み合わせた構造の名称として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "木骨レンガ造"
+      },
+      {
+        "key": "b",
+        "label": "石造レンガ積"
+      },
+      {
+        "key": "c",
+        "label": "木造漆喰造"
+      },
+      {
+        "key": "d",
+        "label": "混構造"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "木骨レンガ造という。繭倉庫（置繭所）や繰糸場がこの構造で建てられている。",
+    "source": "3級学習ツール⑧ 解答（2022.08）",
+    "verified": true
+  },
+  {
+    "id": "jp-ogasawara-radiation",
+    "category": "japan",
+    "topic": "自然科学",
+    "siteId": "jp-ogasawara",
+    "text": "『小笠原諸島』で見られる、単一の祖先から様々な種に分化してゆく現象の名称として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "適応放散"
+      },
+      {
+        "key": "b",
+        "label": "収斂進化"
+      },
+      {
+        "key": "c",
+        "label": "地理的隔離"
+      },
+      {
+        "key": "d",
+        "label": "自然淘汰"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "適応放散という。小笠原は大陸から離れており、カタツムリの仲間の陸産貝類は約95％の固有率を誇る。",
+    "source": "3級学習ツール⑧ 解答（2022.08）",
+    "verified": true
+  },
+  {
+    "id": "jp-ogasawara-anole",
+    "category": "japan",
+    "topic": "生態系",
+    "siteId": "jp-ogasawara",
+    "text": "『小笠原諸島』に持ち込まれ、チョウやトンボを絶滅に追い込んでいる北米産のトカゲとして、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "グリーンアノール"
+      },
+      {
+        "key": "b",
+        "label": "オオヒキガエル"
+      },
+      {
+        "key": "c",
+        "label": "マングース"
+      },
+      {
+        "key": "d",
+        "label": "アメリカザリガニ"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "グリーンアノールという外来種。ヤギやブタの繁殖も島の生態系の破壊につながると考えられている。",
+    "source": "3級学習ツール⑧ 解答（2022.08）",
+    "verified": true
+  },
+  {
+    "id": "jp-fujisan-ko",
+    "category": "japan",
+    "topic": "信仰・習俗",
+    "siteId": "jp-fujisan",
+    "text": "『富士山－信仰の対象と芸術の源泉』に関し、江戸時代に流行した、巡礼として集団で登拝する集団の名称として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "富士講"
+      },
+      {
+        "key": "b",
+        "label": "御師"
+      },
+      {
+        "key": "c",
+        "label": "山伏"
+      },
+      {
+        "key": "d",
+        "label": "講中座"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "富士講という。巡礼の手配や案内を行う御師が登場した。",
+    "source": "3級学習ツール⑨ 解答（2022.08）",
+    "verified": true
+  },
+  {
+    "id": "jp-fujisan-volcano",
+    "category": "japan",
+    "topic": "自然科学",
+    "siteId": "jp-fujisan",
+    "text": "『富士山』のように、度重なる噴火によって円錐形となった火山の分類として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "成層火山"
+      },
+      {
+        "key": "b",
+        "label": "楯状火山"
+      },
+      {
+        "key": "c",
+        "label": "溶岩ドーム"
+      },
+      {
+        "key": "d",
+        "label": "カルデラ火山"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "成層火山という。富士山は過去に何度も噴火しており、噴火を鎮めるため富士山本宮浅間大社などが創建された。",
+    "source": "3級学習ツール⑨ 解答（2022.08）",
+    "verified": true
+  },
+  {
+    "id": "jp-corbusier-pilotis",
+    "category": "japan",
+    "topic": "建築様式",
+    "siteId": "jp-le-corbusier",
+    "text": "『ル・コルビュジエの建築作品』に含まれる「国立西洋美術館」に取り入れられている、一階部分の柱で床を支える建築様式として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ピロティ"
+      },
+      {
+        "key": "b",
+        "label": "ドーム"
+      },
+      {
+        "key": "c",
+        "label": "ヴォールト"
+      },
+      {
+        "key": "d",
+        "label": "カンティレバー"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "ピロティという。フランスの「サヴォア邸」などにも用いられている。国立西洋美術館には「無限成長美術館」のアイデアも取り入れられている。",
+    "source": "3級学習ツール⑨ 解答（2022.08）",
+    "verified": true
+  },
+  {
+    "id": "jp-corbusier-transboundary",
+    "category": "japan",
+    "topic": "登録の概念",
+    "siteId": "jp-le-corbusier",
+    "text": "『ル・コルビュジエの建築作品：近代建築運動への顕著な貢献』が、日本で初めて登録された事例となった概念として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "トランスバウンダリー・サイト"
+      },
+      {
+        "key": "b",
+        "label": "シリアル・ノミネーション・サイト"
+      },
+      {
+        "key": "c",
+        "label": "文化的景観"
+      },
+      {
+        "key": "d",
+        "label": "負の遺産"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "7ヵ国に広がる日本初のトランスバウンダリー・サイトとして登録された。",
+    "source": "3級学習ツール⑨ 解答（2022.08）",
+    "verified": true
+  },
+  {
+    "id": "w-serengeti-meaning",
+    "category": "world_natural",
+    "topic": "名称の由来",
+    "siteId": "w-serengeti",
+    "text": "『セレンゲティ国立公園』の「セレンゲティ」の意味として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "果てしない草原"
+      },
+      {
+        "key": "b",
+        "label": "偉大なる川"
+      },
+      {
+        "key": "c",
+        "label": "神々の丘"
+      },
+      {
+        "key": "d",
+        "label": "大いなる湿地"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "現地で暮らすマサイ族の言葉で「果てしない草原」を意味する。",
+    "source": "3級学習ツール⑥ 解答（2020.04）",
+    "verified": true
+  },
+  {
+    "id": "w-sagarmatha-sherpa",
+    "category": "world_natural",
+    "topic": "先住民族",
+    "siteId": "w-sagarmatha",
+    "text": "『サガルマータ国立公園』において、登山隊のポーターとしても活躍する先住民族として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "シェルパ"
+      },
+      {
+        "key": "b",
+        "label": "マサイ"
+      },
+      {
+        "key": "c",
+        "label": "アボリジニ"
+      },
+      {
+        "key": "d",
+        "label": "イヌイット"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "シェルパ族は標高3,500〜5,000m付近で登山隊のポーターなどとしても活躍している。",
+    "source": "3級学習ツール⑥ 解答（2020.04）",
+    "verified": true
+  },
+  {
+    "id": "w-galapagos-darwin",
+    "category": "world_natural",
+    "topic": "人物",
+    "siteId": "w-galapagos",
+    "text": "『ガラパゴス諸島』を訪れ、進化論のアイデアを得て『種の起源』を著した英国の博物学者として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "チャールズ・ダーウィン"
+      },
+      {
+        "key": "b",
+        "label": "アルフレッド・ウォレス"
+      },
+      {
+        "key": "c",
+        "label": "カール・リンネ"
+      },
+      {
+        "key": "d",
+        "label": "トマス・ハクスリー"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "チャールズ・ダーウィン。ゾウガメやウミイグアナ、フィンチなどを観察し、進化論のアイデアを得た。",
+    "source": "3級学習ツール⑧ 解答（2022.08）",
+    "verified": true
+  },
+  {
+    "id": "w-tongariro-maori",
+    "category": "world_natural",
+    "topic": "先住民族",
+    "siteId": "w-tongariro",
+    "text": "『トンガリロ国立公園』の一帯を古くから聖地としてきた先住民族として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "マオリ"
+      },
+      {
+        "key": "b",
+        "label": "アボリジニ"
+      },
+      {
+        "key": "c",
+        "label": "シェルパ"
+      },
+      {
+        "key": "d",
+        "label": "マサイ"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "マオリの聖地である。ニュージーランドが英国の植民地となると、入植者の乱開発を防ぐためマオリから政府に土地が寄贈された。",
+    "source": "3級学習ツール⑨ 解答（2022.08）",
+    "verified": true
+  },
+  {
+    "id": "w-tongariro-landscape",
+    "category": "world_natural",
+    "topic": "登録の概念",
+    "siteId": "w-tongariro",
+    "text": "1993年に世界で初めて文化的景観の概念が認められ、複合遺産となった遺産として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "トンガリロ国立公園"
+      },
+      {
+        "key": "b",
+        "label": "紀伊山地の霊場と参詣道"
+      },
+      {
+        "key": "c",
+        "label": "ウルル、カタ・ジュタ国立公園"
+      },
+      {
+        "key": "d",
+        "label": "石見銀山遺跡とその文化的景観"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "『トンガリロ国立公園』は1990年に自然遺産として登録され、1993年に世界で初めて文化的景観が認められて複合遺産となった。",
+    "source": "3級学習ツール⑨ 解答（2022.08）",
+    "verified": true
+  },
+  {
+    "id": "w-lalibela-church",
+    "category": "world_cultural",
+    "topic": "構成資産",
+    "siteId": "w-lalibela",
+    "text": "エチオピアの『ラリベラの岩の聖堂群』の中で最も新しく、ギリシャ十字の形をしている聖堂として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ギョルギス聖堂"
+      },
+      {
+        "key": "b",
+        "label": "マリアム聖堂"
+      },
+      {
+        "key": "c",
+        "label": "メドハニ・アレム聖堂"
+      },
+      {
+        "key": "d",
+        "label": "エマヌエル聖堂"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "ギョルギス聖堂。聖堂は全部で11ヵ所ある。",
+    "source": "3級学習ツール⑦ 解答（2022.05）",
+    "verified": true
+  },
+  {
+    "id": "w-lalibela-jerusalem",
+    "category": "world_cultural",
+    "topic": "歴史的背景",
+    "siteId": "w-lalibela",
+    "text": "『ラリベラの岩の聖堂群』が、12世紀末に目指してつくられたものとして、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "第二のエルサレム"
+      },
+      {
+        "key": "b",
+        "label": "第二のローマ"
+      },
+      {
+        "key": "c",
+        "label": "東方の聖地"
+      },
+      {
+        "key": "d",
+        "label": "アフリカのバチカン"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "エルサレムがイスラム勢力の占拠下にあり聖地巡礼ができなかったため、「第二のエルサレム」を目指して造られた。",
+    "source": "3級学習ツール⑦ 解答（2022.05）",
+    "verified": true
+  },
+  {
+    "id": "w-qin-emperor",
+    "category": "world_cultural",
+    "topic": "人物",
+    "siteId": "w-the-first-qin-emperor",
+    "text": "中国の西安にある陵墓が世界遺産に登録されている、前221年に中国初の統一国家である秦を築いた人物として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "始皇帝"
+      },
+      {
+        "key": "b",
+        "label": "漢の武帝"
+      },
+      {
+        "key": "c",
+        "label": "項羽"
+      },
+      {
+        "key": "d",
+        "label": "劉邦"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "始皇帝。始皇帝陵は約40年かけて完成した世界でも有数の巨大墓で、東に1.5kmの位置にある兵馬俑坑と併せて登録されている。",
+    "source": "3級学習ツール⑦ 解答（2022.05）",
+    "verified": true
+  },
+  {
+    "id": "w-sydney-utzon",
+    "category": "world_cultural",
+    "topic": "人物",
+    "siteId": "w-sydney-opera-house",
+    "text": "『シドニーのオペラハウス』を設計した建築家として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ヨーン・ウッツォン"
+      },
+      {
+        "key": "b",
+        "label": "ル・コルビュジエ"
+      },
+      {
+        "key": "c",
+        "label": "フランク・ロイド・ライト"
+      },
+      {
+        "key": "d",
+        "label": "アントニ・ガウディ"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "デンマークの建築家ヨーン・ウッツォン。世界中から募集された設計案の中から採用されたが、工事が難航し費用がかさんだため設計監督を辞任した。",
+    "source": "3級学習ツール⑨ 解答（2022.08）",
+    "verified": true
+  },
+  {
+    "id": "w-lyon-francois",
+    "category": "world_cultural",
+    "topic": "人物",
+    "text": "『リヨンの歴史地区』で、16世紀初めに絹織物産業を推奨した人物として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "フランソワ1世"
+      },
+      {
+        "key": "b",
+        "label": "ルイ14世"
+      },
+      {
+        "key": "c",
+        "label": "ナポレオン1世"
+      },
+      {
+        "key": "d",
+        "label": "シャルル7世"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "ヴァロワ朝のフランソワ1世。リヨンは18世紀末のフランス革命まで、ヨーロッパの絹産業の中心地だった。",
+    "source": "3級学習ツール⑧ 解答（2022.08）",
+    "verified": true
+  }
+]

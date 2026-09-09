@@ -237,7 +237,7 @@ export function generateWith(
   return validate(question).length === 0 ? question : null;
 }
 
-const LENGTH_CHECKED = new Set<TemplateKey>(["year"]);
+const LENGTH_CHECKED = new Set<string>(["year"]);
 
 /** Returns the reasons a question must not be used; empty means it is sound. */
 export function validate(question: Question): string[] {

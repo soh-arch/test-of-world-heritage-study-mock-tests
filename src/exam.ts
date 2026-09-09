@@ -1,6 +1,7 @@
 import configJson from "./data/exam-config.json";
-import type { CategoryKey, Exam, Question, Site, TemplateKey } from "./types";
-import { applicableSites, categoriesOf, generateWith } from "./generator";
+import manualJson from "./data/manual-questions.json";
+import type { CategoryKey, Exam, ManualQuestion, Question, Site, TemplateKey } from "./types";
+import { applicableSites, categoriesOf, generateWith, validate } from "./generator";
 import { createRng, shuffle } from "./rng";
 
 const config = configJson as {
@@ -8,14 +9,31 @@ const config = configJson as {
   questionTypes: Array<{ key: string; label: string; ratio: number }>;
 };
 
-/** The categories the current data can answer. Basic knowledge and "その他" need
- *  hand-written questions, so they are left out and the rest are renormalised. */
-export const COVERED: CategoryKey[] = ["japan", "world_natural", "world_cultural"];
+export const MANUAL: ManualQuestion[] = manualJson as ManualQuestion[];
+
+/** The categories the exam can fill. "その他" still has no questions, so the
+ *  remaining four ratios are renormalised over it. */
+export const COVERED: CategoryKey[] = ["basic", "japan", "world_natural", "world_cultural"];
 
 export const CATEGORY_LABEL: Record<CategoryKey, string> = {
+  basic: "基礎知識",
   japan: "日本の遺産",
   world_natural: "世界の自然遺産",
   world_cultural: "世界の文化遺産",
+};
+
+/**
+ * How much of a category the hand-written pool may fill. Those questions are
+ * closer to what the exam asks, so basic knowledge - which templates cannot
+ * reach at all - is entirely theirs. The site categories are capped while the
+ * pool is small, so a paper does not repeat the same few questions; raise the
+ * cap as the pool grows.
+ */
+const MANUAL_SHARE: Record<CategoryKey, number> = {
+  basic: 1,
+  japan: 0.5,
+  world_natural: 0.5,
+  world_cultural: 0.5,
 };
 
 /**
@@ -69,8 +87,41 @@ export function allocateCategories(total: number): Array<[CategoryKey, number]> 
   return split(total, ratios);
 }
 
-export function allocateTemplates(total: number): Array<[TemplateKey, number]> {
-  return split(total, Object.entries(TEMPLATE_WEIGHTS) as Array<[TemplateKey, number]>);
+/**
+ * Templates are drawn for the leftovers instead of rounded deterministically.
+ * With only a few generated slots per category, largest remainder always hands
+ * them to the same heavy templates, and the lightest ones never appear at all -
+ * over 200 papers the year and type templates came up zero times. Drawing the
+ * remainder in proportion to the fractions keeps each template's long-run share
+ * equal to its weight.
+ */
+export function allocateTemplates(total: number, rng?: () => number): Array<[TemplateKey, number]> {
+  const weights = Object.entries(TEMPLATE_WEIGHTS) as Array<[TemplateKey, number]>;
+  if (!rng) return split(total, weights);
+
+  const sum = weights.reduce((acc, [, w]) => acc + w, 0);
+  const exact = weights.map(([key, w]) => [key, (total * w) / sum] as const);
+  const counts = exact.map(([key, value]) => [key, Math.floor(value)] as [TemplateKey, number]);
+
+  let remaining = total - counts.reduce((acc, [, n]) => acc + n, 0);
+  const pool = exact.map(([, value], i) => ({ i, fraction: value - Math.floor(value) }));
+
+  while (remaining > 0 && pool.length > 0) {
+    const weight = pool.reduce((acc, p) => acc + p.fraction, 0);
+    let roll = rng() * weight;
+    let chosen = pool.length - 1;
+    for (let i = 0; i < pool.length; i++) {
+      roll -= pool[i]!.fraction;
+      if (roll <= 0) {
+        chosen = i;
+        break;
+      }
+    }
+    counts[pool[chosen]!.i]![1] += 1;
+    pool.splice(chosen, 1);
+    remaining -= 1;
+  }
+  return counts;
 }
 
 export function randomSeed(): number {
@@ -110,6 +161,19 @@ interface Taken {
   stems: Set<string>;
 }
 
+function toQuestion(rng: () => number, source: ManualQuestion): Question {
+  return {
+    id: source.id,
+    template: "manual",
+    category: source.category,
+    ...(source.siteId ? { siteId: source.siteId } : {}),
+    text: source.text,
+    choices: shuffle(rng, source.choices),
+    answerKey: source.answerKey,
+    explanation: source.explanation,
+  };
+}
+
 function take(
   rng: () => number,
   want: number,
@@ -119,6 +183,18 @@ function take(
   category: CategoryKey,
 ): Question[] {
   const questions: Question[] = [];
+
+  const cap = Math.ceil(want * MANUAL_SHARE[category]);
+  for (const source of shuffle(rng, MANUAL.filter((m) => m.category === category))) {
+    if (questions.length >= cap) break;
+    if (source.siteId && taken.sites.has(source.siteId)) continue;
+    if (taken.stems.has(source.text)) continue;
+    const question = toQuestion(rng, source);
+    if (validate(question).length > 0) continue;
+    if (source.siteId) taken.sites.add(source.siteId);
+    taken.stems.add(source.text);
+    questions.push(question);
+  }
 
   const fill = (template: TemplateKey, limit: number) => {
     let count = 0;
@@ -134,7 +210,7 @@ function take(
     }
   };
 
-  for (const [template, count] of allocateTemplates(want)) fill(template, count);
+  for (const [template, count] of allocateTemplates(want - questions.length, rng)) fill(template, count);
 
   // A template can run out of unused sites; make up the shortfall with any
   // other template so the category still gets its share.

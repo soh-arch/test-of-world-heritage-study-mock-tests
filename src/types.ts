@@ -22,8 +22,11 @@ export interface Site {
 
 export type TemplateKey = "year" | "place" | "region" | "related" | "pickByType";
 
-/** The categories the exam is built from that this data can answer. */
-export type CategoryKey = "japan" | "world_natural" | "world_cultural";
+/** Where a question came from: a generator template, or the hand-written pool. */
+export type QuestionSource = TemplateKey | "manual";
+
+/** The exam's categories, less "その他" which nothing covers yet. */
+export type CategoryKey = "basic" | "japan" | "world_natural" | "world_cultural";
 
 export interface Choice {
   /** Stable key used for grading. Display text is never compared. */
@@ -33,10 +36,11 @@ export interface Choice {
 
 export interface Question {
   id: string;
-  template: TemplateKey;
+  template: QuestionSource;
   category: CategoryKey;
-  /** Site the question is built from; one exam uses each site at most once. */
-  siteId: string;
+  /** Site the question is about; one exam uses each site at most once. Absent
+   *  on hand-written questions that are not about a particular site. */
+  siteId?: string;
   text: string;
   choices: Choice[];
   answerKey: string;
@@ -46,4 +50,23 @@ export interface Question {
 export interface Exam {
   seed: number;
   questions: Question[];
+}
+
+/**
+ * A question written by hand. Templates cannot reach what grade 3 actually
+ * asks - the concepts behind the convention, and what is particular to one
+ * site - so those are written out and checked against a source.
+ */
+export interface ManualQuestion {
+  id: string;
+  category: CategoryKey;
+  topic: string;
+  siteId?: string;
+  text: string;
+  choices: Choice[];
+  answerKey: string;
+  explanation: string;
+  /** Where the fact was confirmed. Required; a question without one is dropped. */
+  source: string;
+  verified: boolean;
 }
