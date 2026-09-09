@@ -1530,7 +1530,8 @@
     "explanation": "ヴァロワ朝のフランソワ1世。リヨンは18世紀末のフランス革命まで、ヨーロッパの絹産業の中心地だった。",
     "source": "3級学習ツール⑧ 解答（2022.08）",
     "verified": true,
-    "verificationLevel": "primary"
+    "verificationLevel": "primary",
+    "siteId": "w-lyon"
   },
   {
     "id": "other-48th-host",
@@ -1794,10 +1795,11 @@
       }
     ],
     "answerKey": "a",
-    "explanation": "日本は27件を保有し、世界で11番目に多い。（※順位は独立の裏付けが取れなかったため保留中）",
-    "source": "",
-    "verified": false,
-    "volatile": true
+    "explanation": "日本は27件を保有し、アメリカと同率で世界11番目に多い。",
+    "source": "https://www.sekaken.jp/pdf/202607_new.pdf ; https://pamon.sekaken.jp/ 統計ページ（2026-09-09閲覧）",
+    "verified": true,
+    "volatile": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-adopted-year",
@@ -1826,7 +1828,7 @@
     "explanation": "1972年のユネスコ総会で採択された。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-adopting-body",
@@ -1855,7 +1857,7 @@
     "explanation": "1972年のユネスコ総会で採択された。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-criteria-count",
@@ -1884,7 +1886,7 @@
     "explanation": "(i)から(x)までの10の登録基準があり、1つ以上を満たす必要がある。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-criteria-cultural",
@@ -1913,7 +1915,7 @@
     "explanation": "(i)〜(vi)が文化遺産、(vii)〜(x)が自然遺産の基準にあたる。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-criteria-natural",
@@ -1942,7 +1944,7 @@
     "explanation": "(vii)〜(x)が自然遺産の基準にあたる。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-mixed-definition",
@@ -1971,7 +1973,7 @@
     "explanation": "複合遺産は文化遺産の基準と自然遺産の基準の両方を満たす遺産をいう。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-tentative-list",
@@ -2000,7 +2002,7 @@
     "explanation": "各国は暫定リストに記載した遺産の中から推薦を行う。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-fund",
@@ -2029,7 +2031,7 @@
     "explanation": "世界遺産基金の使い道は世界遺産委員会で話し合われる。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-danger-purpose",
@@ -2058,7 +2060,7 @@
     "explanation": "危機遺産リストは、危機的状況を広く知らせて支援を促すためのもの。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-centre",
@@ -2087,7 +2089,7 @@
     "explanation": "ユネスコの世界遺産センターが事務局を務め、諮問機関の勧告を受け取る。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-negative-heritage",
@@ -2145,7 +2147,7 @@
     "explanation": "『ドレスデン・エルベ渓谷』は景観を損なう橋の建設により2009年に登録を抹消された。ほかに『アラビアオリックスの保護地区』『リヴァプール海商都市』も抹消されている。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-horyuji-oldest",
@@ -2175,7 +2177,7 @@
     "explanation": "西院伽藍は現存する世界最古の木造建築物とされる。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-himeji-nickname",
@@ -2205,7 +2207,7 @@
     "explanation": "白漆喰で塗られた外観から白鷺城と呼ばれる。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-yakushima-cedar",
@@ -2235,7 +2237,7 @@
     "explanation": "縄文杉に代表されるヤクスギが自生する。屋久島は標高差による植生の垂直分布が見られる。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-kyoto-capital",
@@ -2265,7 +2267,7 @@
     "explanation": "794年に平安京へ遷都され、以後長く都が置かれた。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-shirakawa-roof",
@@ -2295,7 +2297,7 @@
     "explanation": "豪雪に耐えるため、急勾配の切妻造・茅葺の屋根をもつ。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-genbaku-negative",
@@ -2325,7 +2327,7 @@
     "explanation": "人類が繰り返してはならない出来事を伝える負の遺産として挙げられる。登録基準は(vi)のみ。なお「負の遺産」はユネスコの公式の分類名ではなく、明確な定義のない通称である。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-itsukushima-kiyomori",
@@ -2355,7 +2357,7 @@
     "explanation": "平安時代末期に平清盛が厚く信仰し、寝殿造の様式を取り入れた社殿を整えた。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-nara-daibutsu",
@@ -2385,7 +2387,7 @@
     "explanation": "東大寺の大仏殿に盧舎那仏が安置されている。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-ryukyu-shuri",
@@ -2415,7 +2417,7 @@
     "explanation": "首里城跡は琉球王国の政治・外交・文化の中心だった。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-kii-three",
@@ -2445,7 +2447,7 @@
     "explanation": "吉野・大峯、熊野三山、高野山の3つの霊場と、それらを結ぶ参詣道が登録されている。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-iwami-method",
@@ -2475,7 +2477,7 @@
     "explanation": "灰吹法によって高純度の銀が生産され、大航海時代の東西交易にも影響を与えた。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-meiji-hashima",
@@ -2505,7 +2507,7 @@
     "explanation": "端島炭坑は外観が軍艦に似ることから軍艦島と呼ばれる。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-okinoshima-rule",
@@ -2535,7 +2537,7 @@
     "explanation": "沖ノ島は女人禁制とされ、島で見聞きしたことを口外しない、島のものを持ち出さないなどの禁忌が伝わる。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-hidden-christian-period",
@@ -2565,7 +2567,7 @@
     "explanation": "江戸幕府の禁教政策の下、潜伏キリシタンが独自の形で信仰を続けた歴史を示す。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-mozu-shape",
@@ -2595,7 +2597,7 @@
     "explanation": "前方後円墳を含む多様な形の古墳からなる。日本最大の古墳もこの古墳群に含まれる。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-amami-rabbit",
@@ -2625,7 +2627,7 @@
     "explanation": "アマミノクロウサギやイリオモテヤマネコなど、固有種・希少種が多く生息する。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-jomon-sannai",
@@ -2655,7 +2657,7 @@
     "explanation": "三内丸山遺跡は縄文時代の大規模な集落跡。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-sado-mine",
@@ -2685,7 +2687,7 @@
     "explanation": "西三川砂金山と相川鶴子金銀山からなり、手工業による金生産の技術と生産体制を示す。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-asuka-capital",
@@ -2715,7 +2717,7 @@
     "explanation": "藤原京は条坊制をもつ日本初の本格的な都城とされる。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-taj-mahal-builder",
@@ -2745,7 +2747,7 @@
     "explanation": "ムガル帝国の皇帝シャー・ジャハーンが妃ムムターズ・マハルのために造営させた廟。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-versailles-king",
@@ -2775,7 +2777,7 @@
     "explanation": "太陽王と呼ばれたルイ14世が拡張し、宮廷を移した。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-angkor-empire",
@@ -2805,7 +2807,7 @@
     "explanation": "クメール王朝の都であり、アンコール・ワットやアンコール・トムが含まれる。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-machu-picchu-civ",
@@ -2835,7 +2837,7 @@
     "explanation": "標高約2,400mに築かれたインカ帝国の遺跡で、麓から見えないため「空中都市」とも呼ばれる。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-great-wall-purpose",
@@ -2865,7 +2867,7 @@
     "explanation": "北方からの侵入を防ぐために築かれ、秦の始皇帝の時代に既存の城壁が連結された。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-auschwitz-negative",
@@ -2895,7 +2897,7 @@
     "explanation": "ナチス・ドイツによる強制収容所跡で、負の遺産として挙げられる。なお「負の遺産」はユネスコの公式の分類名ではなく、明確な定義のない通称である。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-statue-liberty-gift",
@@ -2925,7 +2927,7 @@
     "explanation": "アメリカ独立100周年を記念してフランスから贈られた。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-acropolis-temple",
@@ -2948,14 +2950,14 @@
       },
       {
         "key": "d",
-        "label": "エレクテイオン"
+        "label": "ヘファイストス神殿"
       }
     ],
     "answerKey": "a",
-    "explanation": "パルテノン神殿は都市の守護神アテナを祀る。",
+    "explanation": "パルテノン神殿は都市の守護神アテナを祀る。ほかの3つはアクロポリスの建造物ではない。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-grand-canyon-river",
@@ -2985,7 +2987,7 @@
     "explanation": "コロラド川の侵食によって形成された峡谷で、地層から地球の歴史を読み取ることができる。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-baikal-feature",
@@ -3015,7 +3017,7 @@
     "explanation": "世界最古かつ最深の湖で、バイカルアザラシなど固有種が多い。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-uluru-people",
@@ -3045,7 +3047,7 @@
     "explanation": "アボリジニのアナング族の聖地であり、文化的景観が認められた複合遺産。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-panda-species",
@@ -3075,7 +3077,7 @@
     "explanation": "野生のジャイアントパンダの生息地の多くを占め、その保護の中心となっている。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-victoria-falls-name",
@@ -3105,7 +3107,7 @@
     "explanation": "現地の言葉で「雷鳴とどろく水煙」を意味する。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   },
   {
     "id": "w-galapagos-location",
@@ -3135,6 +3137,6 @@
     "explanation": "南米エクアドルの西方、太平洋上に位置する諸島。",
     "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "verificationLevel": "secondary"
+    "verificationLevel": "primary"
   }
 ]

@@ -14,6 +14,7 @@ import {
   allocateCategories,
   allocateTemplates,
   buildExam,
+  EXCLUDE_PENDING_SCOPE,
   grade,
   MANUAL,
   TEMPLATE_WEIGHTS,
@@ -42,7 +43,7 @@ function question(overrides: Partial<Question> & { choices: Question["choices"] 
 describe("site data", () => {
   it("carries both the Japanese and the world sites", () => {
     expect(japan).toHaveLength(27);
-    expect(world).toHaveLength(83);
+    expect(world).toHaveLength(84);
   });
 
   it("drops the site that appears in both datasets", () => {
@@ -524,5 +525,21 @@ describe("verification levels", () => {
   it("still rests mostly on the organiser's own answer sheets", () => {
     const primary = MANUAL.filter((q) => q.verificationLevel === "primary").length;
     expect(primary / MANUAL.length).toBeGreaterThan(0.5);
+  });
+});
+
+describe("sites awaiting confirmation of the syllabus", () => {
+  it("marks the newest inscription, which no textbook edition covers yet", () => {
+    const asuka = sites.find((s) => s.id === "jp-asuka-and-fujiwara")!;
+    expect(asuka.pendingScope).toBe(true);
+  });
+
+  it("still asks about it, because omitting a site in scope costs more", () => {
+    expect(EXCLUDE_PENDING_SCOPE).toBe(false);
+    const asked = new Set<string>();
+    for (let seed = 0; seed < 200; seed++) {
+      for (const q of buildExam(sites, 20, seed).questions) if (q.siteId) asked.add(q.siteId);
+    }
+    expect(asked).toContain("jp-asuka-and-fujiwara");
   });
 });

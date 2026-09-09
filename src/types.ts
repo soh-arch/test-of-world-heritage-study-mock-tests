@@ -18,6 +18,11 @@ export interface Site {
   transboundary: boolean;
   /** World sites only: whether the textbook actually covers it is inferred. */
   estimated?: boolean;
+  /**
+   * Inscribed after the current textbook edition, so probably not examinable
+   * yet. Included by default; see EXCLUDE_PENDING_SCOPE in exam.ts.
+   */
+  pendingScope?: boolean;
 }
 
 export type TemplateKey = "year" | "place" | "region" | "related" | "pickByType";

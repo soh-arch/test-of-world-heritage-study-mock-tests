@@ -16,6 +16,8 @@
 | `04-dataset-validation.md` | `data/` の検証結果と実装前に直すべき点 | `validate_datasets.py` による検査 |
 | `05-question-type-gap.md` | 公式の出題類型と実装の突合表 | 設定とコードから再現 |
 | `06-official-worksheets.md` | 公式学習プリント9枚・51問の測定結果 | PDFを読んで集計（PDFは非同梱） |
+| `07-question-verification.md` | 手書き問題の検証記録（2ラウンド分） | エージェントによる検証、集計は機械照合 |
+| `08-primary-source-followup.md` | 未解決事項の追加調査（一次情報アクセス後） | 公式サイト・PDF・pamon を実読 |
 | `exam-spec.md` | **3級の試験仕様レポート**（一次情報確認済み） | 公式サイト等へ直接アクセス（2026-09-09） |
 | `data/exam-config.json` | 出題アルゴリズムの設定値 | 同上 |
 | `data/japan-sites.json` | **日本の世界遺産27件**（全件確度「確定」） | 同上＋スキーマ検査 |

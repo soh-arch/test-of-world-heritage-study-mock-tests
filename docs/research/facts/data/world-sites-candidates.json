@@ -2511,5 +2511,33 @@
     },
     "accessed": "2026-09-09",
     "confidence": "推定"
+  },
+  {
+    "id": "w-lyon",
+    "name_ja": "リヨンの歴史地区",
+    "name_en": "Historic Site of Lyon",
+    "country_ja": [
+      "フランス共和国"
+    ],
+    "unesco_region": "ヨーロッパ",
+    "registration_year": 1998,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4
+    ],
+    "is_transboundary": false,
+    "in_danger": false,
+    "delisted": false,
+    "textbook_page": null,
+    "evidence": "現行第5版キーワードリストp.38「ポール・ブリュナ」の説明文中に『リヨンで製糸技術を学び』とあり、富岡製糸場と見開きで対比される世界遺産としてリヨンが扱われている可能性が高い。加えて公式学習プリント（2019-2022年配布、旧版準拠）ではリヨンの歴史地区の内容そのものを問う設問が確認されている（docs/research/facts/06-official-worksheets.md）。ただし現行第5版の「世界の遺産100件」リストにリヨンが独立項目として掲載されている旨を明記した一次情報（掲載ページ番号付き）は発見できず、確度は推定にとどまる。",
+    "in_textbook_confidence": "推定",
+    "wikidata_sitelinks": 18,
+    "source": {
+      "attributes": "https://pamon.sekaken.jp/wh-list/lyon/",
+      "textbook_inclusion": "https://www.sekaken.jp/books/3text/ （重要語句リスト〈第5版〉p.38「ポール・ブリュナ」の説明文からの間接的推定。直接的な掲載ページ表記なし）"
+    },
+    "accessed": "2026-09-09",
+    "confidence": "推定"
   }
 ]

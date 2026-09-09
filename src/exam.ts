@@ -125,6 +125,15 @@ export function allocateTemplates(total: number, rng?: () => number): Array<[Tem
   return counts;
 }
 
+/**
+ * Whether to drop sites inscribed after the current textbook edition. Left off:
+ * a site that turns out to be off the syllabus only costs the learner some
+ * extra knowledge, while dropping one that is on it leaves a gap. Turn it on
+ * once the syllabus for the newest inscription is confirmed
+ * (docs/research/open-questions.md, D2).
+ */
+export const EXCLUDE_PENDING_SCOPE = false;
+
 export function randomSeed(): number {
   return Math.floor(Math.random() * 0xffffffff) >>> 0;
 }
@@ -232,14 +241,16 @@ export function buildExam(sites: readonly Site[], total: number, seed: number): 
   const taken: Taken = { sites: new Set(), stems: new Set() };
   const questions: Question[] = [];
 
+  const eligible = EXCLUDE_PENDING_SCOPE ? sites.filter((site) => !site.pendingScope) : sites;
+
   for (const [category, want] of allocateCategories(total)) {
-    const pool = sites.filter((site) => categoriesOf(site).includes(category));
-    questions.push(...take(rng, want, pool, sites, taken, category));
+    const pool = eligible.filter((site) => categoriesOf(site).includes(category));
+    questions.push(...take(rng, want, pool, eligible, taken, category));
   }
 
   // If a category could not be filled, top up from everything that is left.
   if (questions.length < total) {
-    questions.push(...take(rng, total - questions.length, sites, sites, taken, "japan"));
+    questions.push(...take(rng, total - questions.length, eligible, eligible, taken, "japan"));
   }
 
   // Categories are filled in order, so shuffle to avoid a predictable run.

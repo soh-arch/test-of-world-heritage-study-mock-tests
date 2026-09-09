@@ -77,6 +77,19 @@ const COUNTRY_SHORT = {
   "英国（グレートブリテン及び北アイルランド連合王国）": "イギリス",
 };
 
+/**
+ * Sites inscribed after the current textbook edition. The organiser's own
+ * notice about Sado shows the pattern: a site inscribed in July 2024 only
+ * entered the syllabus with the revised edition, at the 60th sitting in mid
+ * 2025. Asuka and Fujiwara was inscribed in July 2026 and no 6th edition has
+ * been announced, so it is probably not examinable yet.
+ *
+ * They are still included: if a site turns out to be out of scope, the cost is
+ * having learnt something extra, whereas dropping one that is in scope leaves a
+ * gap. The flag lets that be reversed once the syllabus is confirmed.
+ */
+const PENDING_SCOPE = new Set(["jp-asuka-and-fujiwara"]);
+
 // The region_jp string joins several regions with the same separator that
 // "九州・沖縄" contains, so match the longest region name first.
 function parseRegions(composite) {
@@ -133,6 +146,7 @@ const japan = japanRaw.map((site) => {
     // A site shared with other countries is not "located in" one Japanese
     // region, even though the data only lists its Japanese component.
     transboundary: site.is_transboundary,
+    ...(PENDING_SCOPE.has(site.id) ? { pendingScope: true } : {}),
   };
 });
 
@@ -244,6 +258,10 @@ console.log(
   `built ${sites.length} sites (japan ${japan.length}, world ${world.length}); ` +
     `dropped duplicates: ${duplicates.join(", ") || "none"}`,
 );
+const pending = sites.filter((s) => s.pendingScope).map((s) => s.id);
+if (pending.length > 0) {
+  console.log(`sites awaiting confirmation of the syllabus: ${pending.join(", ")}`);
+}
 console.log(
   `built ${manual.length} hand-written questions ` +
     `(${primary} confirmed against a primary source, ${manual.length - primary} against secondary ones)` +

@@ -511,7 +511,8 @@
       2,
       3
     ],
-    "transboundary": false
+    "transboundary": false,
+    "pendingScope": true
   },
   {
     "id": "w-serengeti",
@@ -2174,6 +2175,25 @@
     "criteria": [
       7,
       10
+    ],
+    "transboundary": false,
+    "estimated": true
+  },
+  {
+    "id": "w-lyon",
+    "scope": "world",
+    "nameJa": "リヨンの歴史地区",
+    "places": [
+      "フランス"
+    ],
+    "regions": [
+      "ヨーロッパ"
+    ],
+    "year": 1998,
+    "type": "cultural",
+    "criteria": [
+      2,
+      4
     ],
     "transboundary": false,
     "estimated": true
