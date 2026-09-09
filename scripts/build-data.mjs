@@ -229,6 +229,15 @@ for (const question of manualRaw) {
   if (!question.explanation) problems.push(`${where}: no explanation`);
 }
 
+// Two questions with the same stem would be interchangeable in a paper and are
+// almost always an editing slip.
+const stems = new Map();
+for (const question of manualRaw) {
+  const seen = stems.get(question.text);
+  if (seen) problems.push(`manual ${question.id}: same question text as ${seen}`);
+  stems.set(question.text, question.id);
+}
+
 const manual = manualRaw.filter((q) => q.verified);
 
 const examConfig = {

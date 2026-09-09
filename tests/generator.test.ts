@@ -543,3 +543,17 @@ describe("sites awaiting confirmation of the syllabus", () => {
     expect(asked).toContain("jp-asuka-and-fujiwara");
   });
 });
+
+describe("current affairs", () => {
+  it("mostly asks things that will not go out of date", () => {
+    const other = MANUAL.filter((q) => q.category === "other");
+    const durable = other.filter((q) => !q.volatile);
+    expect(other.length).toBeGreaterThan(20);
+    expect(durable.length).toBeGreaterThan(other.length * 0.6);
+  });
+
+  it("gives no two questions the same stem", () => {
+    const texts = MANUAL.map((q) => q.text);
+    expect(new Set(texts).size).toBe(texts.length);
+  });
+});

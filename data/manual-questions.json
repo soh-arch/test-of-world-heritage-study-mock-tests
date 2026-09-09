@@ -3285,5 +3285,324 @@
     "verified": true,
     "verificationLevel": "primary",
     "volatile": true
+  },
+  {
+    "id": "other-38th-host",
+    "category": "other",
+    "topic": "世界遺産委員会",
+    "text": "2014年に第38回世界遺産委員会が開催された国として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "カタール"
+      },
+      {
+        "key": "b",
+        "label": "バーレーン"
+      },
+      {
+        "key": "c",
+        "label": "サウジアラビア"
+      },
+      {
+        "key": "d",
+        "label": "アラブ首長国連邦"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "第38回世界遺産委員会は2014年6月、カタールのドーハで開催された。",
+    "source": "https://www.sekaken.jp/pdf/201407_new.pdf（世界遺産検定公式「2014年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
+  },
+  {
+    "id": "other-39th-host",
+    "category": "other",
+    "topic": "世界遺産委員会",
+    "text": "2015年に第39回世界遺産委員会が開催された都市として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ボン"
+      },
+      {
+        "key": "b",
+        "label": "クラクフ"
+      },
+      {
+        "key": "c",
+        "label": "イスタンブル"
+      },
+      {
+        "key": "d",
+        "label": "パリ"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "第39回世界遺産委員会は2015年6〜7月、ドイツのボンで開催された。",
+    "source": "https://www.sekaken.jp/pdf/201507_new.pdf（世界遺産検定公式「2015年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
+  },
+  {
+    "id": "other-41st-host",
+    "category": "other",
+    "topic": "世界遺産委員会",
+    "text": "2017年に第41回世界遺産委員会が開催された国として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ポーランド"
+      },
+      {
+        "key": "b",
+        "label": "ドイツ"
+      },
+      {
+        "key": "c",
+        "label": "アゼルバイジャン"
+      },
+      {
+        "key": "d",
+        "label": "バーレーン"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "第41回世界遺産委員会は2017年7月、ポーランドのクラクフで開催された。",
+    "source": "https://www.sekaken.jp/pdf/201707_new.pdf（世界遺産検定公式「2017年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
+  },
+  {
+    "id": "other-42nd-host",
+    "category": "other",
+    "topic": "世界遺産委員会",
+    "text": "2018年に第42回世界遺産委員会が開催された国として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "バーレーン"
+      },
+      {
+        "key": "b",
+        "label": "カタール"
+      },
+      {
+        "key": "c",
+        "label": "サウジアラビア"
+      },
+      {
+        "key": "d",
+        "label": "オマーン"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "第42回世界遺産委員会は2018年6〜7月、バーレーンのマナーマで開催された。",
+    "source": "https://www.sekaken.jp/pdf/201807_new.pdf（世界遺産検定公式「2018年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
+  },
+  {
+    "id": "other-43rd-host",
+    "category": "other",
+    "topic": "世界遺産委員会",
+    "text": "2019年に第43回世界遺産委員会が開催された都市として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "バクー"
+      },
+      {
+        "key": "b",
+        "label": "リヤド"
+      },
+      {
+        "key": "c",
+        "label": "ドーハ"
+      },
+      {
+        "key": "d",
+        "label": "マナーマ"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "第43回世界遺産委員会は2019年6〜7月、アゼルバイジャンのバクーで開催された。",
+    "source": "https://www.sekaken.jp/pdf/201907_new.pdf（世界遺産検定公式「2019年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
+  },
+  {
+    "id": "other-44th-online",
+    "category": "other",
+    "topic": "世界遺産委員会",
+    "text": "2021年に中国の福州で開催された第44回世界遺産委員会の特徴として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "史上初めてオンラインで開催された"
+      },
+      {
+        "key": "b",
+        "label": "史上初めて南半球で開催された"
+      },
+      {
+        "key": "c",
+        "label": "会期が過去最長となった"
+      },
+      {
+        "key": "d",
+        "label": "史上初めて2か国の共催で行われた"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "第44回世界遺産委員会（拡大）は2021年7月、中国の福州において史上初のオンラインで開催された。",
+    "source": "https://www.sekaken.jp/pdf/202108_new_0810_02_new.pdf（世界遺産検定公式「2021年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
+  },
+  {
+    "id": "other-45th-host",
+    "category": "other",
+    "topic": "世界遺産委員会",
+    "text": "2023年に第45回世界遺産委員会が開催された国として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "サウジアラビア"
+      },
+      {
+        "key": "b",
+        "label": "カタール"
+      },
+      {
+        "key": "c",
+        "label": "バーレーン"
+      },
+      {
+        "key": "d",
+        "label": "アラブ首長国連邦"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "第45回世界遺産委員会は2023年9月、サウジアラビアのリヤドで開催された。",
+    "source": "https://www.sekaken.jp/pdf/202309_new.pdf（世界遺産検定公式「2023年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
+  },
+  {
+    "id": "other-2014-japan",
+    "category": "other",
+    "topic": "日本の登録史",
+    "text": "2014年の第38回世界遺産委員会で世界遺産に登録された日本の遺産として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "富岡製糸場と絹産業遺産群"
+      },
+      {
+        "key": "b",
+        "label": "明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業"
+      },
+      {
+        "key": "c",
+        "label": "「神宿る島」宗像・沖ノ島と関連遺産群"
+      },
+      {
+        "key": "d",
+        "label": "百舌鳥・古市古墳群"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "『富岡製糸場と絹産業遺産群』の登録により、日本の世界遺産は18件となった。",
+    "source": "https://www.sekaken.jp/pdf/201407_new.pdf（世界遺産検定公式「2014年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
+  },
+  {
+    "id": "other-2015-japan",
+    "category": "other",
+    "topic": "日本の登録史",
+    "text": "2015年の第39回世界遺産委員会で世界遺産に登録された日本の遺産として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業"
+      },
+      {
+        "key": "b",
+        "label": "富岡製糸場と絹産業遺産群"
+      },
+      {
+        "key": "c",
+        "label": "長崎と天草地方の潜伏キリシタン関連遺産"
+      },
+      {
+        "key": "d",
+        "label": "佐渡島の金山"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "『明治日本の産業革命遺産』の登録により、日本の世界遺産は19件となった。",
+    "source": "https://www.sekaken.jp/pdf/201507_new.pdf（世界遺産検定公式「2015年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
+  },
+  {
+    "id": "other-2021-japan-pair",
+    "category": "other",
+    "topic": "日本の登録史",
+    "text": "2021年の第44回世界遺産委員会で同時に登録された、2件の日本の遺産の組み合わせとして、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "奄美大島、徳之島、沖縄島北部及び西表島／北海道・北東北の縄文遺跡群"
+      },
+      {
+        "key": "b",
+        "label": "百舌鳥・古市古墳群／長崎と天草地方の潜伏キリシタン関連遺産"
+      },
+      {
+        "key": "c",
+        "label": "「神宿る島」宗像・沖ノ島と関連遺産群／富岡製糸場と絹産業遺産群"
+      },
+      {
+        "key": "d",
+        "label": "佐渡島の金山／明治日本の産業革命遺産　製鉄・製鋼、造船、石炭産業"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "2021年に自然遺産『奄美大島、徳之島、沖縄島北部及び西表島』と文化遺産『北海道・北東北の縄文遺跡群』が登録され、日本の世界遺産は25件となった。",
+    "source": "https://www.sekaken.jp/pdf/202108_new_0810_02_new.pdf（世界遺産検定公式「2021年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
+  },
+  {
+    "id": "other-liverpool-delisted",
+    "category": "other",
+    "topic": "登録抹消",
+    "text": "2021年の第44回世界遺産委員会で世界遺産リストから削除された遺産として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "リヴァプール海商都市"
+      },
+      {
+        "key": "b",
+        "label": "ドレスデン・エルベ渓谷"
+      },
+      {
+        "key": "c",
+        "label": "アラビアオリックスの保護地区"
+      },
+      {
+        "key": "d",
+        "label": "ヴェネツィアとその潟"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "英国の『リヴァプール海商都市』は、再開発により顕著な普遍的価値が損なわれたとして2021年に登録を抹消された。",
+    "source": "https://www.sekaken.jp/pdf/202108_new_0810_02_new.pdf（世界遺産検定公式「2021年新情報」、2026-09-09閲覧）",
+    "verified": true,
+    "verificationLevel": "primary"
   }
 ]
