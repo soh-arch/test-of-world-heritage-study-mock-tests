@@ -11,15 +11,15 @@ const config = configJson as {
 
 export const MANUAL: ManualQuestion[] = manualJson as ManualQuestion[];
 
-/** The categories the exam can fill. "その他" still has no questions, so the
- *  remaining four ratios are renormalised over it. */
-export const COVERED: CategoryKey[] = ["basic", "japan", "world_natural", "world_cultural"];
+/** Every category the exam publishes a ratio for. */
+export const COVERED: CategoryKey[] = ["basic", "japan", "world_natural", "world_cultural", "other"];
 
 export const CATEGORY_LABEL: Record<CategoryKey, string> = {
   basic: "基礎知識",
   japan: "日本の遺産",
   world_natural: "世界の自然遺産",
   world_cultural: "世界の文化遺産",
+  other: "その他",
 };
 
 /**
@@ -34,6 +34,7 @@ const MANUAL_SHARE: Record<CategoryKey, number> = {
   japan: 0.5,
   world_natural: 0.5,
   world_cultural: 0.5,
+  other: 1,
 };
 
 /**

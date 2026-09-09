@@ -263,13 +263,14 @@ describe("exam assembly", () => {
   });
 
   it("holds the official category split, renormalised over what it can answer", () => {
-    // Official ratios are 基礎知識 25 / 日本 30 / 自然 10 / 文化 30. Only "その他"
-    // is unreachable, so 20 questions land as 5 / 7 / 2 / 6.
+    // The published ratios are 25 / 30 / 10 / 30 / 5, which divide 20 questions
+    // exactly, with every category now covered.
     expect(allocateCategories(20)).toEqual([
       ["basic", 5],
-      ["japan", 7],
+      ["japan", 6],
       ["world_natural", 2],
       ["world_cultural", 6],
+      ["other", 1],
     ]);
   });
 
@@ -281,7 +282,8 @@ describe("exam assembly", () => {
       }
       expect([...counts.entries()].sort()).toEqual([
         ["basic", 5],
-        ["japan", 7],
+        ["japan", 6],
+        ["other", 1],
         ["world_cultural", 6],
         ["world_natural", 2],
       ]);
@@ -488,5 +490,21 @@ describe("the hand-written pool", () => {
     }
     expect(seen.has("manual")).toBe(true);
     expect(seen.size).toBeGreaterThan(1);
+  });
+});
+
+describe("the current-affairs category", () => {
+  it("is filled, and only from hand-written questions", () => {
+    for (let seed = 0; seed < 30; seed++) {
+      const other = buildExam(sites, 20, seed).questions.filter((q) => q.category === "other");
+      expect(other, `seed ${seed}`).toHaveLength(1);
+      expect(other[0]!.template).toBe("manual");
+    }
+  });
+
+  it("dates every question whose answer will go out of date", () => {
+    for (const q of MANUAL.filter((m) => m.volatile)) {
+      expect(q.text, q.id).toMatch(/\d{4}年\d{1,2}月時点/);
+    }
   });
 });

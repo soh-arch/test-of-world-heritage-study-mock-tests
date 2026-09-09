@@ -25,8 +25,8 @@ export type TemplateKey = "year" | "place" | "region" | "related" | "pickByType"
 /** Where a question came from: a generator template, or the hand-written pool. */
 export type QuestionSource = TemplateKey | "manual";
 
-/** The exam's categories, less "その他" which nothing covers yet. */
-export type CategoryKey = "basic" | "japan" | "world_natural" | "world_cultural";
+/** The exam's five categories. */
+export type CategoryKey = "basic" | "japan" | "world_natural" | "world_cultural" | "other";
 
 export interface Choice {
   /** Stable key used for grading. Display text is never compared. */
@@ -66,7 +66,10 @@ export interface ManualQuestion {
   choices: Choice[];
   answerKey: string;
   explanation: string;
-  /** Where the fact was confirmed. Required; a question without one is dropped. */
+  /** Where the fact was confirmed. Required once the question is verified. */
   source: string;
+  /** Only verified questions reach the app. */
   verified: boolean;
+  /** True where the answer changes over time, so the question states its date. */
+  volatile?: boolean;
 }

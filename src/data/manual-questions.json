@@ -1479,5 +1479,264 @@
     "explanation": "ヴァロワ朝のフランソワ1世。リヨンは18世紀末のフランス革命まで、ヨーロッパの絹産業の中心地だった。",
     "source": "3級学習ツール⑧ 解答（2022.08）",
     "verified": true
+  },
+  {
+    "id": "other-48th-host",
+    "category": "other",
+    "topic": "世界遺産委員会",
+    "text": "2026年に第48回世界遺産委員会が開催された国として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "韓国"
+      },
+      {
+        "key": "b",
+        "label": "中国"
+      },
+      {
+        "key": "c",
+        "label": "インド"
+      },
+      {
+        "key": "d",
+        "label": "サウジアラビア"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "第48回世界遺産委員会は2026年7月に韓国の釜山で開催された。",
+    "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
+    "verified": true
+  },
+  {
+    "id": "other-asuka-inscribed",
+    "category": "other",
+    "topic": "最近の登録",
+    "text": "2026年の第48回世界遺産委員会で新たに世界遺産に登録された日本の遺産として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "飛鳥・藤原の宮都"
+      },
+      {
+        "key": "b",
+        "label": "佐渡島の金山"
+      },
+      {
+        "key": "c",
+        "label": "北海道・北東北の縄文遺跡群"
+      },
+      {
+        "key": "d",
+        "label": "百舌鳥・古市古墳群"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "2026年7月の第48回世界遺産委員会（韓国・釜山）で『飛鳥・藤原の宮都』が登録された。",
+    "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
+    "verified": true
+  },
+  {
+    "id": "other-asuka-type",
+    "category": "other",
+    "topic": "最近の登録",
+    "siteId": "jp-asuka-and-fujiwara",
+    "text": "2026年に登録された『飛鳥・藤原の宮都』の分類として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "文化遺産"
+      },
+      {
+        "key": "b",
+        "label": "自然遺産"
+      },
+      {
+        "key": "c",
+        "label": "複合遺産"
+      },
+      {
+        "key": "d",
+        "label": "危機遺産"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "『飛鳥・藤原の宮都』は奈良県にある文化遺産で、登録基準(ii)(iii)が認められた。",
+    "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
+    "verified": true
+  },
+  {
+    "id": "other-sado-inscribed",
+    "category": "other",
+    "topic": "最近の登録",
+    "siteId": "jp-sado-island",
+    "text": "2024年に世界遺産に登録された日本の遺産として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "佐渡島の金山"
+      },
+      {
+        "key": "b",
+        "label": "飛鳥・藤原の宮都"
+      },
+      {
+        "key": "c",
+        "label": "奄美大島、徳之島、沖縄島北部及び西表島"
+      },
+      {
+        "key": "d",
+        "label": "富岡製糸場と絹産業遺産群"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "『佐渡島の金山』は2024年に登録された新潟県の文化遺産。",
+    "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
+    "verified": true
+  },
+  {
+    "id": "other-japan-count",
+    "category": "other",
+    "topic": "日本の現況",
+    "text": "2026年9月時点で、日本が保有する世界遺産の件数として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "27件"
+      },
+      {
+        "key": "b",
+        "label": "23件"
+      },
+      {
+        "key": "c",
+        "label": "25件"
+      },
+      {
+        "key": "d",
+        "label": "30件"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "2026年7月に『飛鳥・藤原の宮都』が加わり27件となった。内訳は文化遺産22件、自然遺産5件。",
+    "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
+    "verified": true,
+    "volatile": true
+  },
+  {
+    "id": "other-japan-breakdown",
+    "category": "other",
+    "topic": "日本の現況",
+    "text": "2026年9月時点における、日本の世界遺産の内訳として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "文化遺産22件・自然遺産5件"
+      },
+      {
+        "key": "b",
+        "label": "文化遺産20件・自然遺産7件"
+      },
+      {
+        "key": "c",
+        "label": "文化遺産19件・自然遺産4件"
+      },
+      {
+        "key": "d",
+        "label": "文化遺産24件・自然遺産3件"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "27件の内訳は文化遺産22件、自然遺産5件。日本に複合遺産はない。",
+    "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
+    "verified": true,
+    "volatile": true
+  },
+  {
+    "id": "other-world-total",
+    "category": "other",
+    "topic": "世界の現況",
+    "text": "2026年9月時点における、世界遺産の総数として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "1,273件"
+      },
+      {
+        "key": "b",
+        "label": "1,121件"
+      },
+      {
+        "key": "c",
+        "label": "1,199件"
+      },
+      {
+        "key": "d",
+        "label": "1,354件"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "内訳は文化遺産991件、自然遺産240件、複合遺産42件。",
+    "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
+    "verified": true,
+    "volatile": true
+  },
+  {
+    "id": "other-danger-count",
+    "category": "other",
+    "topic": "世界の現況",
+    "text": "2026年9月時点で、危機遺産リストに記載されている遺産の件数として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "58件"
+      },
+      {
+        "key": "b",
+        "label": "32件"
+      },
+      {
+        "key": "c",
+        "label": "45件"
+      },
+      {
+        "key": "d",
+        "label": "74件"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "危機遺産リストには58件が記載されている。",
+    "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
+    "verified": true,
+    "volatile": true
+  },
+  {
+    "id": "other-japan-rank",
+    "category": "other",
+    "topic": "世界の現況",
+    "text": "2026年9月時点で、日本は世界遺産の保有数において世界で何番目に多い国か。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "11番目"
+      },
+      {
+        "key": "b",
+        "label": "3番目"
+      },
+      {
+        "key": "c",
+        "label": "7番目"
+      },
+      {
+        "key": "d",
+        "label": "15番目"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "日本は27件を保有し、世界で11番目に多い。",
+    "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
+    "verified": true,
+    "volatile": true
   }
 ]

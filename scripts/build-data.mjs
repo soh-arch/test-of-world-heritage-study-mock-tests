@@ -187,7 +187,7 @@ if (problems.length > 0) {
 // Hand-written questions carry the burden of being right on their own, so they
 // are checked harder than generated ones: a source is required, and only the
 // questions marked verified reach the app.
-const CATEGORIES = new Set(["basic", "japan", "world_natural", "world_cultural"]);
+const CATEGORIES = new Set(["basic", "japan", "world_natural", "world_cultural", "other"]);
 const siteIds = new Set(sites.map((s) => s.id));
 const manualIds = new Set();
 
@@ -198,7 +198,7 @@ for (const question of manualRaw) {
 
   if (!CATEGORIES.has(question.category)) problems.push(`${where}: unknown category ${question.category}`);
   if (question.siteId && !siteIds.has(question.siteId)) problems.push(`${where}: unknown site ${question.siteId}`);
-  if (!question.source) problems.push(`${where}: no source`);
+  if (question.verified && !question.source) problems.push(`${where}: verified without a source`);
   if (!question.topic) problems.push(`${where}: no topic`);
   if (!question.text?.endsWith("。")) problems.push(`${where}: question does not end in a full stop`);
 
