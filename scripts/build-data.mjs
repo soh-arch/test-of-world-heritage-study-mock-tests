@@ -199,6 +199,9 @@ for (const question of manualRaw) {
   if (!CATEGORIES.has(question.category)) problems.push(`${where}: unknown category ${question.category}`);
   if (question.siteId && !siteIds.has(question.siteId)) problems.push(`${where}: unknown site ${question.siteId}`);
   if (question.verified && !question.source) problems.push(`${where}: verified without a source`);
+  if (question.verified && !["primary", "secondary"].includes(question.verificationLevel)) {
+    problems.push(`${where}: verified without a verification level`);
+  }
   if (!question.topic) problems.push(`${where}: no topic`);
   if (!question.text?.endsWith("。")) problems.push(`${where}: question does not end in a full stop`);
 
@@ -236,11 +239,13 @@ writeFileSync(resolve(target, "manual-questions.json"), JSON.stringify(manual, n
 writeFileSync(resolve(target, "exam-config.json"), JSON.stringify(examConfig, null, 2) + "\n");
 
 const unverified = manualRaw.length - manual.length;
+const primary = manual.filter((q) => q.verificationLevel === "primary").length;
 console.log(
   `built ${sites.length} sites (japan ${japan.length}, world ${world.length}); ` +
     `dropped duplicates: ${duplicates.join(", ") || "none"}`,
 );
 console.log(
-  `built ${manual.length} hand-written questions` +
-    (unverified > 0 ? `; withheld ${unverified} not marked verified` : ""),
+  `built ${manual.length} hand-written questions ` +
+    `(${primary} confirmed against a primary source, ${manual.length - primary} against secondary ones)` +
+    (unverified > 0 ? `; withheld ${unverified}` : ""),
 );

@@ -70,6 +70,12 @@ export interface ManualQuestion {
   source: string;
   /** Only verified questions reach the app. */
   verified: boolean;
+  /**
+   * How the fact was confirmed. "primary" means the organiser's own answer
+   * sheet or primary-source research; "secondary" means search results and
+   * cross-checks against data already confirmed, with no primary source seen.
+   */
+  verificationLevel?: "primary" | "secondary";
   /** True where the answer changes over time, so the question states its date. */
   volatile?: boolean;
 }

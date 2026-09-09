@@ -25,7 +25,8 @@
     "answerKey": "a",
     "explanation": "顕著な普遍的価値（OUV）という。世界遺産に登録されるには、この価値をもつと認められる必要がある。",
     "source": "3級学習ツール① 解答（2019.11）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-list",
@@ -53,7 +54,8 @@
     "answerKey": "a",
     "explanation": "世界遺産リストという。登録された遺産はこの一覧表に記載される。",
     "source": "3級学習ツール① 解答（2019.11）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-three-types",
@@ -81,7 +83,8 @@
     "answerKey": "a",
     "explanation": "文化遺産・自然遺産・複合遺産の3つに分類される。",
     "source": "3級学習ツール① 解答（2019.11）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-committee-role",
@@ -109,7 +112,8 @@
     "answerKey": "a",
     "explanation": "世界遺産委員会が、登録の可否、危機遺産リストへの記載の可否、世界遺産基金の使い道などを話し合う。",
     "source": "3級学習ツール① 解答（2019.11）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-committee-frequency",
@@ -137,7 +141,8 @@
     "answerKey": "a",
     "explanation": "世界遺産委員会は1年に1度開催される。",
     "source": "3級学習ツール① 解答（2019.11）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-committee-members",
@@ -165,7 +170,8 @@
     "answerKey": "a",
     "explanation": "世界遺産条約を締結した国の中から選ばれた21ヵ国が委員を務める。",
     "source": "3級学習ツール③ 解答（2020.01）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-committee-term",
@@ -193,7 +199,8 @@
     "answerKey": "a",
     "explanation": "任期は6年だが、4年で交代することが望ましいとされている。委員国は世界遺産条約締約国会議で改選される。",
     "source": "3級学習ツール③ 解答（2020.01）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-convention-scope",
@@ -221,7 +228,8 @@
     "answerKey": "a",
     "explanation": "以前は文化と自然をそれぞれ別に守っていたが、世界遺産条約では分けることができないものとして両方を守る。",
     "source": "3級学習ツール② 解答（2019.12）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-responsibility",
@@ -249,7 +257,8 @@
     "answerKey": "a",
     "explanation": "遺産を保有する国自身が第一の責任を負う。",
     "source": "3級学習ツール② 解答（2019.12）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-nubia-trigger",
@@ -277,7 +286,8 @@
     "answerKey": "a",
     "explanation": "アスワン・ハイ・ダムの建設によりヌビア地方の遺跡が水没する危機に直面し、各国が協力した救済キャンペーンが世界遺産条約の理念につながった。",
     "source": "3級学習ツール② 解答（2019.12）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-nubia-temple",
@@ -305,7 +315,8 @@
     "answerKey": "a",
     "explanation": "ヌビア地方のアブ・シンベル神殿とフィラエのイシス神殿が水没の危機にさらされた。",
     "source": "3級学習ツール② 解答（2019.12）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-application-not",
@@ -333,7 +344,8 @@
     "answerKey": "a",
     "explanation": "申請の条件に観光的な価値は含まれない。締約国であること、暫定リストへの記載、保有国自身からの申請、不動産であることなどが条件となる。",
     "source": "3級学習ツール② 解答（2019.12）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-icomos",
@@ -361,7 +373,8 @@
     "answerKey": "a",
     "explanation": "文化遺産の専門調査はICOMOSが行い、4段階の勧告を世界遺産センターに提出する。",
     "source": "3級学習ツール③ 解答（2020.01）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-iucn",
@@ -389,7 +402,8 @@
     "answerKey": "a",
     "explanation": "自然遺産の専門調査はIUCNが行い、4段階の勧告を世界遺産センターに提出する。",
     "source": "3級学習ツール③ 解答（2020.01）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-japan-nomination",
@@ -417,7 +431,8 @@
     "answerKey": "a",
     "explanation": "世界遺産条約関係省庁連絡会議で決まった推薦候補を、内閣が閣議了解して決定する。",
     "source": "3級学習ツール③ 解答（2020.01）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-authenticity",
@@ -445,7 +460,8 @@
     "answerKey": "a",
     "explanation": "真正性という。特に修復を行う際には、伝統的な技術や部材の使用などが厳密に求められる。",
     "source": "3級学習ツール④ 解答（2020.02）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-integrity",
@@ -473,7 +489,8 @@
     "answerKey": "a",
     "explanation": "完全性という。十分な広さ、保護のための費用や人員、保全計画などが含まれている必要がある。",
     "source": "3級学習ツール④ 解答（2020.02）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-cultural-landscape",
@@ -501,7 +518,8 @@
     "answerKey": "a",
     "explanation": "文化的景観という。日本では2004年に『紀伊山地の霊場と参詣道』で最初に認められた。",
     "source": "3級学習ツール④ 解答（2020.02）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-cultural-landscape-jp",
@@ -529,7 +547,8 @@
     "answerKey": "a",
     "explanation": "2004年に『紀伊山地の霊場と参詣道』で日本初の文化的景観が認められた。",
     "source": "3級学習ツール④ 解答（2020.02）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-serial",
@@ -557,7 +576,8 @@
     "answerKey": "a",
     "explanation": "シリアル・ノミネーション・サイトという。『明治日本の産業革命遺産』『古都京都の文化財』などがこれにあたる。",
     "source": "3級学習ツール④ 解答（2020.02）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-transboundary",
@@ -585,7 +605,8 @@
     "answerKey": "a",
     "explanation": "トランスバウンダリー・サイトという。日本では『ル・コルビュジエの建築作品』がこれにあたる。",
     "source": "3級学習ツール④ 解答（2020.02）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-unesco-preamble",
@@ -613,7 +634,8 @@
     "answerKey": "a",
     "explanation": "「平和のとりで」を築く、と述べられている。世界遺産の保護もユネスコの平和活動の一環である。",
     "source": "3級学習ツール⑤ 解答（2020.03）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-ich",
@@ -641,7 +663,8 @@
     "answerKey": "a",
     "explanation": "無形文化遺産保護条約による。日本からは「能楽」「歌舞伎」「和食」などが登録されている。",
     "source": "3級学習ツール⑤ 解答（2020.03）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-memory",
@@ -669,7 +692,8 @@
     "answerKey": "a",
     "explanation": "「世界の記憶」という。日本からは「山本作兵衛炭坑記録画・記録文書」「東寺百合文書」などが登録されている。",
     "source": "3級学習ツール⑤ 解答（2020.03）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-japan-first-not",
@@ -697,7 +721,8 @@
     "answerKey": "a",
     "explanation": "最初の4件は『法隆寺地域の仏教建造物群』『姫路城』『白神山地』『屋久島』で、文化遺産2件・自然遺産2件だった。『古都京都の文化財』の登録は1994年。",
     "source": "3級学習ツール⑤ 解答（2020.03）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "basic-first-1978",
@@ -725,7 +750,8 @@
     "answerKey": "a",
     "explanation": "1978年に12件が最初の世界遺産として登録され、『ガラパゴス諸島』『イエローストーン国立公園』『ゴレ島』などが含まれる。",
     "source": "3級学習ツール① 解答（2019.11）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-shiretoko-seaice",
@@ -754,7 +780,8 @@
     "answerKey": "a",
     "explanation": "季節海氷域という。知床は地球上で最も低緯度で海水が凍る季節海氷域である。",
     "source": "3級学習ツール⑥ 解答（2020.04）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-shiretoko-trust",
@@ -783,7 +810,8 @@
     "answerKey": "a",
     "explanation": "19世紀末の英国で始まったナショナル・トラスト運動が手本となった。寄付をもとに土地を取得して保護する運動である。",
     "source": "3級学習ツール⑥ 解答（2020.04）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-shirakami-beech",
@@ -812,7 +840,8 @@
     "answerKey": "a",
     "explanation": "ブナを中心とする落葉樹の原生林が広がる。日本のブナの分布地域は氷河に覆われなかったため原生林が残った。",
     "source": "3級学習ツール⑥ 解答（2020.04）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-shirakami-kamoshika",
@@ -841,7 +870,8 @@
     "answerKey": "a",
     "explanation": "特別天然記念物のニホンカモシカが生息する。ほかにも14種の哺乳類が生息している。",
     "source": "3級学習ツール⑥ 解答（2020.04）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-hiraizumi-jodo",
@@ -870,7 +900,8 @@
     "answerKey": "a",
     "explanation": "仏の正しい教えがすたれ世が乱れるという末法思想が広まり、その救済として浄土思想が流行した。",
     "source": "3級学習ツール⑦ 解答（2022.05）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-hiraizumi-motsuji",
@@ -899,7 +930,8 @@
     "answerKey": "a",
     "explanation": "毛越寺は奥州藤原氏2代基衡が再興したが、建築物は度重なる戦火ですべて焼失し、唯一残るのが浄土庭園である。",
     "source": "3級学習ツール⑦ 解答（2022.05）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-nikko-shinbutsu",
@@ -928,7 +960,8 @@
     "answerKey": "a",
     "explanation": "神仏習合という。日光山は8世紀末に修験僧の勝道上人が開いた。",
     "source": "3級学習ツール⑦ 解答（2022.05）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-nikko-gongen",
@@ -957,7 +990,8 @@
     "answerKey": "a",
     "explanation": "権現造りという。徳川家光による「寛永の大造替」と呼ばれる大改修を経て、豪華絢爛な社殿に建て替えられた。",
     "source": "3級学習ツール⑦ 解答（2022.05）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-tomioka-brunat",
@@ -986,7 +1020,8 @@
     "answerKey": "a",
     "explanation": "フランスのリヨンで製糸技術を学んだポール・ブリュナが1872年に招聘され、養蚕が盛んで水が豊かな富岡を工場建設の地に選んだ。",
     "source": "3級学習ツール⑧ 解答（2022.08）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-tomioka-structure",
@@ -1015,7 +1050,8 @@
     "answerKey": "a",
     "explanation": "木骨レンガ造という。繭倉庫（置繭所）や繰糸場がこの構造で建てられている。",
     "source": "3級学習ツール⑧ 解答（2022.08）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-ogasawara-radiation",
@@ -1044,7 +1080,8 @@
     "answerKey": "a",
     "explanation": "適応放散という。小笠原は大陸から離れており、カタツムリの仲間の陸産貝類は約95％の固有率を誇る。",
     "source": "3級学習ツール⑧ 解答（2022.08）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-ogasawara-anole",
@@ -1073,7 +1110,8 @@
     "answerKey": "a",
     "explanation": "グリーンアノールという外来種。ヤギやブタの繁殖も島の生態系の破壊につながると考えられている。",
     "source": "3級学習ツール⑧ 解答（2022.08）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-fujisan-ko",
@@ -1102,7 +1140,8 @@
     "answerKey": "a",
     "explanation": "富士講という。巡礼の手配や案内を行う御師が登場した。",
     "source": "3級学習ツール⑨ 解答（2022.08）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-fujisan-volcano",
@@ -1131,7 +1170,8 @@
     "answerKey": "a",
     "explanation": "成層火山という。富士山は過去に何度も噴火しており、噴火を鎮めるため富士山本宮浅間大社などが創建された。",
     "source": "3級学習ツール⑨ 解答（2022.08）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-corbusier-pilotis",
@@ -1160,7 +1200,8 @@
     "answerKey": "a",
     "explanation": "ピロティという。フランスの「サヴォア邸」などにも用いられている。国立西洋美術館には「無限成長美術館」のアイデアも取り入れられている。",
     "source": "3級学習ツール⑨ 解答（2022.08）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "jp-corbusier-transboundary",
@@ -1189,7 +1230,8 @@
     "answerKey": "a",
     "explanation": "7ヵ国に広がる日本初のトランスバウンダリー・サイトとして登録された。",
     "source": "3級学習ツール⑨ 解答（2022.08）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "w-serengeti-meaning",
@@ -1218,7 +1260,8 @@
     "answerKey": "a",
     "explanation": "現地で暮らすマサイ族の言葉で「果てしない草原」を意味する。",
     "source": "3級学習ツール⑥ 解答（2020.04）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "w-sagarmatha-sherpa",
@@ -1247,7 +1290,8 @@
     "answerKey": "a",
     "explanation": "シェルパ族は標高3,500〜5,000m付近で登山隊のポーターなどとしても活躍している。",
     "source": "3級学習ツール⑥ 解答（2020.04）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "w-galapagos-darwin",
@@ -1276,7 +1320,8 @@
     "answerKey": "a",
     "explanation": "チャールズ・ダーウィン。ゾウガメやウミイグアナ、フィンチなどを観察し、進化論のアイデアを得た。",
     "source": "3級学習ツール⑧ 解答（2022.08）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "w-tongariro-maori",
@@ -1305,7 +1350,8 @@
     "answerKey": "a",
     "explanation": "マオリの聖地である。ニュージーランドが英国の植民地となると、入植者の乱開発を防ぐためマオリから政府に土地が寄贈された。",
     "source": "3級学習ツール⑨ 解答（2022.08）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "w-tongariro-landscape",
@@ -1334,7 +1380,8 @@
     "answerKey": "a",
     "explanation": "『トンガリロ国立公園』は1990年に自然遺産として登録され、1993年に世界で初めて文化的景観が認められて複合遺産となった。",
     "source": "3級学習ツール⑨ 解答（2022.08）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "w-lalibela-church",
@@ -1363,7 +1410,8 @@
     "answerKey": "a",
     "explanation": "ギョルギス聖堂。聖堂は全部で11ヵ所ある。",
     "source": "3級学習ツール⑦ 解答（2022.05）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "w-lalibela-jerusalem",
@@ -1392,7 +1440,8 @@
     "answerKey": "a",
     "explanation": "エルサレムがイスラム勢力の占拠下にあり聖地巡礼ができなかったため、「第二のエルサレム」を目指して造られた。",
     "source": "3級学習ツール⑦ 解答（2022.05）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "w-qin-emperor",
@@ -1421,7 +1470,8 @@
     "answerKey": "a",
     "explanation": "始皇帝。始皇帝陵は約40年かけて完成した世界でも有数の巨大墓で、東に1.5kmの位置にある兵馬俑坑と併せて登録されている。",
     "source": "3級学習ツール⑦ 解答（2022.05）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "w-sydney-utzon",
@@ -1450,7 +1500,8 @@
     "answerKey": "a",
     "explanation": "デンマークの建築家ヨーン・ウッツォン。世界中から募集された設計案の中から採用されたが、工事が難航し費用がかさんだため設計監督を辞任した。",
     "source": "3級学習ツール⑨ 解答（2022.08）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "w-lyon-francois",
@@ -1478,7 +1529,8 @@
     "answerKey": "a",
     "explanation": "ヴァロワ朝のフランソワ1世。リヨンは18世紀末のフランス革命まで、ヨーロッパの絹産業の中心地だった。",
     "source": "3級学習ツール⑧ 解答（2022.08）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "other-48th-host",
@@ -1506,7 +1558,8 @@
     "answerKey": "a",
     "explanation": "第48回世界遺産委員会は2026年7月に韓国の釜山で開催された。",
     "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "other-asuka-inscribed",
@@ -1534,7 +1587,8 @@
     "answerKey": "a",
     "explanation": "2026年7月の第48回世界遺産委員会（韓国・釜山）で『飛鳥・藤原の宮都』が登録された。",
     "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "other-asuka-type",
@@ -1563,7 +1617,8 @@
     "answerKey": "a",
     "explanation": "『飛鳥・藤原の宮都』は奈良県にある文化遺産で、登録基準(ii)(iii)が認められた。",
     "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "other-sado-inscribed",
@@ -1592,7 +1647,8 @@
     "answerKey": "a",
     "explanation": "『佐渡島の金山』は2024年に登録された新潟県の文化遺産。",
     "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
-    "verified": true
+    "verified": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "other-japan-count",
@@ -1621,7 +1677,8 @@
     "explanation": "2026年7月に『飛鳥・藤原の宮都』が加わり27件となった。内訳は文化遺産22件、自然遺産5件。",
     "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
     "verified": true,
-    "volatile": true
+    "volatile": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "other-japan-breakdown",
@@ -1650,7 +1707,8 @@
     "explanation": "27件の内訳は文化遺産22件、自然遺産5件。日本に複合遺産はない。",
     "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
     "verified": true,
-    "volatile": true
+    "volatile": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "other-world-total",
@@ -1679,7 +1737,8 @@
     "explanation": "内訳は文化遺産991件、自然遺産240件、複合遺産42件。",
     "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
     "verified": true,
-    "volatile": true
+    "volatile": true,
+    "verificationLevel": "primary"
   },
   {
     "id": "other-danger-count",
@@ -1708,35 +1767,1345 @@
     "explanation": "危機遺産リストには58件が記載されている。",
     "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
     "verified": true,
-    "volatile": true
+    "volatile": true,
+    "verificationLevel": "primary"
   },
   {
-    "id": "other-japan-rank",
-    "category": "other",
-    "topic": "世界の現況",
-    "text": "2026年9月時点で、日本は世界遺産の保有数において世界で何番目に多い国か。",
+    "id": "basic-adopted-year",
+    "category": "basic",
+    "topic": "世界遺産条約",
+    "text": "世界遺産条約が採択された年として、正しいものはどれか。",
     "choices": [
       {
         "key": "a",
-        "label": "11番目"
+        "label": "1972年"
       },
       {
         "key": "b",
-        "label": "3番目"
+        "label": "1945年"
       },
       {
         "key": "c",
-        "label": "7番目"
+        "label": "1954年"
       },
       {
         "key": "d",
-        "label": "15番目"
+        "label": "1992年"
       }
     ],
     "answerKey": "a",
-    "explanation": "日本は27件を保有し、世界で11番目に多い。",
-    "source": "docs/research/facts/exam-spec.md（公式サイト・文化庁・UNESCOで2026-09-09に一次確認）",
+    "explanation": "1972年のユネスコ総会で採択された。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
     "verified": true,
-    "volatile": true
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "basic-adopting-body",
+    "category": "basic",
+    "topic": "世界遺産条約",
+    "text": "世界遺産条約を採択した組織として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ユネスコ総会"
+      },
+      {
+        "key": "b",
+        "label": "国際連合総会"
+      },
+      {
+        "key": "c",
+        "label": "世界遺産委員会"
+      },
+      {
+        "key": "d",
+        "label": "国際司法裁判所"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "1972年のユネスコ総会で採択された。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "basic-criteria-count",
+    "category": "basic",
+    "topic": "登録基準",
+    "text": "世界遺産の登録基準の数として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "10"
+      },
+      {
+        "key": "b",
+        "label": "6"
+      },
+      {
+        "key": "c",
+        "label": "4"
+      },
+      {
+        "key": "d",
+        "label": "12"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "(i)から(x)までの10の登録基準があり、1つ以上を満たす必要がある。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "basic-criteria-cultural",
+    "category": "basic",
+    "topic": "登録基準",
+    "text": "文化遺産の登録基準にあたる範囲として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "(i)〜(vi)"
+      },
+      {
+        "key": "b",
+        "label": "(i)〜(iv)"
+      },
+      {
+        "key": "c",
+        "label": "(vii)〜(x)"
+      },
+      {
+        "key": "d",
+        "label": "(i)〜(x)のすべて"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "(i)〜(vi)が文化遺産、(vii)〜(x)が自然遺産の基準にあたる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "basic-criteria-natural",
+    "category": "basic",
+    "topic": "登録基準",
+    "text": "自然遺産の登録基準にあたる範囲として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "(vii)〜(x)"
+      },
+      {
+        "key": "b",
+        "label": "(v)〜(x)"
+      },
+      {
+        "key": "c",
+        "label": "(i)〜(vi)"
+      },
+      {
+        "key": "d",
+        "label": "(viii)〜(x)"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "(vii)〜(x)が自然遺産の基準にあたる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "basic-mixed-definition",
+    "category": "basic",
+    "topic": "遺産の分類",
+    "text": "複合遺産の説明として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "文化遺産と自然遺産の両方の登録基準を満たす遺産"
+      },
+      {
+        "key": "b",
+        "label": "文化遺産が複数まとまって登録された遺産"
+      },
+      {
+        "key": "c",
+        "label": "複数の国にまたがって登録された遺産"
+      },
+      {
+        "key": "d",
+        "label": "文化財と自然公園が隣接している遺産"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "複合遺産は文化遺産の基準と自然遺産の基準の両方を満たす遺産をいう。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "basic-tentative-list",
+    "category": "basic",
+    "topic": "登録の手続き",
+    "text": "世界遺産に推薦するために、あらかじめ遺産を記載しておく各国の一覧表として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "暫定リスト"
+      },
+      {
+        "key": "b",
+        "label": "候補リスト"
+      },
+      {
+        "key": "c",
+        "label": "推薦リスト"
+      },
+      {
+        "key": "d",
+        "label": "予備リスト"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "各国は暫定リストに記載した遺産の中から推薦を行う。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "basic-fund",
+    "category": "basic",
+    "topic": "世界遺産条約",
+    "text": "世界遺産の保護のために、締約国の分担金や寄付金によって設けられている基金として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "世界遺産基金"
+      },
+      {
+        "key": "b",
+        "label": "ユネスコ文化基金"
+      },
+      {
+        "key": "c",
+        "label": "国際遺産保護基金"
+      },
+      {
+        "key": "d",
+        "label": "世界文化財基金"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "世界遺産基金の使い道は世界遺産委員会で話し合われる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "basic-danger-purpose",
+    "category": "basic",
+    "topic": "危機遺産",
+    "text": "危機遺産リストに記載される目的として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "危機的な状況を国際社会に知らせ、保護のための支援を促すため"
+      },
+      {
+        "key": "b",
+        "label": "保護を怠った国に罰則を科すため"
+      },
+      {
+        "key": "c",
+        "label": "世界遺産リストからの抹消を予告するため"
+      },
+      {
+        "key": "d",
+        "label": "観光客の立ち入りを禁止するため"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "危機遺産リストは、危機的状況を広く知らせて支援を促すためのもの。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "basic-centre",
+    "category": "basic",
+    "topic": "組織",
+    "text": "世界遺産条約に関する事務局の役割を担う組織として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "世界遺産センター"
+      },
+      {
+        "key": "b",
+        "label": "ICOMOS"
+      },
+      {
+        "key": "c",
+        "label": "世界遺産委員会"
+      },
+      {
+        "key": "d",
+        "label": "ユネスコ総会"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "ユネスコの世界遺産センターが事務局を務め、諮問機関の勧告を受け取る。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "basic-negative-heritage",
+    "category": "basic",
+    "topic": "遺産の概念",
+    "text": "戦争や災害など、人類が繰り返してはならない出来事を伝える遺産の呼び方として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "負の遺産"
+      },
+      {
+        "key": "b",
+        "label": "記憶遺産"
+      },
+      {
+        "key": "c",
+        "label": "警鐘遺産"
+      },
+      {
+        "key": "d",
+        "label": "悲劇遺産"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "負の遺産と呼ばれる。世界遺産条約に明確な定義はないが、『原爆ドーム』などが挙げられる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "basic-delisted",
+    "category": "basic",
+    "topic": "登録抹消",
+    "text": "世界遺産リストから登録を抹消された遺産として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ドレスデン・エルベ渓谷"
+      },
+      {
+        "key": "b",
+        "label": "ヴェネツィアとその潟"
+      },
+      {
+        "key": "c",
+        "label": "ケルンの大聖堂"
+      },
+      {
+        "key": "d",
+        "label": "モスクワのクレムリンと赤の広場"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "『ドレスデン・エルベ渓谷』は景観を損なう橋の建設により2009年に登録を抹消された。ほかに『アラビアオリックスの保護地区』『リヴァプール海商都市』も抹消されている。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-horyuji-oldest",
+    "category": "japan",
+    "topic": "建築",
+    "siteId": "jp-horyu-ji",
+    "text": "『法隆寺地域の仏教建造物群』が世界最古とされる点として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "現存する世界最古の木造建築物であること"
+      },
+      {
+        "key": "b",
+        "label": "現存する世界最古の石造建築物であること"
+      },
+      {
+        "key": "c",
+        "label": "世界最古の仏像を伝えること"
+      },
+      {
+        "key": "d",
+        "label": "世界最古の寺院跡であること"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "西院伽藍は現存する世界最古の木造建築物とされる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-himeji-nickname",
+    "category": "japan",
+    "topic": "別名",
+    "siteId": "jp-himeji-jo",
+    "text": "『姫路城』の別名として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "白鷺城"
+      },
+      {
+        "key": "b",
+        "label": "烏城"
+      },
+      {
+        "key": "c",
+        "label": "鶴ヶ城"
+      },
+      {
+        "key": "d",
+        "label": "松本城"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "白漆喰で塗られた外観から白鷺城と呼ばれる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-yakushima-cedar",
+    "category": "japan",
+    "topic": "自然環境",
+    "siteId": "jp-yakushima",
+    "text": "『屋久島』を代表する、樹齢数千年ともいわれる巨木として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "縄文杉"
+      },
+      {
+        "key": "b",
+        "label": "神代杉"
+      },
+      {
+        "key": "c",
+        "label": "太郎杉"
+      },
+      {
+        "key": "d",
+        "label": "天狗杉"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "縄文杉に代表されるヤクスギが自生する。屋久島は標高差による植生の垂直分布が見られる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-kyoto-capital",
+    "category": "japan",
+    "topic": "歴史的背景",
+    "siteId": "jp-kyoto",
+    "text": "『古都京都の文化財』の中心となる、794年に都が置かれた都城として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "平安京"
+      },
+      {
+        "key": "b",
+        "label": "平城京"
+      },
+      {
+        "key": "c",
+        "label": "藤原京"
+      },
+      {
+        "key": "d",
+        "label": "長岡京"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "794年に平安京へ遷都され、以後長く都が置かれた。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-shirakawa-roof",
+    "category": "japan",
+    "topic": "建築",
+    "siteId": "jp-shirakawa-go",
+    "text": "『白川郷・五箇山の合掌造り集落』の合掌造りに見られる屋根の形式として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "切妻造の茅葺屋根"
+      },
+      {
+        "key": "b",
+        "label": "入母屋造の瓦屋根"
+      },
+      {
+        "key": "c",
+        "label": "寄棟造の板葺屋根"
+      },
+      {
+        "key": "d",
+        "label": "方形造の檜皮葺屋根"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "豪雪に耐えるため、急勾配の切妻造・茅葺の屋根をもつ。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-genbaku-negative",
+    "category": "japan",
+    "topic": "遺産の概念",
+    "siteId": "jp-hiroshima-peace-memorial",
+    "text": "『広島平和記念碑（原爆ドーム）』が挙げられることの多い遺産の概念として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "負の遺産"
+      },
+      {
+        "key": "b",
+        "label": "文化的景観"
+      },
+      {
+        "key": "c",
+        "label": "トランスバウンダリー・サイト"
+      },
+      {
+        "key": "d",
+        "label": "危機遺産"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "人類が繰り返してはならない出来事を伝える負の遺産として挙げられる。登録基準は(vi)のみ。なお「負の遺産」はユネスコの公式の分類名ではなく、明確な定義のない通称である。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-itsukushima-kiyomori",
+    "category": "japan",
+    "topic": "人物",
+    "siteId": "jp-itsukushima",
+    "text": "『厳島神社』を現在の姿に造営したとされる人物として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "平清盛"
+      },
+      {
+        "key": "b",
+        "label": "源頼朝"
+      },
+      {
+        "key": "c",
+        "label": "藤原道長"
+      },
+      {
+        "key": "d",
+        "label": "足利義満"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "平安時代末期に平清盛が厚く信仰し、寝殿造の様式を取り入れた社殿を整えた。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-nara-daibutsu",
+    "category": "japan",
+    "topic": "構成資産",
+    "siteId": "jp-nara",
+    "text": "『古都奈良の文化財』の構成資産のうち、盧舎那仏（大仏）を安置する寺院として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "東大寺"
+      },
+      {
+        "key": "b",
+        "label": "唐招提寺"
+      },
+      {
+        "key": "c",
+        "label": "薬師寺"
+      },
+      {
+        "key": "d",
+        "label": "興福寺"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "東大寺の大仏殿に盧舎那仏が安置されている。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-ryukyu-shuri",
+    "category": "japan",
+    "topic": "構成資産",
+    "siteId": "jp-ryukyu",
+    "text": "『琉球王国のグスク及び関連遺産群』の構成資産で、琉球王国の王城であったものとして、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "首里城跡"
+      },
+      {
+        "key": "b",
+        "label": "今帰仁城跡"
+      },
+      {
+        "key": "c",
+        "label": "中城城跡"
+      },
+      {
+        "key": "d",
+        "label": "勝連城跡"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "首里城跡は琉球王国の政治・外交・文化の中心だった。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-kii-three",
+    "category": "japan",
+    "topic": "構成資産",
+    "siteId": "jp-kii-mountain-range",
+    "text": "『紀伊山地の霊場と参詣道』の3つの霊場の組み合わせとして、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "吉野・大峯／熊野三山／高野山"
+      },
+      {
+        "key": "b",
+        "label": "比叡山／熊野三山／高野山"
+      },
+      {
+        "key": "c",
+        "label": "吉野・大峯／出羽三山／高野山"
+      },
+      {
+        "key": "d",
+        "label": "吉野・大峯／熊野三山／恐山"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "吉野・大峯、熊野三山、高野山の3つの霊場と、それらを結ぶ参詣道が登録されている。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-iwami-method",
+    "category": "japan",
+    "topic": "技術",
+    "siteId": "jp-iwami-ginzan",
+    "text": "『石見銀山遺跡とその文化的景観』で用いられた、銀の精錬技術として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "灰吹法"
+      },
+      {
+        "key": "b",
+        "label": "焼入法"
+      },
+      {
+        "key": "c",
+        "label": "湿式法"
+      },
+      {
+        "key": "d",
+        "label": "水銀アマルガム法"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "灰吹法によって高純度の銀が生産され、大航海時代の東西交易にも影響を与えた。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-meiji-hashima",
+    "category": "japan",
+    "topic": "構成資産",
+    "siteId": "jp-meiji-industrial-revolution",
+    "text": "『明治日本の産業革命遺産』の構成資産で、「軍艦島」の通称で知られる島として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "端島炭坑"
+      },
+      {
+        "key": "b",
+        "label": "高島炭坑"
+      },
+      {
+        "key": "c",
+        "label": "池島炭坑"
+      },
+      {
+        "key": "d",
+        "label": "三池炭鉱"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "端島炭坑は外観が軍艦に似ることから軍艦島と呼ばれる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-okinoshima-rule",
+    "category": "japan",
+    "topic": "信仰・習俗",
+    "siteId": "jp-okinoshima",
+    "text": "『「神宿る島」宗像・沖ノ島と関連遺産群』の沖ノ島に古くから伝わる禁忌として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "女性の上陸が認められないこと"
+      },
+      {
+        "key": "b",
+        "label": "夜間の上陸が認められないこと"
+      },
+      {
+        "key": "c",
+        "label": "船での接近が認められないこと"
+      },
+      {
+        "key": "d",
+        "label": "写真撮影が認められないこと"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "沖ノ島は女人禁制とされ、島で見聞きしたことを口外しない、島のものを持ち出さないなどの禁忌が伝わる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-hidden-christian-period",
+    "category": "japan",
+    "topic": "歴史的背景",
+    "siteId": "jp-hidden-christian-sites",
+    "text": "『長崎と天草地方の潜伏キリシタン関連遺産』が示す歴史として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "禁教政策の下で信仰を密かに続けた人々の歴史"
+      },
+      {
+        "key": "b",
+        "label": "キリスト教が国教とされた時代の歴史"
+      },
+      {
+        "key": "c",
+        "label": "宣教師が初めて来日した時代の歴史"
+      },
+      {
+        "key": "d",
+        "label": "キリスト教徒が海外へ移住した歴史"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "江戸幕府の禁教政策の下、潜伏キリシタンが独自の形で信仰を続けた歴史を示す。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-mozu-shape",
+    "category": "japan",
+    "topic": "構造",
+    "siteId": "jp-mozu-furuichi",
+    "text": "『百舌鳥・古市古墳群』に多く見られる古墳の形として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "前方後円墳"
+      },
+      {
+        "key": "b",
+        "label": "円墳"
+      },
+      {
+        "key": "c",
+        "label": "方墳"
+      },
+      {
+        "key": "d",
+        "label": "八角墳"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "前方後円墳を含む多様な形の古墳からなる。日本最大の古墳もこの古墳群に含まれる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-amami-rabbit",
+    "category": "japan",
+    "topic": "生態系",
+    "siteId": "jp-amami",
+    "text": "『奄美大島、徳之島、沖縄島北部及び西表島』に生息する固有種として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "アマミノクロウサギ"
+      },
+      {
+        "key": "b",
+        "label": "ニホンカモシカ"
+      },
+      {
+        "key": "c",
+        "label": "エゾナキウサギ"
+      },
+      {
+        "key": "d",
+        "label": "ニホンライチョウ"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "アマミノクロウサギやイリオモテヤマネコなど、固有種・希少種が多く生息する。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-jomon-sannai",
+    "category": "japan",
+    "topic": "構成資産",
+    "siteId": "jp-jomon",
+    "text": "『北海道・北東北の縄文遺跡群』の構成資産で、大規模な集落跡として知られる青森県の遺跡として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "三内丸山遺跡"
+      },
+      {
+        "key": "b",
+        "label": "吉野ヶ里遺跡"
+      },
+      {
+        "key": "c",
+        "label": "登呂遺跡"
+      },
+      {
+        "key": "d",
+        "label": "岩宿遺跡"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "三内丸山遺跡は縄文時代の大規模な集落跡。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-sado-mine",
+    "category": "japan",
+    "topic": "構成資産",
+    "siteId": "jp-sado-island",
+    "text": "『佐渡島の金山』が示す、鉱山としての特徴として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "機械化以前の手工業による金生産の技術と体制"
+      },
+      {
+        "key": "b",
+        "label": "世界最大の産出量を誇った金鉱山であること"
+      },
+      {
+        "key": "c",
+        "label": "現在も操業を続ける金鉱山であること"
+      },
+      {
+        "key": "d",
+        "label": "金の精錬に蒸気機関を用いたこと"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "西三川砂金山と相川鶴子金銀山からなり、手工業による金生産の技術と生産体制を示す。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "jp-asuka-capital",
+    "category": "japan",
+    "topic": "歴史的背景",
+    "siteId": "jp-asuka-and-fujiwara",
+    "text": "『飛鳥・藤原の宮都』に含まれる、日本で初めて本格的に造営された都城として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "藤原京"
+      },
+      {
+        "key": "b",
+        "label": "平城京"
+      },
+      {
+        "key": "c",
+        "label": "平安京"
+      },
+      {
+        "key": "d",
+        "label": "難波宮"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "藤原京は条坊制をもつ日本初の本格的な都城とされる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-taj-mahal-builder",
+    "category": "world_cultural",
+    "topic": "人物",
+    "siteId": "w-taj-mahal",
+    "text": "『タージ・マハル』を、亡き妃のために造営させた人物として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "シャー・ジャハーン"
+      },
+      {
+        "key": "b",
+        "label": "アクバル"
+      },
+      {
+        "key": "c",
+        "label": "アウラングゼーブ"
+      },
+      {
+        "key": "d",
+        "label": "バーブル"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "ムガル帝国の皇帝シャー・ジャハーンが妃ムムターズ・マハルのために造営させた廟。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-versailles-king",
+    "category": "world_cultural",
+    "topic": "人物",
+    "siteId": "w-versailles",
+    "text": "『ヴェルサイユ宮殿と庭園』を、現在の規模に拡張させた国王として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ルイ14世"
+      },
+      {
+        "key": "b",
+        "label": "ルイ16世"
+      },
+      {
+        "key": "c",
+        "label": "フランソワ1世"
+      },
+      {
+        "key": "d",
+        "label": "ナポレオン1世"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "太陽王と呼ばれたルイ14世が拡張し、宮廷を移した。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-angkor-empire",
+    "category": "world_cultural",
+    "topic": "歴史的背景",
+    "siteId": "w-angkor",
+    "text": "『アンコールの遺跡群』を築いた王朝として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "クメール王朝"
+      },
+      {
+        "key": "b",
+        "label": "アユタヤ王朝"
+      },
+      {
+        "key": "c",
+        "label": "チャンパ王国"
+      },
+      {
+        "key": "d",
+        "label": "シュリーヴィジャヤ王国"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "クメール王朝の都であり、アンコール・ワットやアンコール・トムが含まれる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-machu-picchu-civ",
+    "category": "world_cultural",
+    "topic": "歴史的背景",
+    "siteId": "w-machu-picchu",
+    "text": "『マチュ・ピチュ』を築いた文明として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "インカ帝国"
+      },
+      {
+        "key": "b",
+        "label": "マヤ文明"
+      },
+      {
+        "key": "c",
+        "label": "アステカ王国"
+      },
+      {
+        "key": "d",
+        "label": "ナスカ文化"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "標高約2,400mに築かれたインカ帝国の遺跡で、麓から見えないため「空中都市」とも呼ばれる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-great-wall-purpose",
+    "category": "world_cultural",
+    "topic": "歴史的背景",
+    "siteId": "w-the-great-wall",
+    "text": "『万里の長城』が築かれた主な目的として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "北方の遊牧民の侵入を防ぐため"
+      },
+      {
+        "key": "b",
+        "label": "交易路を整備するため"
+      },
+      {
+        "key": "c",
+        "label": "洪水を防ぐため"
+      },
+      {
+        "key": "d",
+        "label": "都の境界を示すため"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "北方からの侵入を防ぐために築かれ、秦の始皇帝の時代に既存の城壁が連結された。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-auschwitz-negative",
+    "category": "world_cultural",
+    "topic": "遺産の概念",
+    "siteId": "w-auschwitz-birkenau",
+    "text": "『アウシュヴィッツ・ビルケナウ』が挙げられることの多い遺産の概念として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "負の遺産"
+      },
+      {
+        "key": "b",
+        "label": "文化的景観"
+      },
+      {
+        "key": "c",
+        "label": "産業遺産"
+      },
+      {
+        "key": "d",
+        "label": "シリアル・ノミネーション・サイト"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "ナチス・ドイツによる強制収容所跡で、負の遺産として挙げられる。なお「負の遺産」はユネスコの公式の分類名ではなく、明確な定義のない通称である。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-statue-liberty-gift",
+    "category": "world_cultural",
+    "topic": "歴史的背景",
+    "siteId": "w-statue-of-liberty",
+    "text": "『自由の女神像』が贈られた経緯として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "アメリカ独立100周年を記念してフランスから贈られた"
+      },
+      {
+        "key": "b",
+        "label": "第一次世界大戦の終結を記念して英国から贈られた"
+      },
+      {
+        "key": "c",
+        "label": "アメリカ建国を記念してスペインから贈られた"
+      },
+      {
+        "key": "d",
+        "label": "国際連合の設立を記念して各国から贈られた"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "アメリカ独立100周年を記念してフランスから贈られた。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-acropolis-temple",
+    "category": "world_cultural",
+    "topic": "構成資産",
+    "siteId": "w-acropolis",
+    "text": "『アテネのアクロポリス』にある、女神アテナを祀る神殿として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "パルテノン神殿"
+      },
+      {
+        "key": "b",
+        "label": "ゼウス神殿"
+      },
+      {
+        "key": "c",
+        "label": "アポロン神殿"
+      },
+      {
+        "key": "d",
+        "label": "エレクテイオン"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "パルテノン神殿は都市の守護神アテナを祀る。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-grand-canyon-river",
+    "category": "world_natural",
+    "topic": "自然環境",
+    "siteId": "w-grand-canyon",
+    "text": "『グランド・キャニオン国立公園』の峡谷を侵食によって形成した川として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "コロラド川"
+      },
+      {
+        "key": "b",
+        "label": "ミシシッピ川"
+      },
+      {
+        "key": "c",
+        "label": "リオ・グランデ川"
+      },
+      {
+        "key": "d",
+        "label": "コロンビア川"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "コロラド川の侵食によって形成された峡谷で、地層から地球の歴史を読み取ることができる。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-baikal-feature",
+    "category": "world_natural",
+    "topic": "自然環境",
+    "siteId": "w-lake-baikal",
+    "text": "『バイカル湖』の特徴として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "世界で最も古く、最も深い湖"
+      },
+      {
+        "key": "b",
+        "label": "世界で最も面積が広い湖"
+      },
+      {
+        "key": "c",
+        "label": "世界で最も塩分濃度が高い湖"
+      },
+      {
+        "key": "d",
+        "label": "世界で最も標高が高い湖"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "世界最古かつ最深の湖で、バイカルアザラシなど固有種が多い。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-uluru-people",
+    "category": "world_natural",
+    "topic": "先住民族",
+    "siteId": "w-uluru-kata-tjuta",
+    "text": "『ウルル、カタ・ジュタ国立公園』を聖地としてきた先住民族として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "アボリジニ"
+      },
+      {
+        "key": "b",
+        "label": "マオリ"
+      },
+      {
+        "key": "c",
+        "label": "イヌイット"
+      },
+      {
+        "key": "d",
+        "label": "サーミ"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "アボリジニのアナング族の聖地であり、文化的景観が認められた複合遺産。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-panda-species",
+    "category": "world_natural",
+    "topic": "生態系",
+    "siteId": "w-sichuan-giant-panda",
+    "text": "『四川省のジャイアントパンダ保護区群』が保護の対象としている動物として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "ジャイアントパンダ"
+      },
+      {
+        "key": "b",
+        "label": "ユキヒョウ"
+      },
+      {
+        "key": "c",
+        "label": "トラ"
+      },
+      {
+        "key": "d",
+        "label": "オランウータン"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "野生のジャイアントパンダの生息地の多くを占め、その保護の中心となっている。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-victoria-falls-name",
+    "category": "world_natural",
+    "topic": "名称の由来",
+    "siteId": "w-mosi-oa-tunya",
+    "text": "『ヴィクトリアの滝』の現地名「モシ・オ・トゥニャ」の意味として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "雷鳴とどろく水煙"
+      },
+      {
+        "key": "b",
+        "label": "果てしない水の壁"
+      },
+      {
+        "key": "c",
+        "label": "神々の階段"
+      },
+      {
+        "key": "d",
+        "label": "大地の裂け目"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "現地の言葉で「雷鳴とどろく水煙」を意味する。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
+  },
+  {
+    "id": "w-galapagos-location",
+    "category": "world_natural",
+    "topic": "地理",
+    "siteId": "w-galapagos",
+    "text": "『ガラパゴス諸島』が位置する海洋として、正しいものはどれか。",
+    "choices": [
+      {
+        "key": "a",
+        "label": "太平洋"
+      },
+      {
+        "key": "b",
+        "label": "大西洋"
+      },
+      {
+        "key": "c",
+        "label": "インド洋"
+      },
+      {
+        "key": "d",
+        "label": "カリブ海"
+      }
+    ],
+    "answerKey": "a",
+    "explanation": "南米エクアドルの西方、太平洋上に位置する諸島。",
+    "source": "サブエージェント検証（2026-09-09）：公式学習ツールの解答面・一次確認済みデータとの突合と検索による。一次情報は未確認",
+    "verified": true,
+    "verificationLevel": "secondary"
   }
 ]

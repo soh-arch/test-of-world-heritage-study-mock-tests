@@ -515,3 +515,14 @@ describe("the verification gate", () => {
     expect(MANUAL.every((q) => q.verified && q.source.length > 0)).toBe(true);
   });
 });
+
+describe("verification levels", () => {
+  it("records how every question in the app was confirmed", () => {
+    expect(MANUAL.every((q) => q.verificationLevel === "primary" || q.verificationLevel === "secondary")).toBe(true);
+  });
+
+  it("still rests mostly on the organiser's own answer sheets", () => {
+    const primary = MANUAL.filter((q) => q.verificationLevel === "primary").length;
+    expect(primary / MANUAL.length).toBeGreaterThan(0.5);
+  });
+});
